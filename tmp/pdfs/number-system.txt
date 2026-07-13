@@ -1,0 +1,1883 @@
+                                            Number System
+1. How many non-negative integers are not more               अंिो 𝟎, 𝟏, 𝟑, 𝟒, 𝟓, 𝟕 से बनने वाल सबसे छोट
+    than 𝟒𝟎?
+                                                             छ: अंिो िी संख्या िौन सी होगी?
+   कितने गैर ऋणात्मि पूणाांि संख्या 40 से अधिि
+                                                             a) 𝟏𝟑𝟒𝟓𝟕𝟎                 b) 𝟏𝟎𝟑𝟒𝟓𝟕
+   नह ं है ?                                                 c) 𝟏𝟕𝟓𝟒𝟑𝟎                 d) None
+   a) 𝟑𝟗       b) 𝟒𝟎       c) 𝟒𝟏       d) Infinite
+                                                          7. If 𝒂 & 𝒃 are odd numbers, then which of the
+2. How many whole numbers for ‘𝒙’ satisfy the                  following is even?
+    inequality 𝟐𝒙 + 𝟕 ≤ 𝟑𝟗?                                  यदद 𝒂 और 𝒃 ववषम संख्या है , तो इसमें से सम संख्या
+   असमता 𝟐𝒙 + 𝟕 ≤ 𝟑𝟗 िो संतुष्ट िरने वाले 𝒙                  िौन सी है ?
+   िे कितने मान पूणण संख्याए है?                             a) 𝒂 + 𝒃 + 𝒂𝒃         b) 𝒂 + 𝒃 − 𝟏
+   a) 𝟏𝟓       b) 𝟏𝟔         c) 𝟏𝟕       d) 𝟐𝟒               c) 𝒂 + 𝒃 + 𝟏          d) 𝒂 + 𝒃 + 𝟐𝒂𝒃
+
+3. How many positive integers for ‘𝒑’ satisfy the         8. Let 𝒂 & 𝒃 be even integers and ‘𝒄’ be an odd
+    inequality 𝟑𝒑 + 𝟓 < 𝟑𝟑?                                   integer, which of the following is odd?
+   असमता 𝟑𝒑 + 𝟓 < 𝟑𝟑 िो संतष्ु ट िरने वाले                   अगर 𝒂 और 𝒃 सम संख्याए है व ‘𝒄’ एि ववषम
+   ‘𝒑’ िे कितने मान िनात्मि पूणाांि है ?                     संख्या है तो ननम्न में से िौन सी संख्या ववषम
+   a) 𝟖        b) 𝟗         c) 𝟏𝟎        d) 𝟏𝟏               है ?
+                                                             a) 𝒂𝒃 + 𝒃𝒄 + 𝒄𝒂
+4. How many positive even numbers are not more
+                                                             b) 𝒂𝟐 + 𝒃𝟐 + 𝒄𝟐
+    than 𝟖𝟐?
+                                                             c) 𝒂𝟐 𝒃 + 𝒃𝟐 𝒄 + 𝒄𝟐 𝒂
+   कितनी िनात्मि सम संख्याए 82 से अधिि नह ं                  d) 𝒂(𝒃 + 𝒄) + 𝒃(𝒄 + 𝒂) + 𝒄(𝒂 + 𝒃)
+   है ?
+   a) 𝟑𝟗       b) 𝟒𝟎           c) 𝟒𝟏             d) 𝟖𝟐    9. If 𝒙 and 𝒚 are natural numbers such that 𝒙 +
+                                                               𝒚 = 𝟐𝟎𝟏𝟕, then what is the value of (−𝟏)𝒙 +
+5. Let 𝑺𝟏 be the set of all positive integers less than        (−𝟏)𝒚?
+    𝟓𝟐 and 𝑺𝟐 be the set of all non-negative                 यदद 𝒙 और 𝒚 प्रािृनति संख्याए इस प्रिार है
+    integers not more than 𝟖𝟏. Let ‘𝑿’ be the                िी 𝒙 + 𝒚 = 𝟐𝟎𝟏𝟕 है, तो (−𝟏)𝒙 + (−𝟏)𝒚 िा
+    number of elements in 𝑺𝟏 and ‘𝒀’ be the
+    number of elements in 𝑺𝟐 . Find 𝒀 − 𝑿?                   मान क्या है ?
+                                                             a) 𝟐          b) −𝟐       c) 𝟎           d) 𝟏
+   𝑺𝟏 एि समुच्चच्चय है जिसमे 𝟓𝟐 से छोटे सभी
+   घनात्मि पूणाांि है व 𝑺𝟐 एि दस
+                               ू रा समुच्चच्चय है         10. If 𝟐𝒙 + 𝟑𝒚 is odd, which of the following must
+   जिसमे वो सभी गैर ऋणात्मि पण
+                             ू ाांि है िो 81                  be true?
+
+   से बड़े नह ं है | अगर समच्च                                अगर 𝟐𝒙 + 𝟑𝒚 ववषम है , तो ननम्न में से िौन
+                          ु च्चय 𝑺𝟏 में ‘𝑿’ संख्याए
+   है व 𝑺𝟐 में ‘𝒀’ संख्याएं हैं तो ‘𝒀 − 𝑿’ ज्ञात िरे ?       सा सत्य होगा?
+   a) 𝟐𝟗         b) 𝟑𝟎      c) 𝟑𝟏       d) 𝟑𝟐                a) 𝒙 is even              b) 𝒚 is even
+                                                             c) 𝒙 is odd               d) 𝒚 is odd
+6. What is smallest six-digit number that can be
+   formed using the digits 𝟎, 𝟏, 𝟑, 𝟒, 𝟓, 𝟕?
+11. The sum of 𝒑 even numbers is even and the             3. One of 𝒑 and 𝒒 may be prime and the other
+    sum of 𝒒 odd numbers is odd. Which of the             composite.
+    following must be true?                               Which of the above statements are correct?
+   𝒑 सम संख्याए िा िोड़फल सम है व 𝒒 ववषम                   दो पूणाणिों 𝒑 और 𝐪 (दोनों > 𝟏), िो कि
+   संख्याओं िा िोड़फल ववषम है | ननम्नललखित में             सापेक्षत: अभाज्य है , िे सन्दभण में ननम्नललखित
+   से िौन सा सत्य होगा?                                   िथनों पर ववचार िीजिए:
+   a) 𝒑 + 𝒒 is even           b) 𝒑 + 𝒒 is odd             1. 𝒑 और 𝒒 दोनों अभाज्य संख्याएँ हो सिती है |
+   c) 𝒑𝒒 is even              d) None
+                                                          2. 𝒑 और 𝒒 दोनों भाज्य संख्याएँ हो सिती है |
+12. If 𝒂 & 𝒃 are two odd positive integers, then by       3. 𝒑 और 𝒒 में से एि अभाज्य और दस
+                                                                                         ू र भाज्य
+    which of the following integers is (𝒂𝟒 − 𝒃𝟒 )         हो सिती है |
+    always divisible?
+                                                          उपयुत्ण ि में से िौन-से िथन सह है ?
+   यदद 𝒂 और 𝒃 दो ववषम िनात्मि पूणाांि है तो
+                                                          a) 1 and 2 only            b) 2 and 3 only
+   इनमे से िौन से पण
+                   ू ाांि से (𝒂𝟒 − 𝒃𝟒 ) हमेशा             c) 1 and 3 only            d) 1, 2 and 3
+   ववभाजित होगा?
+   a) 𝟑         b) 𝟔          c) 𝟖          d) 𝟏𝟐      16. If ‘𝑵’ is an irrational number, then which of the
+                                                           following must be a rational number?
+13. If 𝒙 & 𝒚 are even positive integers and 𝒛 is odd      अगर ‘𝑵’ एि अपररमेय संख्या है , तो इनमे से
+    negative integer, which of the following is           िौनसे संख्या हमेशा पररमय होगी?
+    definitely true?                                                                   𝑵
+                                                          a) √𝑵          b) 𝑵𝟐       c) 𝟐    d) None
+   अगर 𝒙 और 𝒚 दोनों िनात्मि सम पूणाांि है व
+   𝒛 ऋणात्मि ववषम पूणाांि है तो ननम्नललखित             17. Which of the following statements is true?
+   में से िौनसा पूणत
+                   ण या सत्य होगा?                        ननम्नललखित में से िौन से िथन सत्य हैं?
+   a) (𝒙 – 𝒚) 𝒛 is even and positive                      Every complex number can be expressed in
+   b) (𝒙 – 𝒚) 𝒛 is odd and positive                       the form of real number.
+   c) (𝒙 – 𝒚) 𝒛 is even and negative                      Every integer is a natural number
+   d) None                                                Every real number can be written in the
+                                                          complex form
+14. If ‘𝒂’ is even integer, and 𝒃 & 𝒄 are odd             Every real number is an integer.
+    integers, which of the following cannot be an
+    integer?                                           18. If 𝒙 is positive even integer and 𝒚 is negative
+   अगर ‘𝒂’ सम संख्या है व 𝒃 और 𝒄 ववषम संख्याए              odd integer, then 𝒙𝒚 is
+   है , तो ननम्न में से िौनसा पण
+                               ू ाांि नह ं है ?           यदद 𝒙 िन सम पण
+                                                                       ू ाणि है और 𝒚 ऋण ववषम
+   a) 𝒃/𝒄     b) 𝒂𝒃/𝒄     c) 𝒂𝒄/𝒃     d) 𝒃𝒄/𝒂             पूणाणि है , तो 𝒙𝒚 है
+                                                          a) Odd integer             b) even integer
+15. Consider the following statements in respect of       c) rational number         d) None of these
+    two integers 𝒑 𝐚𝐧𝐝 𝐪 (both > 𝟏) which are
+    relatively prime.                                  19. If 𝑰 = 𝒂𝟐 + 𝒃𝟐 + 𝒄𝟐 , where 𝒂 and 𝒃 are
+    1. Both 𝒑 and 𝒒 may be prime numbers.                  consecutive integers and 𝒄 = 𝒂𝒃, then 𝑰 is
+    2. Both 𝒑 and 𝒒 may be composite numbers.
+   यदद 𝑰 = 𝒂𝟐 + 𝒃𝟐 + 𝒄𝟐 है, िहाँ 𝒂 और 𝒃 क्रमागत           a) 𝟏𝟕      b) 𝟐𝟗     c) 𝟒𝟑      d) None of these
+
+   पूणाांि हैं और 𝒄 = 𝒂𝒃 है , तो 𝑰 क्या है?
+                                                       24. If 𝒙 is a prime number, which of the following
+   a) an even number and it is not a square of an          cannot be true?
+   integer
+                                                          अगर 𝒙 एि अभाज्य संख्या है तो ननम्नललखित
+   b) an odd number and it is not a square of an
+   integer                                                में से िौनसा सत्य नह ं हो सिता?
+   c) square of an even integer                           a) 𝒙 + 2 is prime           b) 𝒙 + 𝟑 is prime
+   d) square of an odd integer                            c) 𝒙 + 𝟓 is prime           d) 𝒙 + 𝟕 is prime
+
+20. Let ‘𝒙’ be the sum of all prime number less than   25. Let 𝒑, 𝒒, 𝒓 be three consecutive odd
+    𝟑𝟎, and ‘𝒚’ be their product. Which of the             numbers. If all 𝒑, 𝒒, 𝒓 are prime, find 𝒓?
+    following is true?                                    अगर 𝒑, 𝒒, 𝒓 तीन लगातार ववषम संख्याए है व
+   𝟑𝟎 से छोटे सभी अभाज्य संख्यायों िा िोड़ ‘𝒙’             तीनो 𝒑, 𝒒, 𝒓 अभाज्य भी है तो 𝒓 ज्ञात िरे ?
+   है और उनिा गुणनफल ‘𝒚’ है| ननम्नललखित में               a) 𝟖       b) 𝟕       c) 𝟏𝟏         d) can’t say
+   से िौनसा सत्य है ?
+                                                       26. If 𝑵, (𝑵 + 𝟐)𝒂𝒏𝒅 (𝑵 + 𝟒) are prime numbers,
+   a) 𝒙 is even, 𝒚 is odd
+                                                           then the number of possible solutions for 𝑵 are
+   b) 𝒙 is odd, 𝒚 is even
+   c) both 𝒙 and 𝒚 are even                               यदद 𝑵, (𝑵 + 𝟐), (𝑵 + 𝟒) अभाज्य संख्याएँ है ,
+   d) both 𝒙 and 𝒚 are odd                                तो 𝑵 िे ललए संभाववत हलों िी संख्या क्या है ?
+                                                          a) 𝟏       b) 𝟐      c) 𝟑     d) 𝑵𝒐𝒏𝒆 𝒐𝒇 𝒕𝒉𝒆𝒔𝒆
+21. 𝒙, 𝒚 and 𝒛 are distinct prime numbers where
+    𝒙 < 𝒚 < 𝒛. If 𝒙 + 𝒚 + 𝒛 = 𝟕𝟎, then what is the
+                                                       27. If 𝑵𝟐 − 𝟑𝟑, 𝑵𝟐 − 𝟑𝟏 𝒂𝒏𝒅 𝑵𝟐 − 𝟐𝟗 are prime
+    value of 𝒛?
+                                                           numbers, then what is the number of possible
+   𝒙, 𝒚 तथा 𝒛 ववलशष्ठ अभाज्य संख्याएं है, िहाँ             values of 𝑵, where 𝑵 is an integer?
+   𝒙 < 𝒚 < 𝒛 है| यदद 𝒙 + 𝒚 + 𝒛 = 𝟕𝟎 है, तो 𝒛 िा           यदद 𝑵𝟐 − 𝟑𝟑, 𝑵𝟐 − 𝟑𝟏 तथा 𝑵𝟐 − 𝟐𝟗 अभाज्य
+   मान क्या है ?                                          संख्याएँ हो, तो 𝑵 िे संभाववत मान कितने है ,
+   a) 𝟐𝟗      b) 𝟒𝟑           c) 𝟑𝟏           d) 𝟑𝟕       िहा 𝑵 एि पूणाणि है ?
+                                                          a) 𝟏       b) 𝟐      c) 𝟔     d) None of these
+22. 𝒙, 𝒚 and 𝒛 are prime numbers and 𝒙 + 𝒚 + 𝒛 =
+    𝟑𝟖. what is the maximum value of 𝒙?
+                                                       28. The number of prime numbers which are less
+   𝒙, 𝒚 और 𝒛 अभाज्य संख्याएँ हैं तथा 𝒙 + 𝒚 +               then 100 is
+   𝒛 = 𝟑𝟖 है| 𝒙 िा अधिितम मान क्या है ?                   100 से छोट अभाज्य संख्याओं (prime numbers)
+   a) 19      b) 23           c) 31           d) 29       िी संख्या है
+                                                          a) 24      b) 25            c) 26          d) 27
+23. The sum of three prime numbers is 𝟏𝟎𝟎. If one
+    of them exceeds another by 𝟑𝟔, then one of
+                                                       29. If 𝒎 is the number of prime numbers between
+    the number is
+                                                           𝟎 and 𝟓𝟎; and 𝒏 is the number of prime
+   तीन अभाज्य संख्याओं िा योगफल 𝟏𝟎𝟎 है| यदद                numbers between 𝟓𝟎 and 𝟏𝟎𝟎, then what is
+   इनमें से एि किसी दस
+                     ू र संख्या से 𝟑𝟔 अधिि                 (𝒎 − 𝒏) equal to?
+
+   है , तब इन संख्याओं में से एि संख्या है
+   यदद 𝟎 और 𝟓𝟎 िे बीच अभाज्य संख्याओं िी                𝑵 तीन अंिो िी सबसे छोट अभाज्य संख्या है |
+   संख्या 𝒎 है ; और 𝟓𝟎 और 𝟏𝟎𝟎 िे बीच अभाज्य             िब 𝑵 िो 𝟏𝟑 से ववभाजित किआ िाता है , तो
+   संख्याओं िी संख्या 𝒏 है, तो (𝒎 − 𝒏) किसिे            शेषफल क्या होगा?
+   बराबर है ?                                           a) 𝟖         b) 𝟗          c) 𝟕           d) 𝟏𝟎
+   a) 𝟒         b) 𝟓        c) 𝟔             d) 𝟕
+                                                     36. Which of the following statements is not true?
+30. How many composite numbers are there from           ननम्नललखित में से िौन-सा िथन सह नह ं है ?
+    𝟓𝟑 to 𝟗𝟕?                                           The difference of two prime numbers, both
+   𝟓𝟑 से 𝟗𝟕 ति कितनी संयुक्त संख्याएं है ?              greater than 𝟐, is divisible by 𝟐
+   a) 𝟑𝟔        b) 𝟑𝟖       c) 𝟑𝟕            d) 𝟑𝟓      For two different integers 𝒎, 𝒏 and a prime
+                                                        number 𝒑, if 𝒑 divides the product 𝒎 × 𝒏,
+                                                        then 𝒑 divides either 𝒎 or 𝒏
+31. A prime number contains the digit 𝑿 at unit’s
+    place. How many values of 𝑿 are possible?           If a number is of the form 𝟔𝒏 − 𝟏 (𝒏 being a
+                                                        natural number), then it is a prime number
+   एि अभाज्य संख्या में इिाई िे स्थान पर अंि
+                                                        There is only one set of three prime numbers
+   𝑿 है | इस प्रिार िे कितने अंि 𝑿 हो सिते हैं?         such that there is a gap of 𝟐 between two
+   a) 𝟑         b) 𝟒        c) 𝟓             d) 𝟔       adjacent prime numbers
+
+32. How many two-digit prime numbers are there       37. Find the average of all the prime numbers
+    between 𝟏𝟎 to 𝟏𝟎𝟎 which remains prime                between 𝟏 to 𝟓𝟎. [Give your answer correct to
+    numbers when the order of their digits is            one decimal place.]
+    reversed?                                           𝟏 से 𝟓𝟎 िे बीच िी सभी अभाज्य संख्याओं िा
+   𝟏𝟎 से 𝟏𝟎𝟎 िे बीच दो अंिो िी ऐसी कितनी                औसत ज्ञात िीजिए| [दशमलव िे बाद एि स्थान
+   अभाज्य संख्या हैं जिनिे अंिो िे क्रम िो पलटने        ति पूणाांकित]
+   पर भी वो एि अभाज्य संख्या ह रहें गी?                 a) 𝟐𝟒. 𝟗     b) 𝟑𝟒. 𝟗   c) 𝟓𝟐. 𝟗   d) 𝟐𝟏. 𝟗
+   a) 𝟖         b) 𝟗        c) 𝟏𝟎            d) 𝟏𝟐
+                                                     38. Ratio between average of first four prime
+33. The number of pairs of twin primes between 𝟏         numbers and first four composite numbers is
+    and 𝟏𝟎𝟎 are:                                        प्रथम चार अभाज्य संख्याओं और प्रथम चार
+   𝟏 और 𝟏𝟎𝟎 िे बीच िुड़वाँ अभाज्य संख्याओं िे            भाज्य संख्याओं िे औसतों िा अनुपात ज्ञात िरें |
+   िोड़े हैं:                                            a) 𝟏𝟑 : 𝟏𝟎     b) 𝟏𝟕 : 𝟐𝟕 c) 𝟏𝟏 : 𝟐𝟕 d) 𝟏𝟕 : 𝟏𝟗
+   a) 𝟏𝟎        b) 𝟖        c) 𝟗             d) 𝟕
+                                                     39. 𝑷𝟏 is the average of all prime numbers below
+34. Which one of the following is a prime number?        𝟏𝟐 and 𝑷𝟐 is the average of all prime numbers
+   ननम्नललखित में से िौनसा एि अभाज्य संख्या              between 𝟏𝟐 and 𝟑𝟎. what is the value of
+                                                         𝟓𝑷𝟏 − 𝑷𝟐 ?
+   है ?
+                                                        𝟏𝟐 िे पहले िी सभी अभाज्य संख्याओं िा
+   a) 𝟏𝟔𝟏       b) 𝟏𝟕𝟏   c) 𝟏𝟕𝟑     d) 𝟐𝟐𝟏
+                                                        औसत 𝑷𝟏 है और 𝟏𝟐 और 𝟑𝟎 िे बीच िी सभी
+35. 𝑵 is the smallest three-digit prime number.         अभाज्य संख्याओं िा औसत 𝑷𝟐 है | 𝟓𝑷𝟏 − 𝑷𝟐
+    When 𝑵 is divided by 𝟏𝟑, then what will be the
+                                                        िा मान ज्ञात िीजिए|
+    remainder?
+   a) 𝟕. 𝟖     b) 𝟖. 𝟔    c) 𝟗. 𝟖     d) 𝟕. 𝟓              समान है | अगर ये संख्याये बढ़ते िमण में ललिी
+                                                           हो तो बीच िी संख्या ज्ञात िरे ?
+40. The difference between the squares of two
+    consecutive odd integers is always divisible by        a) 𝟔            b) 𝟖               c) 𝟏𝟎            d) 𝟏𝟐
+   दो क्रमांगत ववषम पूणाणिो िे वगों िा अंतर
+                                                        45. For      any       two    real     numbers         𝒂   and
+   हमेशा किससे ववभाज्य है ?                                𝒃, √(𝒂 − 𝒃)𝟐 + √(𝒃 − 𝒂)𝟐 is
+   a) 𝟑        b) 𝟕            c) 𝟖             d) 𝟏𝟔
+                                                           किन्ह ं दो वास्तववि संख्याओं 𝒂 और 𝒃 िे ललए,
+
+41. If 𝒌 is any even positive integer, then (𝒌𝟐 +          √(𝒂 − 𝒃)𝟐 + √(𝒃 − 𝒂)𝟐 होगा
+    𝟐𝒌)is                                                  a) always zero
+   यदद 𝒌 िोई सम िन पूणाणि है , तो (𝒌𝟐 + 𝟐𝒌)                b) never zero
+                                                           c) positive only if 𝒂 ≠ 𝐛
+   a) Divisible by 𝟐𝟒
+                                                           d) positive if and only if 𝒂 > 𝒃
+   b) Divisible by 𝟖 but may not be divisible by 𝟐𝟒
+   c) Divisible by 𝟒 but may not be divisible by 𝟖
+                                                        46. If [𝒏] denotes the greatest integer < 𝒏 and (𝒏)
+   d) Divisible by 𝟐 but may not be divisible by 𝟒
+                                                            denotes the smallest integer > 𝒏 where 𝒏 is
+                                                                                               𝟏       𝟏           𝟏
+42. What is 𝟐𝟔𝟐 + 𝟗𝟕𝟐 equal to?                            any real number, then (𝟏 𝟓) × [𝟏 𝟓] − (𝟏 𝟓) ÷
+   𝟐𝟔𝟐 + 𝟗𝟕𝟐 किसिे बराबर है ?
+                                                              𝟏
+                                                           [𝟏 𝟓] + (𝟏. 𝟓) is.
+   a) 𝟐𝟕𝟐 + 𝟗𝟑𝟐          b) 𝟑𝟒𝟐 + 𝟗𝟑𝟐                      यदद [𝒏] िा मतलब सबसे बड़ा पूणाणि<n और
+   c) 𝟖𝟐𝟐 + 𝟒𝟏𝟐          d) 𝟕𝟗𝟐 + 𝟔𝟐𝟐
+                                                           (𝒏) िा मतलब सबसे छोटा पूणाणि > 𝒏 है जिसमे
+                                                           𝒏 िोई वास्तववि संख्या है , तो (𝟏 ) × [𝟏 ] −
+                                                                                                        𝟏          𝟏
+43. Which of the following is correct in respect of                                                     𝟓          𝟓
+    the number 𝟏𝟕𝟐𝟗?
+                                                           (𝟏 𝟓) ÷ [𝟏 𝟓] + (𝟏. 𝟓) इसिा मान ज्ञात िीजिये:
+                                                              𝟏            𝟏
+
+   संख्या 𝟏𝟕𝟐𝟗 िे संबंि में ननम्नललखित में से
+                                                           a) 𝟏. 𝟓             b) 2     c) 𝟐. 𝟓        d) 𝟑. 𝟓
+   िौन सा एि िथन सह है ?
+   It cannot be written as the sum of the cubes of      47. Convert the following decimal values in
+   two positive integers                                    fractions
+   It can be written as the sum of the cubes of            इन दशमलव मानों िो लभन्न में बदलें:
+   two positive integers in one way only                   a) 𝟎. ̅̅̅̅
+                                                                 𝟒𝟕
+   It can be written as the sum of the cubes of            b) 𝟎. ̅̅̅̅
+                                                                 𝟓𝟑
+   two positive integers in two ways only                        ̅̅̅̅̅̅
+                                                           c) 𝟎. 𝟓𝟏𝟐
+   It can be written as the sum of the cubes of                    ̅̅̅̅
+                                                           d) 𝟎. 𝟒𝟐𝟑
+   two positive integers in three ways only                          ̅̅̅̅
+                                                           e) 𝟎. 𝟑𝟏𝟕𝟒
+                                                                   ̅̅̅̅
+                                                           f) 𝟐. 𝟕𝟏𝟐
+44. Five consecutive even numbers are such that
+                                                           g) 𝟒. ̅̅̅̅
+                                                                 𝟏𝟑
+    the sum of the smallest two is exactly equal to           ̅    ̅
+                                                           h) 𝟐. 𝟕𝟑
+    the last number. If these five numbers are
+    written in ascending order, what is the middle                       ̅ as a vulgar fraction.
+                                                        48. Express 𝟎. 𝟑𝟒𝟔
+    number?
+                                                                 ̅ िो सािारण लभन्न िे रूप में व्यक्त िरें |
+                                                            𝟎. 𝟑𝟒𝟔
+   पाँच क्रमागत सम संख्याये इस प्रिार है कि सबसे
+                                                              𝟑𝟏𝟓              𝟑𝟏𝟑           𝟑𝟏𝟐        𝟑𝟏𝟒
+                                                           a) 𝟗𝟎𝟎          b) 𝟗𝟎𝟎      c) 𝟗𝟎𝟎         d) 𝟗𝟎𝟎
+   छोट दो संख्याओं िा िोड़ सबसे बड़ी संख्या िे
+49. The value of 𝟐𝟐. 𝟒̅ + 𝟏𝟏. 𝟓𝟔𝟕
+                               ̅̅̅̅ − 𝟑𝟑. 𝟓𝟗
+                                           ̅ is:                      56. Let 𝒙 = 𝟏. 𝟎𝟓   ̅ ÷ 𝟎. 𝟗𝟓
+                                                                                                 ̅̅̅̅ × 𝟎. 𝟒𝟎𝟗
+                                                                                                            ̅̅̅̅ and 𝒚 =
+        ̅ + 𝟏𝟏. 𝟓𝟔𝟕
+    𝟐𝟐. 𝟒                     ̅ िा मान है:
+                  ̅̅̅̅ − 𝟑𝟑. 𝟓𝟗                                                ̅ ÷ 𝟎. 𝟐𝟐𝟔
+                                                                          (𝟎. 𝟕𝟓       ̅̅̅̅) × (𝟓. ̅̅̅̅
+                                                                                                    𝟎𝟗 ÷ 𝟏. 𝟕), then the
+   a) 𝟎. ̅̅̅̅
+         𝟑𝟐                       ̅̅̅̅̅̅
+                            b) 𝟎. 𝟒𝟏𝟐                                     value of 𝒙𝒚 is:
+   c) 𝟎. 𝟑𝟏̅                       ̅̅̅̅
+                            d) 𝟎. 𝟒𝟏𝟐                                     माना कि 𝒙 = 𝟏. 𝟎𝟓  ̅ ÷ 𝟎.̅̅̅̅̅        ̅̅̅̅ और 𝒚 =
+                                                                                                      𝟗𝟓 × 𝟎. 𝟒𝟎𝟗
+                                                                               ̅ ÷ 𝟎. 𝟐𝟐𝟔
+                                                                          (𝟎. 𝟕𝟓                   𝟎𝟗 ÷ 𝟏. 𝟕) हैं, तो 𝒙𝒚 िा
+                                                                                       ̅̅̅̅) × (𝟓. ̅̅̅̅
+50. If 𝑨 = 𝟎. 𝟑𝟏𝟐, 𝑩 = 𝟎. 𝟒𝟏𝟓 and 𝑪 = 𝟎. 𝟑𝟎𝟗,
+                                                                          मान कितना होगा?
+    then what is the value of 𝑨 + 𝑩 + 𝑪?
+                                                                          a) 𝟎. 𝟒𝟓             b) 𝟒. 𝟓            c) 𝟎. 𝟓𝟒                      d) 𝟓. 𝟒
+   यदद 𝑨 = 𝟎. 𝟑𝟏𝟐, 𝑩 = 𝟎. 𝟒𝟏𝟓 तथा 𝑪 = 𝟎. 𝟑𝟎𝟗
+   है , तो 𝑨 + 𝑩 + 𝑪 िा मान कितना है ?                                                             ̅̅̅̅÷𝟏.𝟎𝟓
+                                                                                                (𝟎.𝟗𝟓      ̅)÷𝟎.𝟒𝟎𝟗
+                                                                                                                 ̅̅̅̅
+                                                                      57. The value of (𝟎.𝟖𝟒
+                                                                                          ̅̅̅̅÷𝟎.𝟗𝟑   ̅̅̅̅) is:
+                                                                                                  ̅÷𝟎.𝟓𝟒
+   a) 𝟏𝟏𝟒𝟏/𝟏𝟏𝟎𝟎                      b) 𝟏𝟎𝟗𝟕/𝟏𝟏𝟎𝟎                            ̅̅̅̅÷𝟏.𝟎𝟓̅)÷𝟎.𝟒𝟎𝟗̅̅̅̅
+                                                                                                           िा मान ज्ञात िीजिए|
+                                                                          (𝟎.𝟗𝟓
+   c) 𝟏𝟐𝟏𝟏/𝟏𝟏𝟎𝟎                      d) 𝟏𝟎𝟒𝟑/𝟏𝟏𝟎𝟎                             ̅̅̅̅÷𝟎.𝟗𝟑
+                                                                           (𝟎.𝟖𝟒           ̅̅̅̅)
+                                                                                       ̅÷𝟎.𝟓𝟒
+                                                                                  𝟐                    𝟏                     𝟏                   𝟏
+                      ̅ + 𝟎. 𝟓𝟎𝟑
+                              ̅̅̅̅ − 𝟎. 𝟑𝟗
+                                         ̅ × 𝟎. 𝟖
+                                                ̅ is:                     a) 𝟏 𝟑              b) 𝟐 𝟔             c) 𝟏 𝟑                   d) 𝟐 𝟑
+51. The value of 𝟎. 𝟒𝟕
+        ̅ + 𝟎. 𝟓𝟎𝟑
+    𝟎. 𝟒𝟕       ̅̅̅̅ − 𝟎. 𝟑𝟗
+                           ̅ × 𝟎. 𝟖̅ िा मान क्या है ?
+                                                                      58. Let 𝒙 = (𝟎. ̅̅̅̅     ̅) ÷ 𝟐. 𝟐𝟕𝟐
+                                                                                      𝟒𝟕 ÷ 𝟎. 𝟓𝟐        ̅̅̅̅ and                                              𝒚=
+          ̅̅̅̅
+   a) 𝟎. 𝟔𝟏𝟓              ̅̅̅̅̅̅ c) 𝟎. 𝟔𝟐𝟓
+                    b) 𝟎. 𝟔𝟏𝟓            ̅ d) 𝟎. 𝟔𝟐𝟓
+                                                  ̅̅̅̅                      𝟑             𝟐            𝟑         𝟏                   𝟕
+                                                                          𝟏 𝟓 − 𝟏 𝟗 𝒐𝒇 𝟑 𝟏𝟏 ÷ 𝟓 𝟕 𝒐𝒇 𝟗. What is the value
+                                                                              𝒙
+52. The value of 𝟎. 𝟒𝟔 + 𝟎. 𝟕𝟐𝟑 − 𝟎. 𝟑𝟗 × 𝟎. 𝟕 is:                        of 𝒚 ?
+
+   𝟎. 𝟒𝟔 + 𝟎. 𝟕𝟐𝟑 − 𝟎. 𝟑𝟗 × 𝟎. 𝟕 िा मान ज्ञात                             माना        कि               ̅̅̅̅ ÷ 𝟎. 𝟓𝟐
+                                                                                               𝒙 = (𝟎. 𝟒𝟕                  ̅̅̅̅ और
+                                                                                                                  ̅) ÷ 𝟐. 𝟐𝟕𝟐
+
+                                                                          𝒚 = 𝟏 𝟓 − 𝟏 𝟗 𝒐𝒇 𝟑 𝟏𝟏 ÷ 𝟓 𝟕 𝒐𝒇 𝟗 है, तो                                             िा
+                                                                                      𝟑        𝟐             𝟑                   𝟏          𝟕             𝒙
+   िरें |                                                                                                                                                 𝒚
+   a) 𝟎. 𝟕𝟕      b) 𝟎. 𝟖𝟕        c) 𝟎. 𝟓𝟕      d) 𝟎. 𝟗𝟕                   मान कितना होगा?
+                                                                             𝟏                     𝟐                 𝟓                     𝟑
+                      ̅ − 𝟎. 𝟕𝟐𝟑
+                              ̅̅̅̅ + 𝟎. 𝟑𝟗
+                                         ̅ × 𝟎. 𝟕
+                                                ̅ is:                     a) 𝟓                b) 𝟑            c) 𝟑                       d) 𝟐
+53. The value of 𝟎. 𝟓𝟔
+        ̅ − 𝟎. 𝟕𝟐𝟑
+    𝟎. 𝟓𝟔       ̅̅̅̅ + 𝟎. 𝟑𝟗
+                           ̅ × 𝟎. 𝟕̅ िा मान है:
+                                                                      59. If 𝒙 is a positive quantity, then what is the
+          ̅̅̅̅
+   a) 𝟎. 𝟏𝟓𝟒              ̅̅̅̅̅̅ c) 𝟎. 𝟏𝟓𝟖
+                    b) 𝟎. 𝟏𝟓𝟒          ̅̅̅̅̅̅ d) 𝟎. 𝟏𝟓𝟖
+                                                     ̅̅̅̅
+                                                                          value of 𝟑𝒙, if 𝟎. 𝟒𝟐𝟑 − 𝟎. 𝟐 of 𝟓𝟐. 𝟓 ÷ 𝟎. 𝟖𝟒 =
+                            ̅ × 𝟎. 𝟔̅ × 𝟑 × 𝟎. 𝟏𝟔
+                                                ̅) ×                      𝒙𝟐 − (𝟎. 𝟎𝟐𝟏 + 𝟏𝟐. 𝟓)?
+54. The value of (𝟐. 𝟒
+    [𝟎. ̅̅̅̅
+        𝟐𝟕 × (𝟎. 𝟖𝟑̅ ÷ 𝟎. 𝟏𝟔̅)] is:                                       यदद 𝒙 िनात्मि रालश है , तो 𝟑𝒙 िा मान क्या
+        ̅ × 𝟎. 𝟔
+    (𝟐. 𝟒      ̅ × 𝟑 × 𝟎. 𝟏𝟔
+                           ̅) × [𝟎. ̅̅̅̅
+                                     𝟐𝟕 ×                                 होगा, यदद            𝟎. 𝟒𝟐𝟑 − 𝟎. 𝟐 of 𝟓𝟐. 𝟓 ÷ 𝟎. 𝟖𝟒 =
+    (𝟎. 𝟖𝟑̅ ÷ 𝟎. 𝟏𝟔̅)] िा मान ज्ञात िीजिए ?                               𝒙𝟐 − (𝟎. 𝟎𝟐𝟏 + 𝟏𝟐. 𝟓)?
+         ̅̅̅̅
+   a) 𝟎. 𝟏𝟏              ̅̅̅̅ c) 𝟎. 𝟖𝟏𝟒
+                   b) 𝟏. 𝟑𝟔         ̅̅̅̅̅̅             ̅
+                                                 d) 𝟏. 𝟏                                           𝟒                     𝟏                      𝟐
+                                                                          a) 𝟐                b) 𝟗               c) 𝟐                       d) 𝟑
+                                       ̅+𝟎.𝟓𝟔𝟕
+                                     𝟎.𝟒    ̅̅̅̅−𝟎.𝟓𝟗
+                                                    ̅
+55. The     value      of        ̅̅̅̅    ̅
+                             (𝟎.𝟐𝟐𝟔÷𝟎.𝟕𝟓)×𝟑.𝟒÷𝟐.𝟓𝟒  ̅̅̅̅×𝟑.𝟑
+                                                           ̅
+                                                               lies   60. How many of the following are irrational
+   between :                                                              numbers?
+             ̅+𝟎.𝟓𝟔𝟕
+                  ̅̅̅̅−𝟎.𝟓𝟗
+                          ̅                                               I: 1.4689723…… II: 0.27777……
+                                     िा मान ____ िे बीच
+           𝟎.𝟒
+               ̅)×𝟑.𝟒÷𝟐.𝟓𝟒
+       ̅̅̅̅÷𝟎.𝟕𝟓
+   (𝟎.𝟐𝟐𝟔                 ̅̅̅̅×𝟑.𝟑
+                                 ̅
+                                                                          III. √𝟐𝟒𝟑      iv: 1.2020020002…..
+   होगा|                                                                  ननम्नललखित में से कितनी संख्याए अपररमेय है ?
+   a) 𝟎. 𝟏 and 𝟎. 𝟐              b) 𝟎. 𝟑 and 𝟎. 𝟒                         I: 1.4689723…… II: 0.27777……
+   c) 𝟎. 𝟒 and 𝟎. 𝟓              d) 𝟎. 𝟐 and 𝟎. 𝟑                         III. √𝟐𝟒𝟑      iv: 1.2020020002…..
+                                                                          a) 𝟎      b) 𝟏      c) 𝟐     d) 𝟑
+61. Let 𝑵 = 𝟎. 𝟑𝟔𝟑𝟔𝟑𝟔 … What is the smallest                            ननम्नललखित में से किस पररमेय संख्या में
+    positive number that is to be multiplied to N so
+                                                                        असन्त / अनवसानी पुनराववृ ि दशमलव है ?
+    that the result is an integer?
+                                                                            𝟏𝟓             𝟐𝟑      𝟑𝟓       𝟏𝟕
+   मान लो 𝑵 = 𝟎. 𝟑𝟔𝟑𝟔𝟑𝟔 … . है| N िो किस                                a) 𝟏𝟔𝟎𝟎      b) 𝟖        c) 𝟓𝟎   d) 𝟔
+
+   छोट से छोट घनात्मि संख्या से गुणा किया
+                                                                     66. Let ‘𝒑’ and ‘𝒒’ be two non-zero integers. The
+   िाए ताकि पररणाम एि पूणाांि आए?                                        fraction 𝒑/𝒒 when converted to decimal form,
+   a) 𝟗𝟗              b) 𝟗𝟎           c) 𝟏𝟏     d) 𝟗                     the result is a non-terminating decimal. Then 𝒒
+                                                                         cannot be:
+62. Let 𝑵 = 𝟎.abababab…, where a, b are                                 ‘𝒑’ और ‘𝒒’ गैर शन्
+                                                                                        ू य पण
+                                                                                             ू ाांि हैं| िब लभन्न 𝒑/𝒒
+    nonzero digits. Three of the following numbers
+                                                                        िो दशमलव रूप में ललिा िाता है तो वह अशांत
+    when multiplied with N definitely produces an
+    integer. Which is the odd one out?                                  दशमलव बन िाता है | 𝒒 ननम्न में से क्या नह ं
+   मान लो 𝑵 = 𝟎.abababab.... है व a & b शुन्य                           हो सिता?
+   नह ं है | ननजम्न्ललखित में से तीन संख्याए ऐसी                        a) 𝟑        b) 𝟓        c) 𝟕      d) 𝟔
+   है जिनिो N से गुणा िरने पर एि पूणाांि प्राप्त
+                                                                     67. How many significant digits are there to the
+   होता है | चोथी संख्या िौन सी है ?                                     right of the decimal point in the product of
+   a) 𝟏𝟗𝟖             b) 𝟓𝟗𝟒          c) 𝟗𝟎𝟎    d) 𝟗𝟗𝟎                   𝟗𝟓. 𝟕𝟓 and 𝟎. 𝟎𝟐𝟓𝟓𝟒?
+                                                                        𝟗𝟓. 𝟕𝟓 और 𝟎. 𝟎𝟐𝟓𝟓𝟒 िे गुणनफल में दशमलव
+63. If 𝑨 = 𝟎. 𝒂𝒃𝒄𝒂𝒃𝒄 …., then by what number A
+                                                                        बबंद ु िे दाईं ओर कितने साथणि अंि हैं?
+    should be multiplied so as to get an integral
+    value?                                                              a) 𝟒       b) 𝟓         c) 𝟑     d) 𝟔
+   यदद 𝑨 = 𝟎.abcabc ………. है, तो A                         िो किस
+                                                                     68. Consider the following statements
+   संख्या से गुना किया िाए ताकि एि पूणाांि मान                           There is a finite number of rational numbers
+   प्राप्त हो?                                                           between any two rational numbers.
+   a)𝟐𝟗𝟗𝟕                           b)𝟏𝟎𝟎𝟎                               There is an infinite number of rational
+   c)𝟏𝟗𝟗𝟖                           d) Both 𝟐𝟗𝟗𝟕 and 𝟏𝟗𝟗𝟖                numbers between any two rational numbers.
+                                                                         There is a finite number of irrational numbers
+64. Which of the following numbers has a                                 between any two rational numbers.
+    terminating decimal?                                                 Which of the above statement(s) is/are
+    𝟏𝟓       𝟐𝟗       𝟕        𝟕𝟕                                        correct?
+         ,        ,        ,
+   𝟔𝟎𝟎 𝟑𝟒𝟑 𝟐𝟐 ×𝟕𝟐 𝟐𝟏𝟎                                                   ननम्नललखित िथनों पर ववचार िीजिए:
+   ननम्नललखित में से किस संख्या िा एि सांत
+                                                                        किन्ह ं दो पररमये संख्याओं िे बीच में पररमये
+   दशमलव है ?
+    𝟏𝟓       𝟐𝟗       𝟕        𝟕𝟕
+                                                                        संख्याओं िी पररलमत संख्या होती है|
+      ,   ,      ,
+   𝟔𝟎𝟎 𝟑𝟒𝟑 𝟐𝟐 ×𝟕𝟐 𝟐𝟏𝟎
+         𝟕𝟕                    𝟐𝟗              𝟏𝟓             𝟕
+                                                                        किन्ह ं दो पररमये संख्याओं िे बीच में पररमये
+   a) 𝟐𝟏𝟎                 b) 𝟑𝟒𝟑          c) 𝟔𝟎𝟎         d) 𝟐𝟐 ×𝟕𝟐
+                                                                        संख्याओं िी अनंत संख्या होती है |
+
+65. Which one of the following rational numbers                         किन्ह ं दो पररमये संख्याओं िे बीच में
+    has non-terminating and repeating decimal                           अपररमये संख्याओं िी पररलमत संख्या होती है|
+    expansion?
+                                                                        उपयक्
+                                                                           ुण त में से िौन सा/से िथन सह है /हैं ?
+    a) Only 𝟏            b) Only 𝟐                       74. If (𝟑𝟔)𝟐𝒏 is divisible by 𝟐𝟖𝟏 , where n is an
+    c) Only 𝟑            d) 𝟐 and 𝟑                          integer, what is the least possible value of n?
+                                                            अगर (𝟑𝟔)𝟐𝒏 , 𝟐𝟖𝟏 से ववभाजित हो िाता है ,
+69. If    𝑵 = 𝟎. 𝟑𝟔𝟗𝟑𝟔𝟗𝟑𝟔𝟗 ….      and     𝑴=
+                                                            िहा n एि पण
+                                                                      ू ाांि है, n िी नयन
+                                                                                        ू तम संभव मान
+    . 𝟓𝟑𝟏𝟓𝟑𝟏𝟓𝟑𝟏 … .., then what is the value of
+      𝟏      𝟏
+    (𝑵) + (𝑴) ?                                             ज्ञात िरे ?
+                                                            a) 19         b) 20         c) 21               d) 40
+    यदद     𝑵 = 𝟎. 𝟑𝟔𝟗𝟑𝟔𝟗𝟑𝟔𝟗 … ..          तथा     𝑴=
+    . 𝟓𝟑𝟏𝟓𝟑𝟏𝟓𝟑𝟏 …., है, तो (𝑵) + (𝑴) िा मान क्या
+                               𝟏       𝟏
+                                                         75. Find the smallest number which gives a perfect
+    है ?                                                     square when multiplied by 392.
+    a) 𝟏𝟏𝟏𝟎𝟎/𝟐𝟒𝟏𝟗              b) 𝟏𝟖𝟗𝟕/𝟑𝟏𝟔𝟐                 सबसे छोट संख्या ज्ञात िीजिये जिसे 392 से
+    c) 𝟏𝟏𝟏/𝟏𝟎𝟎                 d) 𝟐𝟒𝟏𝟗/𝟏𝟏𝟏𝟎𝟎                गुणा िरने पर पूणण वगण प्राप्त हो।
+                                                            a) 7          b) 2          c)4                 d) 14
+70. If      𝟓𝟔 × 𝟕𝟓 × 𝟔𝟎 × 𝟖𝟒 × 𝟐𝟏𝟎 = 𝟐𝒑 × 𝟑𝒒 ×
+                                           𝒑+𝒒
+    𝟓𝒓 × 𝟕𝒔 then what is the value of [ 𝒔 ] + 𝒓 ?        76. By what smallest no. should we divide 2800 to
+                                                             make it a perfect square?
+    यदद     𝟓𝟔 × 𝟕𝟓 × 𝟔𝟎 × 𝟖𝟒 × 𝟐𝟏𝟎 = 𝟐𝒑 × 𝟑𝒒 ×
+                                                            वह सबसे छोट संख्या िौन सी है , जिससे 2800
+    𝟓𝒓 × 𝟕𝒔 तो [ 𝒔 ] + 𝒓 का मान क्या है?
+                  𝒑+𝒒
+
+                                                            िो भाग दे ने पर पण
+                                                                             ू ण वगण प्राप्त हो?
+    a) 6         b) 8          c) 12             d) 10
+                                                            a) 2          b) 4          c)7                d) 9
+
+71. If (𝟏𝟖)𝒌 is exactly divisible by 𝟑𝟐𝟗 , what is the   77. By which smallest number 1323 must be
+    smallest possible integer for k?                         multiplied, so that it becomes a perfect cube?
+    अगर (𝟏𝟖)𝒌 , 𝟑𝟐𝟗 से पूर तरह ववभाजित हो                   वह सबसे छोट संख्या िौन सी है , जिससे 1323
+    िाता है तो k िा सबसे छोटा मान क्या होगा ?               िो गुणा िरने पर पूणण घन प्राप्त हो?
+    a) 14        b) 15         c) 29             d)30       a) 9          b) 3       c)21         d) 7
+
+72. What is the least value of n such that 𝟏𝟎𝒏 is        78. The smallest natural number by which 5145
+    exactly divisible by 1600?                               must be divided to make the quotient a perfect
+    ‘n’ िा नयूनतम मूलय ज्ञात िरे अगर 𝟏𝟎𝒏 ,                   cube is
+    1600 से परू तरह ववभाजित हो िाता है |                    वह सबसे छोट प्रािृनति संख्या िौन सी है ,
+    a) 6         b) 5          c) 4              d) 3       िीससे 5145 िो भाग दे ने पर भागफल एि पूणण
+                                                            घन हो?
+73. If p and q are positive integers such that 𝟏𝟖𝒑
+    and 𝟏𝟐𝒒 are divisible by 108, the minimum               a) 15         b) 3          c)5                 d) 7
+    value of 𝒑𝒒 is:
+                                                         79. Find the smallest four digit perfect square
+    अगर p व q दोनों िनात्मि पूणाांि है व 𝟏𝟖𝒑 and
+                                                             which is divisible by 44?
+    𝟏𝟐𝒒 , 108 से ववभाजित हो िाते है तो 𝒑𝒒 िा                44 से ववभाजित हो िाने वाला चार अंिों िा
+    नयन
+      ू तम मान ज्ञात िरे ?                                  सबसे छोटा पूणण वगण ज्ञात िरें ।
+    a) 10        b) 8          c) 9              d) 6       a) 484         b) 1452      c) 1936          d) 4356
+80. How many four digit perfect squares are                        यदद 𝒙 िोई िन पण
+                                                                                 ू ाांि ननम्नललखित में से िौन
+    multiples of 72?
+                                                                   सा      एि,   𝟑𝒙 + 𝟑𝒙+𝟏 + 𝟑𝒙+𝟐 िा      सबसे     बड़ा
+   72 िे कितने गुणि चार अंिों िे पूणण वगण हैं ?
+                                                                   भािि है ?
+   a) 6                b) 7               c) 8         d) 9
+                                                                   a) 𝟑          b) 𝟏𝟑          c) 𝟑𝟗         d) 𝟏𝟏𝟕
+81. ‘𝑵’ is an even number such that 𝟑𝑵 is a perfect
+    cube. What is the smallest possible value of N?             88. If the sum of five consecutive positive odd
+                                                                    numbers is a perfect square, which of the
+   𝑵 एि सम संख्या इस प्रिार है कि 𝟑𝑵 पण
+                                      ू ण घण
+                                                                    following can not be one of the numbers?
+   है । 𝑵 िा न्यूनतम संभव मान ज्ञात िरें ।                         अगर पाँच लगातार िनात्मि ववषम संख्याओं िा
+   a) 36               b) 48              c) 60        d) 72
+                                                                   िोड़फल एि पूणण वगण है , तो ननम्न में से िौन
+82. How many perfect cubes are there between 1                     सी संख्या उन संख्याओं में से एि संख्या नह ं
+    and 100000 which are divisible by 7?                           हो सिती है ?
+   1 से 100000 िे बीच कितने पूणण घन हैं िो 7 से                    a) 7          b) 51          c) 43         d) 127
+   ववभाजित है ?
+                                                                89. If 𝒃 is largest square divisor of 𝒄 and 𝒂𝟐 divides
+   a) 5                b) 6               c) 7         d) 15
+                                                                    𝒄, then which one of the following is correct
+                                                                    (where 𝒂, 𝒃 𝒂𝒏𝒅 𝒄 are integers)?
+83. 𝟒𝟔𝟏 + 𝟒𝟔𝟐 + 𝟒𝟔𝟑 + 𝟒𝟔𝟒 is divisible by
+                                                                   यदद 𝒄 िे वह्
+                                                                             ृ तम वगण भािि 𝒃 है और 𝒄 िो
+   𝟒𝟔𝟏 + 𝟒𝟔𝟐 + 𝟒𝟔𝟑 + 𝟒𝟔𝟒 किससे ववभाजित है ?
+                                                                   𝒂𝟐 ववभाजित िरता है , तो ननम्नललखित में से
+   a) 3                b) 10              c) 11        d) 13
+                                                                   िौन सा एि सह है? (𝒂, 𝒃 , 𝒄 पूणण संख्याएं है )
+        𝟕𝟏        𝟕𝟐        𝟕𝟑
+84. 𝟓        +𝟓        +𝟓        is divisible by                   a) 𝒃 divides 𝒂         b) 𝒂 does not divide
+   𝟓𝟕𝟏 + 𝟓𝟕𝟐 + 𝟓𝟕𝟑 किससे ववभाजित है ?                              c) 𝒂 divides 𝒃         d) 𝒂 and 𝒃 are coprime
+   a) 150                b) 160           c) 155    d) 30
+                                                                90. The number of (a, b, c), where a, b, c are
+85. 𝟓𝟕𝟏 + 𝟓𝟕𝟐 + 𝟓𝟕𝟑 + 𝟓𝟕𝟒 + 𝟓𝟕𝟓 is divisible by                     positive integers such that 𝒂𝒃𝒄 = 𝟑𝟎, is
+    which of the following number?                                 (a, b, c) िी संख्या कितनी है , िहाँ a, b, c
+   𝟓𝟕𝟏 + 𝟓𝟕𝟐 + 𝟓𝟕𝟑 + 𝟓𝟕𝟒 + 𝟓𝟕𝟓 ददए गए वविलपों                      घनात्मि पण
+                                                                            ू ाांि हैं, इस प्रिार कि 𝒂𝒃𝒄 = 𝟑𝟎 ?
+   में से किस संख्या से ववभाज्य है ?                               a) 𝟑𝟎          b) 𝟐𝟕         c) 𝟗          d) 𝟖
+   a) 𝟕𝟏               b) 𝟔𝟗              c) 𝟖𝟗        d) 𝟕𝟑
+                                                                91. How many even factors of 1008 are not
+86. 𝟐𝟏𝟐𝟐 + 𝟒𝟔𝟐 + 𝟖𝟒𝟐 + 𝟒𝟔𝟒 + 𝟐𝟏𝟑𝟎 is not divisible                  divisible by 8?
+    by which one of the following integers?                        1008 िे कितने सम गण
+                                                                                     ु निंड 8 से ववभाज्य
+   𝟐𝟏𝟐𝟐 + 𝟒𝟔𝟐 + 𝟖𝟒𝟐 + 𝟒𝟔𝟒 + 𝟐𝟏𝟑𝟎                   ननम्नललखित      नह ं हैं?
+   में से किस पूणाणि से ववभाज्य नह ं है ?                          a) 16         b) 12          c) 18         d) 24
+   a) 11               b) 62              c) 22        d) 93
+                                                                92. How many factors of 1080 are divisible by 6 but
+87. Which one of the following is the largest divisor               not by 9?
+    of 𝟑𝒙 + 𝟑𝒙+𝟏 + 𝟑𝒙+𝟐, if 𝒙 is any natural                       1080 िे कितने गण
+                                                                                  ु निण्ड (फैक्टर) ऐसे हैं िो
+    number?                                                        6 से तो ववभाजित हो िाते है पर 9 से नह ं ?
+   a) 24       b) 12                 c) 6                d) 4     100. If N=𝟑𝟏𝟒 + 𝟑𝟏𝟑 − 𝟏𝟐,then what is the largest
+                                                                     prime factor of N?
+93. Find the number of factors of 480, which are                     यदद N=𝟑𝟏𝟒 + 𝟑𝟏𝟑 − 𝟏𝟐 है , तो n िा सबसे बढ़ा
+    divisible by 6 but not by 8?
+                                                                     अभाज्य गण
+                                                                             ु निंड क्या है ?
+   480 िे कितने गुणनिंड हैं िो 6 से ववभाजित
+                                                                     a)11         b) 79            c)13        d) 73
+   होते हों परन्तु 8 से नह ं ।
+   a) 2        b) 4                  c) 8                d) 16
+                                                                  101. For how many positive integer values of n,
+                                                                     𝒏𝟐 +𝟏𝟏𝒏+𝟒𝟖
+                                     𝟐
+94. How many factors of 𝟐 × 𝟑 × 𝟓 × 𝟕 are     𝟏      𝟐    𝟏                       is an integer?
+                                                                            𝒏
+    divisible by 𝟓𝟎 but not by 𝟏𝟎𝟎?                                  n िे कितने िनात्मि पूणाांि मान होंगे अगर
+   𝟐𝟐 × 𝟑𝟏 × 𝟓𝟐 × 𝟕𝟏 िे कितने गुणनिंड 𝟓𝟎 से                          𝒏𝟐 +𝟏𝟏𝒏+𝟒𝟖
+                                                                                  एि पूणाांि है ?
+                                                                            𝒏
+   ववभाज्य हैं लेकिन 𝟏𝟎𝟎 से नह ं?                                    a) 8         b) 10            c) 12       d) 15
+   a) 4        b) 12                 c) 16               d) 8
+                                                                  102. When 𝟐𝟎𝟎 is divided by a positive integer 𝒙,
+95. How many factors of 7200 are perfect squares?                    the remainder is 𝟖. How many values of 𝒙 are
+   7200 िे कितने गण
+                  ु निण्ड पण
+                           ू ण वगण हैं ?                             there?
+   a) 6        b) 8                  c) 12               d) 16       िब 𝟐𝟎𝟎 िो एि िन पूणाांि 𝒙 से ववभाजित
+                                                                     किया िाता है , तो शेष 𝟖 प्राप्त होता है। 𝒙 िे
+96. How many factors of 10368 are perfect cubes?
+                                                                     कितने मान हो सिते हैं?
+   10368 िे कितने गुणनिण्ड पूणण घन हैं ?
+                                                                     a) 𝟕         b) 𝟓             c) 𝟖        d) 𝟔
+   a) 4        b) 6                  c) 8                d) 9
+                                                                  103. When 𝟕𝟑𝟐 is divided by a positive integer 𝒙,
+97. If N= 𝟗𝟗 then N is divisible by how many
+                                                                     the remainder is 𝟏𝟐. How many values of 𝒙 are
+    positive perfect cubes?
+                                                                     there?
+   यदद N= 𝟗𝟗 है, तो n, कितने िनात्मि घनो से
+                                                                     िब 𝟕𝟑𝟐 िो किसी िन पूणाांि 𝒙 से ववभाजित
+   ववभाज्ये है ?
+                                                                     किया िाता है , तो शेष 𝟏𝟐 रहता है। 𝒙 िे कितने
+   a) 6        b) 7                  c) 4                d) 5
+                                                                     मान हो सिते हैं?
+98. How many factors of 360 are in the form of 4k                    a) 𝟏𝟗         b) 𝟐𝟎       c) 𝟏𝟖       d) 𝟏𝟔
+    + 2, where k is an integer?
+                                                                  104. When 𝟒𝟑 is divided by 𝒙, the remainder is 𝒙 −
+   360 िे कितने गुणनिण्ड 4k + 2 िे रूप में है,
+                                                                     𝟓. If 𝒙 is a natural number, how many solutions
+   िहाँ k एि पूणाणि है ।                                             will 𝒙 have?
+   a) 3            b) 6              c) 9                d) 12       िब 𝟒𝟑 िो 𝒙 से ववभाजित किया िाता है , तो
+                                                                     शेषफल 𝒙 − 𝟓 होता है। यदद 𝒙 एि प्रािृत संख्या
+99. If N=𝟒𝟏𝟏 + 𝟒𝟏𝟐 + 𝟒𝟏𝟑 + 𝟒𝟏𝟒 , then how many
+    positive factors of N are there?                                 है , तो 𝒙 िे कितने हल होंगे?
+   यदद N=𝟒    𝟏𝟏
+                    +𝟒    𝟏𝟐
+                               +𝟒   𝟏𝟑
+                                         +𝟒   𝟏𝟒
+                                                   है , तो n िे      a) 𝟓         b) 𝟒             c) 𝟔        d) 𝟑
+   कितने िनात्मि गुणनिंड है ?
+                                                                  105. How many natural numbers less than 𝟐𝟐𝟓 has
+   a) 92       b) 48                 c) 50               d) 51       odd number of factors?
+   𝟐𝟐𝟓 से िम प्रािृनति संख्याओं में कितनी               वह सबसे छोट          संख्या ज्ञात िरें जिसिे 15
+   संख्याओं िे गुणनिंडों िी संख्या ववषम है ?            गुणनिण्ड हैं ?
+   a) 𝟏𝟐         b) 𝟏𝟏        c) 𝟏𝟓         d) 𝟏𝟒       a) 1202     b) 124       c) 144      d) 180
+
+106. The total number of three digit number which    111. In how many ways 320 can be written as a
+   have only 𝟑 factors will be?                         product of two integers?
+   𝟑 अंिीय संख्याओं िी िुल संख्या क्या होगी,            320 िो कितने तर िों से दो पूणाांिों िे गुणनफल
+   जिनिे िेवल 𝟑 गण
+                 ु निंड होंगे?                          िे रूप में ललिा िा सिता है ?
+   a) 𝟔          b) 𝟗         c) 𝟒𝟓         d) 7        a) 7        b) 14          c) 8               d) 16
+
+107. Let 𝒑, 𝒒, 𝒓 and 𝒔 be positive natural numbers   112. How many positive integer pairs of p & q
+   having three exact factors including 1 and the       satisfy 𝒑𝒒 = 𝟑𝟐𝟒?
+   number itself. If 𝒒 > 𝒑 and both are two-digit       समीिरण 𝒑𝒒 = 𝟑𝟐𝟒 िो p व q िे कितने
+   numbers, and 𝒓 > 𝒔 and both are one-digit
+                                                        िनात्मि पूणाांि िोड़े संतुष्ट िरते हैं ?
+   numbers, then the value of the expression
+   𝒑−𝒒−𝟏                                                a) 7        b) 14          c) 15              d) 16
+           is:
+     𝒓−𝒔
+   माना कि 𝒑, 𝒒, 𝒓 और 𝒔 िनात्मि प्रािृनति            113. How many numbers less than 36 are relative
+   संख्याएँ हैं, जिनिे तीन यथातथ्य गण
+                                    ु निंडो             primes to 36?
+                                                        36 से छोट कितनी संख्याऐ 36 िी सह अभाज्य
+   (exact factors) में 1 और स्वयं संख्या भी है।
+                                                        है ?
+   यदद 𝒒 > 𝒑 और दोनों दो-अंिीय संख्याएँ हैं, तथा
+                                                        a) 9        b) 12          c) 18              d) 24
+   𝒓 > 𝒔और दोनों एि-अंिीय संख्याएँ हैं, तो व्यंिि
+           िा मान कितना होगा?
+   𝒑−𝒒−𝟏
+     𝒓−𝒔
+                                                     114. How many numbers less than 100 are co-
+   a) −𝒔 − 𝟏       b) 𝒔 − 𝟏   c) 𝟏 − 𝒔    d) 𝒔 + 𝟏      primes to 30?
+                                                        100 से छोट कितनी ऐसी संख्याऐ हैं िो 30 िे
+108. Find the number of prime factors in the
+                                                        साथ असहभाज्य हैं?
+   product (𝟑𝟎)𝟓 × (𝟐𝟒)𝟓.
+                                                        a) 73        b) 27         c) 74              d) 26
+   (𝟑𝟎)𝟓 × (𝟐𝟒)𝟓 में अभाज्य संख्याओं िी संख्या
+   ज्ञात िीजिए।                                      115. How many numbers not more than 100 are
+   a) 𝟒𝟓           b) 𝟑𝟓      c) 𝟏𝟎      d) 𝟑𝟎          co-primes to 18?
+                                                        18 िे साथ असहभाज्य ऐसी कितनी संख्याऐ हैं
+109. What is the smallest number which has              िो 100 से अधिि नह ं हैं?
+   exactly 6 factors?
+                                                        a) 33       b) 34          c) 66              d) 67
+   6 गण
+      ु निण्डों वाल सबसे छोट संख्या िौन सी
+   है ?                                              116. The sum of all even factors of 320 is:
+   a) 72         b) 32        c) 18         d) 12       320 िे सभी सम गण
+                                                                       ु निण्डों िा िोड़ ज्ञात िरें
+                                                        a) 635         b) 630       c) 756       d) 762
+110. What is the smallest number which has 15
+   factors?                                          117. Find the sum of all odd natural numbers
+                                                        which can divide 540?
+   सार ववषम प्रािृनति संख्याओं िा योग बताइए            124. What can be the maximum value of 𝒑 so that
+                                                          𝟑𝟎!
+                                                                is an integer?
+   िो 540 िो ववभाजित िर सिती हैं?                          𝟐𝐩
+                                                          𝒑 िा अधिितम मान क्या हो सिता है कि 𝟐𝐩
+                                                                                                            𝟑𝟎!
+   a) 390     b) 78         c) 240       d) 468
+                                                          एि पूणाांि हो?
+118. Find the sum of all factors of 840 which are
+                                                          a) 25         b) 15        c) 26          d) 30
+   divisible by 6?
+   840 िे उन सभी गुणनिण्डों (फैक्टर) िा िोड़                                                           𝟕𝟎!
+                                                       125. Find the maximum value of P such that 𝟓𝒑 is
+   ज्ञात िरें िो 6 से ववभाजित हो िाते हैं ?               an integer.
+   a) 2016      b) 2640        c) 2160      d) 1872       P िा सबसे अधिितम मान ज्ञात िीजिये जिससे
+                                                                एि पूणाांि हो?
+                                                          𝟕𝟎!
+119. The sum of all the even factors of 504 which          𝟓𝒑
+   are not divisible by 8 is:                             a) 16         b) 17        c) 18          d) 19
+   504 िे सारे सम गण
+                   ु नफल िो 8 से ववभाज्य
+                                                       126. If 6k is a factor of 90!, what is the maximum
+   नह ं हैं, उनिा योग है:                                 possible value of k?
+   a) 728     b) 624         c) 488        d) 784         अगर 6k, 90! िा एि गुणनिंड है तो k िा
+
+120. Find the sum of all the factors of 1240 which        अधिितम संभव मान ज्ञात िरें ।
+   are divisible by 4 but not by 8?                       a) 15         b) 17        c) 44          d) 86
+   1240 िे उन गुणनिंडो िा योग ननिालो िो 4
+                                                                 𝟐𝟎𝟎!
+                                                       127. If 𝟒𝟗𝒙 is an integral value, then find the
+   से तो भाज्य है पर 8 से भाज्य नह ं है ?
+                                                          maximum value that x can have.
+   a) 480     b) 468        c) 720       d) 768
+                                                          यदद 𝟒𝟗𝒙 एि सम्पूणण मान है , तो x िा अधिितम
+                                                                 𝟐𝟎𝟎!
+
+
+121. What is the sum of the divisors of 𝟒𝟖𝟒 that          मान क्या हो सिता है।
+   are perfect squares?                                   a) 32         b) 16        c) 11           d) 4
+   𝟒𝟖𝟒 िे ववभाििों िा योग क्या है िो पूणण वगण
+   हैं?                                                128. If 82! is exactly divisible by 4n, then n cannot
+                                                          be greater than:
+   a) 𝟏𝟐𝟓       b) 𝟑𝟓         c) 𝟔𝟏𝟎        d) 𝟏𝟑
+                                                          अगर 82!, 4n से पूणत
+                                                                            ण या ववभाजित हो िाता है
+122. What is the sum of all the factors of 1080           तो n ननम्न में से किससे बड़ा नह ं हो सिता?
+   which are multiples of 3 and end with 5?               a) 78         b) 26        c) 39          d) 40
+   1080 िे उन सारे गण
+                    ु निण्डों िा योग क्या होगा
+   िो 3 िे गुणि है और उनिे इिाई िे स्थान               129. If 100! is a multiple of 𝟐𝟒𝒓 , then the maximum
+                                                          possible value of 𝒓 is:
+   पर 5 आता है ?
+                                                          अगर 100!, 𝟐𝟒𝒓 िा एि गण
+                                                                               ु ि है तो r िा
+   a) 285       b) 195         c) 315         d) 225
+                                                          अधिितम संभव मान ज्ञात िरें ।
+123. What is the product of all the factors of 𝟓𝟕𝟔?       a) 4          b) 48        c) 13          d) 32
+   𝟓𝟕𝟔 िे सभी गुणनिंडों िा गुणनफल ज्ञात िरें ?
+                                                       130. Find the total no of zeroes after the right most
+   a) 𝟐𝟒𝟐𝟏    b) 𝟐𝟒𝟏𝟗          c) 𝟐𝟒𝟏𝟕      d) 𝟐𝟒𝟐𝟎
+                                                          non-zero digit in 100!.
+   100! में गैर-शन्
+                 ू य अंिों िे दाईं ओर िुल शन्
+                                           ू यों           ननम्नललखित संख्याओं में से वे संख्याएँ ज्ञात
+   िी संख्या ज्ञात िीजिये।                                 िीजिए िो 𝟒𝟐 से पूणत
+                                                                             ण ः ववभाज्य हैं।
+   a) 9        b) 10          c) 24             d) 25      a) 𝟐𝟓𝟐𝟑𝟐                 b) 𝟐𝟓𝟐𝟒𝟐
+                                                           c) 𝟐𝟓𝟐𝟒𝟒                 d) 𝟐𝟓𝟐𝟏𝟐
+131. Find the total no of zeroes after the right most
+   non-zero digit in 120!                               137. How many of the following numbers are
+   120! में गैर-शून्य अंिों िे दाईं ओर िुल शून्यों         divisible by 𝟏𝟓𝟔?
+
+   िी संख्या ज्ञात िीजिये:                                 ननम्नललखित में से कितनी संख्याएँ 𝟏𝟓𝟔 से
+
+   a) 12       b) 10          c) 24             d) 28      ववभाज्य है ?
+                                                           𝟑𝟏𝟐, 𝟔𝟐𝟎, 𝟗𝟑𝟗, 𝟏𝟒𝟎𝟐, 𝟏𝟖𝟕𝟐, 𝟑𝟐𝟏𝟔, 𝟕𝟏𝟕𝟔, 𝟖𝟏𝟎𝟖
+132. Numbers 2, 4, 6, 8, 10,……………396, 398, 400             a) 𝟓     b) 𝟑         c) 𝟒        d) 𝟐
+   are multiplied together. The number of zeroes
+   at the end of the product on the right will be       138. If a nine-digit number 𝟕𝟔𝟗𝟖𝒙𝟏𝟑𝟖𝒚 is divisible
+   equal to-                                               by 72, then the value of √𝟒𝒙 + 𝒚 is:
+   संख्या 2, 4, 6, 8, 10....................196, 198,      यदद नौ अंि वाल संख्या 𝟕𝟔𝟗𝟖𝒙𝟏𝟑𝟖𝒚, 72 से
+   200 िो आपस में गुणा किया। गुणनफल िे दाई                 ववभाज्य है , तो √𝟒𝒙 + 𝒚 िा मान ज्ञात िरें |
+   ओर अंत में शन्
+               ू यों िी संख्या ज्ञात िीजिये:               a) 8            b) 6          c) 9       d) 5
+   a) 49       b) 40          c) 48          d) 99
+                                                        139. If a nine-digit number 𝟑𝟖𝟗𝒙𝟔𝟑𝟕𝟖𝒚 is divisible
+133. Let n be an integer such that 𝒏! ends with 50         by 72, then the value of √𝟔𝒙 + 𝟕𝒚 will be:
+   zeroes. What is the maximum possible value of           यदद नौ अंिो िी संख्या 𝟑𝟖𝟗𝒙𝟔𝟑𝟕𝟖𝒚, 72 से
+   n?
+                                                           ववभाजित है , तो √𝟔𝒙 + 𝟕𝒚 िा मान होगा :
+   n एि पूणाणि इस प्रिार है कि 𝒏! िे अन्त में 50
+                                                           a) 6            b) √𝟏𝟑         c) √𝟒𝟔    d) 8
+   शून्य हैं । n िी अधिितम संभव मान ज्ञात िरें
+   ।                                                    140. If the 9-digit number 5p42978n6 is divisible by
+   a) 204      b) 205       c) 209     c) 210              72, what is the value of (𝟐𝒑 − 𝟏), where n is
+                                                           the second largest of all the possible value of
+134. The number 𝟐𝟓𝟔𝟒 × 𝟔𝟒𝟐𝟓 is the square of a             n? Given that p and n are natural numbers.
+   natural number n. The sum of digits of n is             यदद 𝟗 अंिो िी एि सख्या 5p42978n6 , 72 से
+   संख्या 𝟐𝟓𝟔𝟒 × 𝟔𝟒𝟐𝟓 , प्रािृनति संख्या n िा वगण          ववभाज्य है , तो (𝟐𝒑 − 𝟏), िा मान क्या होगा,
+   है। n िे अंिों िा योग ज्ञात िीजिये:                     िहाँ n, n िे सभी संभाववत मानो मे से दस
+                                                                                                ू रा
+   a) 7        b) 14          c) 21          d) 28         सबसे बड़ा है ? ददया गया है कि p और n प्रािृनति
+                                                           संख्याएँ हैं।
+135. Find the zeros at end of (𝟏𝟐𝟔! − 𝟏𝟐𝟓!)
+                                                           a) 𝟏𝟓             b) 𝟐𝟏         c) 𝟏𝟏    d) 𝟏𝟕
+   (𝟏𝟐𝟔! − 𝟏𝟐𝟓!) िे अंत में शून्य िोिें।
+   a) 𝟑𝟒       b) 𝟑𝟓          c) 𝟑𝟏          d) 𝟑𝟎      141. If the 8-digit number 𝟖𝟖𝟖𝒙𝟓𝟑𝒚𝟒 is divisible
+                                                           by 72, then what is the value of (𝟕𝒙 + 𝟐𝒚), for
+136. From the following numbers, find the                  the maximum value of 𝒚?
+   numbers which exactly divisible by 𝟒𝟐.
+   यदद 8-अंि वाल           संख्या 𝟖𝟖𝟖𝒙𝟓𝟑𝒚𝟒, 72 से                146. If a number 𝟓𝟒𝒌𝟑𝟏𝒎𝟖𝟐 is divisible by 11,
+                                                                    what will be the maximum value of (𝒌 + 𝒎)?
+   ववभाज्य है , तो 𝒚 िे अधिितम मान िे ललए
+                                                                    यदद संख्या 𝟓𝟒𝒌𝟑𝟏𝒎𝟖𝟐, 11 से ववभाज्य है , तो
+   (𝟕𝒙 + 𝟐𝒚) िा मान ज्ञात िरें |
+                                                                    (𝒌 + 𝒎) िा अधिितम मान ज्ञात िरें ?
+   a) 19        b) 23             c) 27                d) 15
+                                                                    a) 23        b) 13        c) 12          d) 11
+142. If a 𝟏𝟏 digit number 𝟓𝒚𝟓𝟖𝟖𝟒𝟖𝟎𝟓𝒙𝟔 is
+                                                                 147. If the number A9257B684 is divisible by 11,
+   divisible by 𝟕𝟐, where 𝒙 = 𝒚, then the value of
+                                                                    then what is the least value of A-B?
+   √𝒙𝒚 is
+                                                                    यदद संख्या A9257B684, 11 से ववभाज्य है , तो
+   एि 𝟏𝟏अंिीय संख्या 𝟓𝒚𝟓𝟖𝟖𝟒𝟖𝟎𝟓𝒙𝟔, यदद 𝟕𝟐
+                                                                    A–B िा न्यूनतम मान क्या होगा?
+   से ववभाज्य है और 𝒙 = 𝒚 है, तो √𝒙𝒚 िा मान
+                                                                    a) 14        b) 3         c) 0           d) −𝟖
+   है:
+   a) √𝟕         b) 𝟑          c) 𝟕               d) 𝟐√𝟕         148. Let ‘N’ be a six-digit number such that it does
+                                                                    not change even if the digits are reversed. Then
+143. If the 𝟗– digit number 𝟕𝟐𝒙𝟖𝟒𝟑𝟏𝒚𝟒 is divisible                  N must be divisible by:
+                                                                    N छ: अंिों िी एि ऐसी संख्या है जिसिे अंिों
+                                              𝒙   𝒚
+   by 𝟑𝟔, what is the value of (𝒚 − 𝒙) for the
+   smallest possible value of 𝒚, given that 𝒙 and 𝒚                 िो उलटे क्रम में ललिने पर भी वह संख्या बदलती
+   are natural numbers?
+                                                                    नह ं है । N किससे ववभाजित हो िाएगी?
+   यदद एि 𝟗 अंिीय संख्या 𝟕𝟐𝒙𝟖𝟒𝟑𝟏𝒚𝟒 , 𝟑𝟔 से                          a) 6         b) 8         c) 9           d) 11
+   ववभाज्य है , 𝒙 और 𝒚 प्रािृत संख्याएं है , तो y िे
+                                                                 149. If the nine-digit number ‘8475639AB’ is
+   सबसे छोटे मान िे ललए (𝒚 − 𝒙) िा मान क्या
+                                   𝒙      𝒚
+                                                                    divisible by 99, then what is the value of A and
+   होगा?                                                            B?
+   a) 𝟏 𝟕
+          𝟓
+                b) 𝟐 𝟏𝟎
+                       𝟏
+                                   c) 𝟏 𝟓
+                                          𝟐                𝟗
+                                                      d) 𝟐 𝟏𝟎       यदद नौ अंि वाल संख्या ‘8475639AB’, 99 से
+                                                                    ववभाज्य है , तो A और B िा मान ज्ञात िरें |
+144. Find the sum of all the possible values of                     a) 𝑨 = 𝟒, 𝑩 = 𝟔
+   (𝒂 + 𝒃), so that the number 𝟒𝒂𝟎𝟔𝟕𝒃 is                            b) 𝑨 = 𝟓, 𝑩 = 𝟑
+   divisible by 𝟏𝟏.                                                 c) 𝑨 = 𝟑, 𝑩 = 𝟗
+   (𝒂 + 𝒃) िे सभी संभाववत मानों िा योगफल                            d) 𝑨 = 𝟒, 𝑩 = 𝟖
+   ज्ञात िरें , जिससे संख्या 𝟒𝒂𝟎𝟔𝟕𝒃, 𝟏𝟏 से ववभाज्य
+                                                                 150. If a 9-digit number 𝟔𝟎𝟗𝒂𝟓𝒃𝟗𝒄𝟗 is divisible by
+   हो|                                                              99, then (𝒂 + 𝒃 + 𝒄) is equal to:
+   a) 11       b) 16           c) 21                   d) 5         यदद 9-अंिों िी एि संख्या 𝟔𝟎𝟗𝒂𝟓𝒃𝟗𝒄𝟗, 99 से
+
+145. Find the greatest value of b so that                           ववभाज्य है , तो (𝒂 + 𝒃 + 𝒄) िा मान ______ िे
+   𝟑𝟎𝒂𝟔𝟖𝒃 (𝒂 > 𝒃) is divisible by 11.                               बराबर है |
+   B      िा   अधिितम       मान        ज्ञात      िरें , जिससे      a) 16        b) 7         c) 26          d) 25
+   𝟑𝟎𝒂𝟔𝟖𝒃 (𝒂 > 𝒃) संख्या, 11 से ववभाज्य हो|
+                                                                 151. If the number 𝟒𝟖𝒌𝟐𝟎𝟒𝟖𝒑𝟔 is divisible by 𝟗𝟗,
+   a) 3        b) 6            c) 9                    d) 4
+                                                                    then (𝒌 × 𝒑) is equal to:
+   यदद 𝟒𝟖𝒌𝟐𝟎𝟒𝟖𝒑𝟔 एि ऐसी संख्या है िो 𝟗𝟗 से                         यदद नौ-अंि वाल संख्या 𝟕𝒑𝟓𝟗𝟔𝟒𝒒𝟐𝟖, 88 से
+   ववभाज्य है , तो (𝒌 × 𝒑) िा मान क्या होगा?                       पूणत
+                                                                      ण : ववभाज्य है , तो 𝒒 िे अधिितम मान िे
+   a) 𝟐         b) 𝟔             c) 𝟒               d) 𝟎           ललए, (𝒑𝟐 − 𝒒) िा मान ज्ञात िरें , िहाँ 𝒑 और 𝒒
+                                                                   प्रािृनति संख्याएं हैं|
+152. If the 9-digit number 𝟒𝒙𝟗𝟐𝒚𝟔𝟓𝟖𝟖 is exactly
+   divisible by 99 (𝒙 + 𝒚 < 𝟏𝟎), then what is the                  a) 81      b) 9              c) 0              d) 72
+   value of 𝟐(𝒚 − 𝒙)?
+                                                                157. If the 8-digit number 𝟕𝒙𝟓𝟕𝟑𝟗𝒚𝟐 is divisible
+   यदद     9-अंिों     िी   संख्या    𝟒𝒙𝟗𝟐𝒚𝟔𝟓𝟖𝟖            99
+                                                                   by 88, then the largest possible value of (𝟒𝒙 +
+   (𝒙 + 𝒚 < 𝟏𝟎) से पण
+                    ू त
+                      ण : ववभाज्य है , तो 𝟐(𝒚 −                    𝟑𝒚) is:
+   𝒙) िा मान क्या है ?                                             यदद 8-अंिों िी संख्या 𝟕𝒙𝟓𝟕𝟑𝟗𝐲𝟐, 88 से
+   a) −𝟐        b) −𝟏                c) 𝟐           d) 𝟏           ववभाज्य है , तो (𝟒𝒙 + 𝟑𝒚) िा सबसे बड़ा संभाववत
+                                                                   मान ज्ञात िीजिए|
+153. If the 9-digit number 𝟗𝟓𝟕𝒙𝟓𝒚𝟔𝒛𝟐 is divisible
+   by 33, then the sum of all the possible values of               a) 39       b) 51            c) 23             d) 63
+   (𝒙 + 𝒚 + 𝒛)?
+                                                                158. If a 𝟏𝟎 digit number 𝟐𝟎𝟗𝟒𝒙𝟖𝟒𝟑𝒚𝟐 is divisible
+   यदद 9 अंिों िी संख्या 𝟗𝟓𝟕𝒙𝟓𝒚𝟔𝒛𝟐, 33 से
+                                                                   by 𝟖𝟖, then the value of (𝟓𝒙 − 𝟕𝒚) for the
+   ववभाज्य है , तो (𝒙 + 𝒚 + 𝒛) िे सभी संभाववत                      largest possible value of 𝒙, is:
+   मानों िा योग क्या होगा?                                         यदद 𝟏𝟎 अंिों िी एि संख्या 𝟐𝟎𝟗𝟒𝒙𝟖𝟒𝟑𝒚𝟐,
+   a) 24        b) 39            c) 15              d) 2           𝟖𝟖, से ववभाज्य है, तो 𝒙 िे अधिितम संभव
+                                                                   मान िे ललए (𝟓𝒙 − 𝟕𝒚) िा मान है:
+154. If the number 𝟒𝟕𝟔**𝟎 is divisible by both 𝟑
+   and 𝟏𝟏, then in the hundredth and tenth                         a) 𝟑        b) 𝟓          c) 𝟐        d) 𝟔
+   places, the non-zero digits are, respectively:
+                                                                159. Find the least value of (𝑨 + 𝑩) if the number
+   यदद संख्या 𝟒𝟕𝟔**𝟎 , 𝟑 और 𝟏𝟏 दोनों से
+                                                                   𝟐𝟕𝑩𝟓𝟖𝑨𝟒 is completely divisible by 𝟖𝟖.
+   ववभाज्य है , तो सैिड़े और दहाई िे एि स्थान                       यदद     संख्या   𝟐𝟕𝑩𝟓𝟖𝑨𝟒,        𝟖𝟖   द्वारा    पुणत
+                                                                                                                      ण ः
+   पर, गैर – शुन्य अंि क्रमशः क्या होंगे?                          ववभाज्य है , तो (𝑨 + 𝑩) िा न्यूनतम मान ज्ञात
+   a) 𝟐 and 𝟑               b) 𝟑 and 𝟐
+                                                                   िीजिए|
+   c) 𝟓 and 𝟖               d) 𝟖 and 𝟓
+                                                                   a) 𝟓        b) 𝟐             c) 𝟒              d) 𝟕
+155. How many five-digit numbers of the form
+   𝑿𝑿𝒀𝑿𝑿 is/are divisible by 𝟑𝟑?                                160. What are the values of 𝑹 and 𝑴, respectively,
+                                                                   if the given number is perfectly divisible by 𝟏𝟔
+   𝑿𝑿𝒀𝑿𝑿 िे रूप िी पाँच अंिों िी कितनी संख्याएँ
+                                                                   and𝟏𝟏?
+   𝟑𝟑 से ववभाजित होती हैं?                                         34R05030M6
+   a) 1         b) 3          c) 5          d) Infinite            यदद द      गयी संख्या 𝟏𝟔 और 𝟏𝟏 से पुणत
+                                                                                                        ण ः
+                                                                   ववभाज्य है , तो R और M िे मान क्रमशः क्या है ?
+156. If the nine-digit number 𝟕𝒑𝟓𝟗𝟔𝟒𝒒𝟐𝟖 is
+   completely divisible by 88, what is the value of                𝟑𝟒𝑹𝟎𝟓𝟎𝟑𝟎𝑴𝟔
+   (𝒑𝟐 − 𝒒), for the largest value of 𝒒, where 𝒑                   a) 𝟒 and 𝟔                   b) 𝟕 and 𝟓
+   and 𝒒 are natural numbers?                                      c) 𝟓 and 𝟓                   d) 𝟓 and 𝟕
+161. If the 5-digit number 𝟔𝟖𝟖𝒙𝒚 is divisible by 3,              167. If the 𝟕-digit number 𝒙𝟖𝟗𝟒𝟐𝒚𝟒 is divisible by
+   7 and 11, then what is the value of (𝟓𝒙 + 𝟑𝒚)?                   𝟓𝟔, what is the value of (𝒙𝟐 + 𝒚) for the largest
+   यदद 5-अंि वाल संख्या 𝟔𝟖𝟖𝒙𝒚, 3, 7 और 11 से                        value of 𝒚, where 𝒙 and 𝒚 are natural numbers?
+
+   ववभाज्य है , तो (𝟓𝒙 + 𝟑𝒚) िा मान ज्ञात िरें |                    यदद 𝒙𝟖𝟗𝟒𝟐𝒚𝟒 एि ऐसी 𝟕 अंिो िी संख्या है
+   a) 39      b) 36                 c) 43              d) 38        िो 𝟓𝟔 से ववभाज्य है , तो 𝒚 िे सबसे बड़े मान
+                                                                    िे ललए (𝒙𝟐 + 𝒚) िा मान क्या है ? िहाँ 𝒙 और
+162. If the 5-digit number 𝟔𝟕𝟔𝒙𝒚 is divisible by 3,
+   7 and 11, then what is the value of (𝟑𝒙 − 𝟓𝒚)?                   𝒚 प्रािृत संख्याएँ है ?
+                                                                    a) 𝟑𝟑     b) 𝟒𝟒           c) 𝟓𝟓          d) 𝟕𝟎
+   यदद 5-अंि वाल संख्या 𝟔𝟕𝟔𝒙𝒚, 3, 7 और 11 से
+   ववभाज्य है , तो (𝟑𝒙 − 𝟓𝒚) िा मान                ज्ञात िरे |   168. The six-digit number 𝟓𝟑𝟕𝒙𝒚𝟓 is divisible by
+   a) 10        b) 7           c) 9          d) 11                  𝟏𝟐𝟓. How many such six-digit numbers are
+                                                                    there?
+163. If the six-digit number 𝟓𝒛𝟑𝒙𝟒𝒚 is divisible by                 छह अंि वाल संख्या 𝟓𝟑𝟕𝒙𝒚𝟓, 𝟏𝟐𝟓 से ववभाज्य
+   7, 11 and 13, then what is the value of
+   (𝒙 + 𝒚 − 𝒛)?                                                     है | ऐसे छह अंिो वाल कितनी संख्याएं है ?
+                                                                    a) 4        b) 2          c) 3           d) 5
+   यदद छ: अंि वाल संख्या 𝟓𝒛𝟑𝒙𝟒𝒚 7, 11 और
+   13 से ववभाज्य है , तो (𝒙 + 𝒚 − 𝒛) िा मान ज्ञात                169. If ‘𝒂’ is a natural number, then (𝟕𝒂𝟐 + 𝟕𝒂) is
+   िरें |                                                           always divisible by:
+   a) 4       b) 5             c) 3                d) 6             यदद '𝒂' एि प्रािृत संख्या है , तो (𝟕𝒂𝟐 + 𝟕𝒂)
+                                                                    इनमें से किस संख्या से सदै व ववभाज्य है ?
+164. The number 𝟖𝟐𝟑𝒑𝟐𝒒 is exactly divisible by 7,
+                                                                    a) 𝟕 and 𝟏𝟒 both          b) 𝟕 only
+   11 and 13. What is the value of (𝒑 − 𝒒)?
+                                                                    c) 𝟏𝟒 only                d) 𝟐𝟏 only
+   संख्या 𝟖𝟐𝟑𝒑𝟐𝒒, 7, 11 और 13 से पण
+                                  ू त
+                                    ण : ववभाज्य
+   है | (𝒑 − 𝒒) िा मान ज्ञात िरें |                              170. The largest natural number which divides
+   a) 8       b) 5                  c) 11              d) 3         every natural number of the form (𝒏𝟑 −
+                                                                    𝒏)(𝒏 − 𝟐), where 𝒏 is a natural number
+165. A six-digit number of the form ababab is                       greater than 𝟐, is
+   always divisible by:                                             (𝒏𝟑 − 𝒏)(𝒏 − 𝟐), िहाँ 𝒏, 𝟐 से बड़ा िोई
+   ababab िे रूप िी छह-अंिों िी संख्या हमेशा                        िनपण
+                                                                       ू ाणि है , िे प्रिार वाले प्रतेि िनपण
+                                                                                                           ू ाणि िो
+   _________ से ववभाज्य होती है |                                   ववभाजित िरने वाला बह
+                                                                                       ृ तम िनपूणाणि िौन सा
+   a) 11111             b) 10001                                    है ?
+   c) 11001             d) 10101
+                                                                    a) 6        b) 12         c) 24          d) 48
+
+166. If the number 𝟕𝟑𝟐𝒙𝒚 is divisible by 𝟕𝟎, then
+                                                                 171. If 𝒏 is whole number greater than 𝟏, then
+                                         .
+                                      𝒙+𝒚
+   find the minimum value of                                        𝒏𝟐 (𝒏𝟐 − 𝟏) is always divisible by
+                                       𝟐
+   यदद 𝟕𝟑𝟐𝒙𝒚 एि ऐसी संख्या है िो 𝟕𝟎 से                              यदद 𝒏 एि पुणण संख्या 𝟏 से अधिि है , तो
+   ववभाज्य है , तो           िा न्यूनतम मान ज्ञात                   𝒏𝟐 (𝒏𝟐 − 𝟏) किस संख्या िे द्वारा सदै व ववभाज्य
+                       𝒙+𝒚
+                        𝟐
+   िीजिए|                                                           है ?
+   a) 𝟐       b) 𝟏           c) 𝟎           d) 3                    a) 𝟏𝟐        b) 𝟐𝟒        c) 𝟒𝟖          d) 60
+172. The sum of 3-digit numbers 𝒂𝒃𝒄, 𝒄𝒂𝒃 and            177. Find the greatest number 𝟐𝟑𝟒𝒂𝟓𝒃, which is
+   𝒃𝒄𝒂 is not divisible by :                               divisible by 𝟐𝟐, but NOT divisible by 𝟓.
+   3-अंि वाल      संख्याओं 𝒂𝒃𝒄, 𝒄𝒂𝒃 और 𝒃𝒄𝒂 िा              सबसे बड़ी संख्या 𝟐𝟑𝟒𝒂𝟓𝒃 ज्ञात िीजिए, िो 𝟐𝟐
+   योगफल______से ववभाज्य नह ं है |                         से ववभाज्य है , लेकिन 𝟓 से ववभाज्य नह ं है |
+   a) 37         b) 3         c) 31    d) 𝒂 + 𝒃 + 𝒄        a) 𝟐𝟑𝟒𝟎𝟓𝟖                 b) 𝟐𝟑𝟒𝟖𝟓𝟎
+                                                           c) 𝟐𝟑𝟒𝟔𝟓𝟐                 d) 𝟐𝟑𝟒𝟕𝟓𝟏
+173. If the sum of the digits of a three digit number
+   is subtracted from that number, then it will         178. Find the greatest number 𝟐𝟑𝒂𝟔𝟖𝒃, which is
+   always be divisible by                                  divisible by 𝟑 but NOT divisible by 𝟗.
+   किसी तीन अंिों िी संख्या िो उसिे योग से घटा             वह सबसे बड़ी संख्या 𝟐𝟑𝒂𝟔𝟖𝒃 ज्ञात िीजिए, िो
+   ददया िाए तो वह सदै व ह किससे ववभाज्य होगी ?             𝟑 से ववभाज्य है लेकिन 𝟗 से ववभाज्य नह ं है |
+   a) 3 only                  b) 9 only                    a) 𝟐𝟑𝟖𝟔𝟖𝟗                 b) 𝟐𝟑𝟗𝟔𝟖𝟓
+   c) both 3 and 9            d) all of 3, 6 and 9         c) 𝟐𝟑𝟗𝟔𝟖𝟖                 d) 𝟐𝟑𝟕𝟔𝟖𝟕
+
+174. A six-digit number is divisible by 𝟏𝟗𝟖. If the     179. The number 𝟐𝟏𝟒𝟑𝟐𝟓𝟏 is divisible by:
+   digits are rearranged, even then the number             संख्या 𝟐𝟏𝟒𝟑𝟐𝟓𝟏 ननम्न मे से किससे ववभाज्य
+   will be divisible by:
+                                                           है ?
+   एि छह अंिों िी संख्या 𝟏𝟗𝟖 से ववभाज्य है।
+                                                           a) 𝟕       b) 𝟏𝟕          c) 𝟏𝟑          d) 𝟑
+   यदद अंिों िो पुनव्यणवजस्थत किया िाता है , तो
+   भी संख्या किससे ववभाज्य होगी:                        180. A number is formed by writing the 1st 35
+                                                           natural numbers side by side. Find the
+   a) 3        b) 6           c) 2            d) 66
+                                                           remainder when it is divided by 4.
+175. A six-digit number is divisible by 𝟏𝟗𝟖. If the        एि संख्या िो, 35 संख्याओं िो अगल-बगल
+   digits are reversed, even then the number will          ललि िर बनाया गया। िब इसे 4 से भाग ददया
+   be divisible by:
+                                                           िाये, तो शेषफल क्या है?
+   एि छह अंिों िी संख्या 𝟏𝟗𝟖 से ववभाज्य है।
+                                                           a) 1       b) 2           c) 3         d) none
+   यदद अंिों िो उलट ददया िाये, तो भी संख्या
+   किससे ववभाज्य होगी:                                  181. A 100-digit number is formed by writing
+   a) 9 only                  b) 11 only                   natural numbers side by side starting from 1.
+                                                           Find the remainder when this number is
+   c) Both 9 and 11           d) 198
+                                                           divided by 8.
+176. Find the value of 𝒌 in the number 𝟑𝟒𝟐𝟔𝒌 if            1 से शुरू िर प्रािृनति संख्याओं िो अगल-बगल
+   the number is divisible by 𝟔 but NOT divisible          ललि िर एि 100 अंिों िी संख्या बनाई िाती
+   by 𝟓.
+                                                           है। िब इसे 8 से भाग ददया िाये तो शेषफल
+   संख्या 𝟑𝟒𝟐𝟔𝒌 में 𝒌 िा मान ज्ञात िीजिए, यदद
+                                                           ज्ञात िीजिये:
+   संख्या 𝟔 से ववभाज्य है , लेकिन 𝟓 से ववभाज्य
+                                                           a) 3       b) 4           c) 5           d) 1
+   नह ं है |
+   a) 𝟒        b) 𝟔           c) 𝟑            d) 𝟗      182. What is the sum of all the possible values of k
+                                                           for which a seven-digit number 𝟐𝟑𝒌𝟓𝟔𝟕𝒌 is
+                                                           divisible by 3?
+   K िे उन सभी संभाववत मानों िा योग कितना            188. If 𝟖𝟗𝟒𝟕𝑨𝟓𝟔𝑩𝟏 is divisible by 𝟗, where B is an
+                                                        odd number. Find the sum of all possible value
+   होगा, जिसिे ललए एि सात अंिों वल संख्या
+                                                        of 𝑨?
+   𝟐𝟑𝒌𝟓𝟔𝟕𝒌, 3 से ववभाज्य हो?                            अगर 𝟖𝟗𝟒𝟕𝑨𝟓𝟔𝑩𝟏, 𝟗 से ववभाज्य है , िहां B
+   a) 15      b) 3      c) 109      d) 16
+                                                        एि ववषम संख्या है | 𝑨 िे सभी संभाववत मानों
+
+183. What is the value of 𝒌 such that number            िा योग ज्ञात िरो?
+   𝟕𝟐𝒌𝟒𝟔𝟎𝒌 is divisible by 6?                           a) 26        b) 27         c) 30           d) 36
+   𝒌 िा वह मान ज्ञात िरें कि संख्या 𝟕𝟐𝒌𝟒𝟔𝟎𝒌 ,
+                                                     189. If a nine-digit number 𝟏𝟐𝟔𝟑𝟒𝟖𝟕𝒙𝒚 is divisible
+   6 से ववभाज्य हो िाए?
+                                                        by both 8 and 5, then the greatest possible
+   a) 4       b) 7          c) 9            d) 8        values of 𝒙 and 𝒚, respectively, are:
+                                                        यदद नौ अंि वाल संख्या 𝟏𝟐𝟔𝟑𝟒𝟖𝟕𝒙𝒚, 8 और
+184. If the number 87m6203m is divisible by 6 then
+   find the sum of all possible values of 'm’.          5 दोनों से ववभाज्य है , तो क्रमश: 𝒙 और 𝒚 िे बड़े
+   यदद संख्या 87m6203m 6 से ववभाज्य हो, तो 'm'          से बड़े संभाववत मान ज्ञात िरें |
+   िे सभी संभाववत मानों िा योगफल ज्ञात िरें |           a) 6 and 0                 b) 6 and 5
+                                                        c) 2 and 0                 d) 2 and 5
+   a) 10      b) 20      c) 16      d) 15
+
+185. If the number 𝟑𝟒𝒌𝟓𝟔𝒌 is divisible by 6, then    190. 𝒏 = 𝟒𝟕𝟓𝑨𝑩 is a positive integer whose tens
+                                                        and units digits are A and B, respectively. If 𝒏 is
+   what will be largest value of 𝒌?
+                                                        divisible by 5, 8 and 9, then what is (𝟏𝟎𝑨 +
+   यदद संख्या 𝟑𝟒𝒌𝟓𝟔𝒌, 6 से ववभाज्य है , तो 𝒌 िा
+                                                        𝑩)?
+   सबसे बड़ा मान कितना होगा?                             𝒏 = 𝟒𝟕𝟓𝑨𝑩 िनात्मि पूणाांि है , जिसिे दहाई
+   a) 6       b) 8          c) 9            d) 4
+                                                        और इिाई िे अंि क्रमशः A और B हैं। यदद 𝒏,
+
+186. If the number 𝟖𝟕𝟔𝟒𝒙𝟓 is divisible by 𝟗, then       5, 8 और 9 से ववभाज्य है , तो (𝟏𝟎𝑨 + 𝑩) िा
+   find the least possible value of 𝒙 where 𝒙 is a      मान ज्ञात िरें |
+   two-digit number.                                    a) 20        b) 60     c) 35       d) 15
+   यदद 𝟖𝟕𝟔𝟒𝒙𝟓 एि ऐसी संख्या है िो 𝟗 से
+   ववभाज्य है , तो 𝒙 िा न्यूनतम संभाववत मान          191. Find the greatest possible value of (𝒂 + 𝒃) for
+                                                        which the 𝟖-digit number 𝟏𝟒𝟑𝒃𝟐𝟎𝟑𝒂 is
+   ज्ञात िीजिए, िहाँ 𝒙 दो अंिों िी संख्या है |          divisible by 𝟏𝟓.
+   a) 𝟏𝟓      b) 𝟎𝟔         c) 𝟏𝟒           d) 𝟏𝟖
+                                                        (𝒂 + 𝒃) िा अधिितम संभव मान ज्ञात िरें ,
+
+187. what is the product of the largest and the         जिसिे ललए 𝟖–अंिीय संख्या 𝟏𝟒𝟑𝒃𝟐𝟎𝟑𝒂, से
+   smallest possible values of 𝒎 for which a            𝟏𝟓 से ववभाज्य है |
+   number 𝟓𝒎𝟖𝟑𝒎𝟒𝒎𝟏 is divisible by 9?                   a) 𝟏𝟔        b) 𝟏𝟓         c) 𝟏𝟒           d) 𝟏𝟕
+   𝒎 िे सबसे बड़े और सबसे छोटे संभाववत मान
+   िा गुणनफल ज्ञात िरें , जिसिे ललए संख्या           192. A four-digit pin, say 𝒂𝒃𝒄𝒅, of a lock has
+                                                        different non-zero digits. The digits satisfy 𝒃 =
+   𝟓𝒎𝟖𝟑𝒎𝟒𝒎𝟏, 9 से ववभाज्य है ?                          𝟐𝒂, 𝒄 = 𝟐𝒃, 𝒅 = 𝟐𝒄. The pin is divisible
+   a) 80      b) 10         c) 40           d) 16       by______.
+   एि ताले िा चार अंिों वाला वपन है , मान ल जिए                 प्रत्येि िनात्मि पण
+                                                                                  ू ाणि 𝒏 िे ललए, 𝟓𝟒𝒏 − 𝟒𝟒𝒏
+   𝒂𝒃𝒄𝒅, और सारे अंि अलग-अलग एवं गैर-शून्य                      ववभाजित होगा -
+   हैं। अंि = 𝟐𝒂, 𝒄 = 𝟐𝒃, 𝒅 = 𝟐𝒄. िो संतुष्ट िरते               a) 9        b) 41        c) 369      d) All the above
+
+   हैं। वपन ______ से ववभाज्य है।
+                                                             198. The expression 𝟐𝟔𝒏 − 𝟒𝟐𝒏 , where 𝒏 is a
+   a) 𝟐, 𝟑, 𝟓                b) 𝟐, 𝟑, 𝟕                         natural number is always divisible by
+   c) 𝟐, 𝟑, 𝟏𝟑               d) 𝟐, 𝟑, 𝟏𝟏
+                                                                व्यंिि 𝟐𝟔𝒏 − 𝟒𝟐𝒏 , जिसमें 𝒏 एि प्रािृनति
+193. If the number 𝟔𝟕𝟎𝟒𝟓𝟖𝒙𝟗𝟓𝒚𝟓𝟐 is divisible by                 संख्या है , हमेशा किससे ववभाजित होगा?
+   144, then find the value of √𝟐𝒙 + 𝟑𝒚 for the                 a) 15       b) 18            c) 36            d) 48
+   maximum value of 𝒙.
+   यदद 𝟔𝟕𝟎𝟒𝟓𝟖𝒙𝟗𝟓𝒚𝟓𝟐 संख्या 144 से ववभाजित                    199. (𝟔𝟖)𝒏 + 𝟏 is exactly divisible by 𝟐𝟑 when n
+                                                                is?
+   होती है तो 𝒙 िे अधिितम मान िे ललए
+                                                                (𝟔𝟖)𝒏 + 𝟏, 𝟐𝟑 ववभाज्य है यदद n:
+   √𝟐𝒙 + 𝟑𝒚 िा मान ज्ञात िरें |                                 a) Any natural number b) Odd number
+   a) √𝟕            b) √𝟐𝟗          c) √𝟑𝟑          d) √𝟏𝟑      c) Even number        d) Only prime number
+
+194. If p & q are the digits of the number                   200. One of the factors of (𝟖𝟐𝒌 + 𝟓𝟐𝒌 ), where 𝒌 is
+   3479p25q2 such that the number is exactly                    an odd number, is:
+   divisible by 24, then which of the following                 (𝟖𝟐𝒌 + 𝟓𝟐𝒌 ) िा एि गुणनिंड, िहां 𝒌 एि
+   cannot be the value of pq?
+                                                                ववषम संख्या है:
+   अगर संख्या 3479p25q2, जिसमें p व q दो अंि
+                                                                a) 86       b) 88            c) 84            d) 89
+   हैं, 24 से परू तरह ववभाजित हो िाती है तो
+   ननम्न में से िौनसा pq िा मान नह ं होगा ?                  201. N = 𝟐𝟒𝟖 − 𝟏 and N is exactly divisible by two
+   a) 63            b) 9            c) 10           d) 45       numbers between 60 and 70. What is the sum
+                                                                of those two numbers ?
+195. What is the remainder if 𝟏𝟕𝟐𝟔 − 𝟏𝟏𝟐𝟔 is                    N = 𝟐𝟒𝟖 − 𝟏 तथा N, 60 तथा 70 िे बीच दो
+   divided by 42?                                               संख्या से पण
+                                                                           ू त
+                                                                             ण ववभाजित है | उन संख्याओं िा
+   𝟏𝟕   𝟐𝟔
+             − 𝟏𝟏   𝟐𝟔
+                         िो 42 से ववभाजित िरने पर शेष
+                                                                योग क्या है ?
+   संख्या ज्ञात िरें ।                                          a) 128          b) 256         c) 64          d) 512
+   a) 0             b) 1            c) 13           d) 14
+                                                             202. 𝟐𝟏𝟖 − 𝟏 is divisible by:
+196. What is the remainder when we divide 𝟓𝟕𝟎 +                 𝟐𝟏𝟖 − 𝟏 किससे ववभाज्य है:
+   𝟕𝟕𝟎 by 𝟕𝟒?
+                                                                a) 𝟏𝟏       b) 𝟏𝟕        c) 𝟏𝟑         d) 𝟕
+   िब हम 𝟓𝟕𝟎 + 𝟕𝟕𝟎 िो 𝟕𝟒 से भाग दे ते हैं तो
+   शेषफल क्या होता है ?                                      203. Find the remainder when 𝟏𝟏𝟏𝟓 +
+   a) 𝟕             b) 𝟏         c) 0        d) 𝟓               𝟏𝟐𝟏𝟓 + 𝟏𝟑𝟏𝟓 + 𝟏𝟒𝟏𝟓 is divided by 50?
+                                                                िब 𝟏𝟏𝟏𝟓 + 𝟏𝟐𝟏𝟓 + 𝟏𝟑𝟏𝟓 + 𝟏𝟒𝟏𝟓 िो 50 से
+197. For every positive integer 𝒏, 𝟓𝟒𝒏 − 𝟒𝟒𝒏 is                 ववभाजित किया िाता है तो शेष क्या बचेगा ?
+   divisible by:
+                                                                a) 0        b) 1             c) 24            d) 26
+204. Which of the following statement(s) is/are                                c) 𝟒𝟖 + 𝟏             d) 𝟒𝟒𝟖 + 𝟏
+   TRUE ?
+   I. 𝟏𝟗𝟗 + 𝟐𝟗𝟗 + 𝟑𝟗𝟗 + 𝟒𝟗𝟗 + 𝟓𝟗𝟗 is exactly                                209. Given that 𝟐𝟐𝟎 + 𝟏 is completely divisible by
+   divisible by 5.                                                             a whole number. Which of the following is
+   II. 𝟑𝟏𝟏𝟏 > 𝟏𝟕𝟏𝟒                                                             completely divisible by the same number?
+   ननम्नललखित में से िौन सा/से िथन सत्य है/हैं?                                ददया गया है कि 𝟐𝟐𝟎 + 𝟏, किसी पूणण संख्या से
+   I. 𝟏𝟗𝟗 + 𝟐𝟗𝟗 + 𝟑𝟗𝟗 + 𝟒𝟗𝟗 + 𝟓𝟗𝟗 , 5 से पण
+                                          ू त
+                                            ण                                  पण
+                                                                                ू त
+                                                                                  ण : ववभाज्य है। ननम्न में से िौन सी संख्या
+   ववभाजित है |                                                                उसी संख्या से पूणत
+                                                                                                ण : ववभाज्य होगी?
+               𝟏𝟏            𝟏𝟒
+   II. 𝟑𝟏 > 𝟏𝟕                                                                 a) 𝟐𝟏𝟓 + 𝟏                  b) 𝟓 × 𝟐𝟑𝟎
+   a) Only I                                   b) only II                      c) 𝟐𝟗𝟎 + 𝟏                  d) 𝟐𝟔𝟎 + 𝟏
+   c) Neither I nor II                         d) Both I and II
+                                                                            210. (𝟑𝟏𝟐𝟎 − 𝟏𝟎𝟐𝟒) is not divisible by:
+           𝟗             𝟗         𝟗       𝟗
+205. 𝟐𝟑 + 𝟐𝟒 + 𝟐𝟓 + 𝟐𝟔 is divisible by:                                        (𝟑𝟏𝟐𝟎 − 𝟏𝟎𝟐𝟒) किससे ववभाजित नह ं होता है ?
+   𝟐𝟑𝟗 + 𝟐𝟒𝟗 + 𝟐𝟓𝟗 + 𝟐𝟔𝟗 ननम्न में से किससे                                    a) 𝟏𝟑𝟕       b) 𝟏𝟎𝟕      c) 𝟗      d) 𝟑𝟐
+   भाज्य है ?
+   a) 4 but not by 49                                                       211. Which of the following statement(s) is/are
+   b) 49 but not by 4                                                          TRUE?
+   c) both 4 and 49                                                            I. Highest common factor of (𝟑𝟐𝟎𝟎𝟐 − 𝟏) and
+   d) neither by 4 nor by 49                                                   (𝟑𝟐𝟎𝟎𝟐 + 𝟏) is 4
+                                                                               II. (𝟒𝟖𝟒 − 𝟏) is exactly divisible by 5.
+206. 𝟏𝟑𝟏𝟓 – 𝟕𝟏𝟓 – 𝟔𝟏𝟓 is always divisible by:                                  ननम्नललखित में से िौन – सा/से िथन सत्य
+          𝟏𝟓
+   𝟏𝟑 – 𝟕 – 𝟔       𝟏𝟓       𝟏𝟓
+                                  ननजचचत रूप से ववभाजित है -
+                                                                               है/हैं?
+   1) 6                  2) 7          3) 13      4) All the above
+                                                                               I. (𝟑𝟐𝟎𝟎𝟐 − 𝟏) तथा (𝟑𝟐𝟎𝟎𝟐 + 𝟏) िा महिम
+207. Given a number, 𝑵 = 𝟓𝟓𝟓 + 𝟏𝟕𝟓 – 𝟕𝟐𝟓 , then                                समापवतणि 4 है |
+   which of the following is true?                                             II. (𝟒𝟖𝟒 − 𝟏), 5 से पूणत
+                                                                                                      ण ववभाजित है |
+   द           गई        संख्या,       𝑵 = 𝟓𝟓 + 𝟏𝟕 – 𝟕𝟐 , तो
+                                                  𝟓      𝟓        𝟓
+                                                                               a) Only I                   b) only II
+   ननम्नललखित में से िौन सा सत्य है ?                                          c) Neither I nor II         d) Both I and II
+   a) N is divisible by both 7 and 13
+   b) N is divisible by both 3 and 17                                       212. The sum of digits of a two digit number is 10.
+   c) N is divisible by 17 but not 3                                           The number formed by reversing the digits is 18
+   d) N is divisible by 11 but not 17                                          less than the original number. Find the original
+                                                                               number.
+                                                                               एि द्ववअंिीय संख्या िे अंिों िा योग 10 है।
+208. A number 𝟒𝟏𝟔 + 𝟏 is divisible by 𝒙. Which                                 उस संख्या िे अंिों िे स्थान िो परस्पर बदलने
+   among the following is also divisible by 𝒙?
+                                                                               से प्राप्त हुई संख्या, मूल संख्या से 18 िम है।
+   एि           संख्या          𝟒𝟏𝟔 + 𝟏, 𝒙 से           ववभाज्य       है।
+                                                                               तो मूल संख्या ज्ञात िीजिये:
+   ननम्नललखित िौन-सी संख्या भी 𝒙 से ववभाज्य
+                                                                               a) 81        b) 46          c) 64          d) 60
+   है ?
+   a) 𝟒𝟗𝟔 + 𝟏                                  b) 𝟒𝟑𝟐 + 𝟏
+213. How many two digit numbers increases by 27             I. अंिो िा अंतर 4 है|
+   by reversing the digits?
+                                                            II. संख्या 𝟖𝟒 हो सिती है |
+   दो अंिों िी ऐसी कितनी संख्याऐ है जिनिे अंिों
+                                                            III. संख्या सदे व एि भाज्य संख्या है|
+   िो उलटे क्रम में ललिने पर वे 27 बढ िाएगी?
+                                                            a) I, II and III          b) II and III
+   a) 5         b) 6           c) 7           d) 8          c) I and III              d) I and II
+
+214. If the digits in the unit’s and ten’s places of a   217. In a two-digit number, its units digit exceeds
+   three digit number are interchanged, a new               its tens digit by 𝟐 and that the product of the
+   number is formed, which is greater than the              given number and the sum of its digits is equal
+   original number by 63. Suppose the digit in the          to 𝟒𝟔𝟎. The number is:
+   unit place of the original number be x. Then, all
+                                                            दो अंिो वाल एि संख्या में , इसिे इिाई िा
+   the possible values of x are
+   एि तीन अंिों वाले संख्या में इिाई और दहाई                अंि इसिे दहाई िे अंि से 𝟐 अधिि है और द
+
+   िे अंिों िो परस्पर बदलने पर प्राप्त हुई संख्या,          गई संख्या और इसिे अंिो िे योग िा गुणनफल
+
+   िो िी मूल संख्या से 63 ज्यादा है । माना कि               𝟒𝟔𝟎 है | वह संख्या ज्ञात िीजिए|
+                                                            a) 𝟔𝟒         b) 𝟑𝟔   c) 𝟒𝟖       d) 𝟒𝟔
+   मूल संख्या िा इिाई अंि ‘x’ तो , ‘x’ िे सभी
+   संभाववत मान ज्ञात िीजिये:                             218. A number consists of two digits. If the number
+   a) 7, 8, 9           b) 2, 7, 9                          formed by interchanging the digits is added to
+   c) 0, 1, 2           d) 1, 2, 8                          the original number, the resulting number
+                                                            must be divisible by
+215. A certain number of two digits is three times          एि संख्या द्ववअंिीय है। संख्या िे अंिों िो
+   the sum of its digits. If 45 be added to it, the
+                                                            परस्पर बदलने पर प्राप्त हुई संख्या िो मूल
+   digits are reversed. The number is
+   एि द्ववअंिीय ननजचचत संख्या, उस संख्या िे                 संख्या से िोड़ने पर िो संख्या प्राप्त होगी , वो
+
+   अंिों िे योग िा तीन गुणा है । यदद उसमें 45               किससे ववभाजित होगी?
+                                                            a) 11         b) 9        c) 5            d) 3
+   िोड़ा िाये तो संख्या िे अंि परस्पर बदल िाते
+   है। संख्या ज्ञात िीजिये:                              219. The sum of two digit number and the number
+   a) 72        b) 32          c) 27          d) 23         obtained by reversing its digits is a square
+                                                            number. How many such numbers are there?
+216. If the digit of a two digit number is reversed,        एि द्ववअंिीय संख्या और संख्या िे अंिों िो
+   then the number is decreased by 𝟑𝟔. Which of
+                                                            परस्पर बदलने पर प्राप्त हुई संख्या िा योग एि
+   the following is correct regarding the number?
+   I. The difference of the digits is 𝟒.                    वगण संख्या है। ऐसी कितनी संख्या है ?
+   II. The value of number can be 𝟖𝟒                        a) 5          b) 6        c) 7            d) 8
+   III. Number is always a composite number.
+   यदद दो अंिो वाल एि संख्या िे अंिों िो                 220. Let 𝒂𝒃, 𝒂 ≠ 𝒃, is a 𝟐-digit prime number such
+                                                            that ba is also a prime number. The sum of all
+   व्यत्ु क्रलमत िर ददया िाये, तो संख्या 𝟑𝟔 िम हो
+                                                            such numbers is:
+   िाती है | संख्या िे सन्दभण में ननम्नललखित में से         मान ल जिए कि 𝒂𝒃, 𝒂 ≠ 𝒃, 2 अंिों वाल
+   िौन सा िथन सह है ?                                       अभाज्य संख्या इस प्रिार है िी 𝒃𝒂 भी अभाज्य
+   संख्या है | ऐसी सभी संख्याओ िा योगफल ज्ञात              उन अंिों िो उलट दे ने पर बनने वाल संख्या से
+   िीजिए|                                                  𝟐𝟗𝟕 अधिि है| वह संख्या क्या है ?
+   a) 407        b) 396       c) 374          d) 418       a) 𝟏𝟐𝟏       b) 𝟐𝟑𝟏     c) 𝟓𝟔𝟏       d) 𝟒𝟓𝟏
+
+221. The age of a woman is a two-digit integer. On      224. In a three digit number the digit at the
+   reversing this integer, the new integer is the          hundreds place is two times the digit at the
+   age of her husband who is elder to her. The             units place and the sum of the digits is 18. If the
+   difference between their ages is one-eleventh           digits are reversed, the number is reduced by
+   of their sum. What is the difference between            396. The difference of the hundreds and tens
+   their ages?                                             digit of the number is
+   एि मदहला िी आयु दो अंिों िा एि पूणाांि है।              एि तीन अंिों िी संख्या में , सैंिड़ा स्थान िा
+   इस पूणाांि िे अंिों िा स्थान बदल दे ने पर, नया          अंि इिाई स्थान िे अंि िा दोगुना है तथा
+   पण
+    ू ाांि उसिे पनत, िो कि उससे बड़े हैं, िी आयु            अंिों िा योग 18 है। यदद अंिों िो परस्पर बदल
+   बन िाता है | उनिी आयु िा अंतर, उनिी आयु                 ददया िाये तो , मूल संख्या 396 से िम हो िाती
+   िे योगफल िा ग्यारहवां दहस्सा है | उनिी आयु              है। तो सैंिड़ा और दहाई स्थान िे अंिों िा अंतर
+   िा अंतर क्या है ?                                       ज्ञात िीजिये:
+   a) 8 yr     b) 9 yr    c) 10 yr     d) 11 yr            a) 1         b) 2           c) 3              d) 5
+
+222. When a two-digit number is multiplied by the       225. M is a three digit number such that the tens
+   sum of its digits, the product is 𝟒𝟐𝟒. When the         digit is twice to that of units digit and the
+   number obtained by interchanging its digits is          hundreds digit is twice to that of tens digit. If N
+   multiplied by the sum of the digits, the result is      is another number obtained by reversing the
+   𝟐𝟖𝟎. The sum of the digits of the given number          digits of M. Then M-N is always divisible by:
+   is:                                                     M तीन अंिों िी संख्या है जिसिा दहाई अंि
+   िब दो अंिों िी संख्या िो उसिे अंिों िे योग              इिाई अंि से दोगन
+                                                                          ु ा है व सैंिड़ा अंि दहाई अंि
+   से गुणा किया िाता है , तो 𝟒𝟐𝟒 प्राप्त होता है।          से दोगुना है । M िे अंिों िो उलट क्रम में ललिने
+   िब अंिों िो उलटिर प्राप्त संख्या िो अंिों िे            पर िो संख्या बनती है वह N है । M – N हमेशा
+   योग से गुणा किया िाता है , तो पररणाम 𝟐𝟖𝟎                भाज्य है -
+   होता है। ददए गए संख्या िे अंिों िा योग है:              a) 101        b) 297        c) 420            d) 594
+   a) 𝟕        b) 𝟔           c) 𝟖            d) 𝟗
+                                                        226. There is a number consisting of two digits, the
+223. A three-digit number is divisible by 𝟏𝟏 and           digit in the units place is twice that in the tens
+   has its digit in the unit’s place equal to 𝟏. The       place and if 2 be subtracted from the sum of
+   number is 𝟐𝟗𝟕 more than the number                      the digits, the difference is equal to 1/6th of
+   obtained by reversing the digit. What is the            the number. The number is
+   number?                                                 दो अंिों िी एि संख्या है | इसिा इिाई स्थान
+   तीन अंिों िी एि संख्या 𝟏𝟏 से भाज्य है और                िा अंि दहाई स्थान िे अंि िा दोगुना है | अगर
+   इिाई िे स्थान पर उसिा अंि 𝟏 है| वह संख्या               अंिों िे िोड़ में से 2 घटा िाए तो बनने वाल
+   संख्या द गई संख्या िा 1/6वा भाग है | संख्या            9! िी इिाई अंि ज्ञात िरें :
+   पता िरो|                                               a) 9        b) 0             c) 2          d) 8
+   a) 26        b) 25             c) 24      d) 23
+                                                       231. What is the last digit of 2! + 3! + 4! + … + 90!?
+227. The sum of the digits of a two-digit number is       2! + 3! + 4! + … + 90! िा आखिर अंि ज्ञात िरें ।
+   𝟏                                                      a) 2        b) 3             c) 4          d) 6
+       of the number. The units digit is 4 less than
+   𝟕
+   the tens digit. If the number obtained on
+   reversing its digits is divided by 7, the           232. If the unit digit of 𝟒𝟑𝟑 × 𝟒𝟓𝟔 × 𝟒𝟑𝑵 is (N+2).
+                                                          Then what is the value of N?
+   remainder will be:
+   दो अंिो िी संख्या िे अंिो िा योग, संख्या िा            यदद 𝟒𝟑𝟑 × 𝟒𝟓𝟔 × 𝟒𝟑𝑵 िा इिाई अंि (N+2)
+                                                          है , तो N िा मान क्या है ?
+       है| इिाई अंि दहाई अंि से 4 िम है | यदद
+   𝟏
+   𝟕
+                                                          a) 1        b) 8             c) 3          d) 6
+   अंिों िो पलटने पर प्राप्त संख्या िो 7 से
+   ववभाजित किया गया, तो शेष होगा:                      233. All odd prime numbers up to 110 are
+   a) 4         b) 5              c) 1       d) 6         multiplied together. What is the unit digit in
+                                                          this product?
+228. Let d be a two digit number. If half of d            110 ति िी सभी ववषम अभाज्य संख्याओं िो
+   exceeds one third of d by the sum of digits in,
+                                                          एि साथ गुणा किया िाता है । इस गुणनफल में
+   d, then the sum of digits in d is
+                                                          इिाई िा अंि क्या है ?
+   माना कि d एि द्ववअंिीय संख्या है। यदद d िा
+                                                          a) 0        b) 3      c) 5 d) None of the above
+   आिा भाग, d िे एि-नतहाई भाग से d िे अंिों
+   िे योग िे बराबर, ज्यादा है तो d िे अंिों िा         234. Find the 123rd number of the sequence a, b, e,
+                                                          k, a, b, e, k, a………
+   योग ज्ञात िीजिये:
+   a) 6         b) 8              c) 9       d) 15        अनुक्रम a, b, e, k, a, b, e, k, a………. िा 123वां
+                                                          पद ज्ञात िरें ।
+229. A number consists of two digits and the digit        a) a        b) b             c) e          d) k
+   in ten’s place exceeds that in unit’s place by 5.
+   If 5 times the sum of the digits be subtracted      235. What is the 72nd number in the following
+   from the number, the digits of the number are          sequence 3, 2, 1, 8, 4, 3, 2, 1, 8, 4, 3,…
+   reversed. Then the sum of the digits of the
+                                                          अनुक्रम 3, 2, 1, 8, 4, 3, 2, 1, 8, 4, 3,… िा 72वां
+   number is.
+                                                          पद ज्ञात िरें ।
+   एि संख्या दो अंिीय है और दहाई अंि, इिाई
+                                                          a) 3        b) 2             c) 1          d) 8
+   अंि से 5 ज्यादा है। यदद अंिों िे योग िा पांच
+   गण
+    ु े िो उस संख्या से घटाया िाये तो संख्या िे        236. The 50th number of the sequence 3, 7, 2, 3, 7,
+                                                          2, 3, 7…
+   अंि परस्पर बदल िाते है। तो संख्या िे अंिों
+                                                          अनुक्रम 3, 7, 2, 3, 7, 2, 3, 7… िा 50वां पद ज्ञात
+   िा योग ज्ञात िीजिये:
+   a) 11        b) 7              c) 9       d) 13        िरें ।
+                                                          a) 3        b) 2             c) 7      d) Can’t say
+230. Find the unit digit of 9!.
+237. The 149th number of the sequence 1, 8, 1, 8,             244. Let 𝒑 be a two digit integer such that the last
+   1……………..…                                                     digit of 𝟏𝟐𝒑 is 8. How many values 𝒑 can take?
+   अनुक्रम 1, 8, 1, 8, 1, 8, 1………………..िा 149वां                  𝒑 एि दो अंिो िा पूणाांि इस प्रिार है कि 𝟏𝟐𝒑
+   पद ज्ञात िरें ।                                               िा अंनतम अंि 8 है। 𝒑 िे कितने मान हो सिते
+   a) 1                        b) 8                              हैं?
+   c) None of these            d) Can’t say                      a) 19      b) 20          c) 21             d) 23
+
+238. Unit digit of 𝟐𝟏𝟔𝟗𝟏𝟕𝟗𝟑 × 𝟔𝟏𝟓𝟑𝟏𝟕 × 𝟏𝟑𝟐𝟒𝟗𝟏 is
+                                                              245. The right most nonzero digit of 𝟏𝟐𝟎𝟐𝟓𝟎 is:
+   𝟐𝟏𝟔𝟗𝟏𝟕𝟗𝟑 × 𝟔𝟏𝟓𝟑𝟏𝟕 × 𝟏𝟑𝟐𝟒𝟗𝟏 िी इिाई अंि
+                                                                 𝟏𝟐𝟎𝟐𝟓𝟎     िा दाई ओर से पहला शन्
+                                                                                               ु येतर अंि-
+   ज्ञात िीजिये:                                                 a) 2       b) 4           c) 6              d) 8
+   a) 5       b) 0             c) 8             d) 9
+                                                              246. The right most non zero digit of 𝟐𝟎𝟓𝟎 × 𝟏𝟒𝟎𝟕𝟐
+239. Find the unit digit of 𝟐𝟔𝟒𝟏𝟎𝟐 + 𝟐𝟔𝟒𝟏𝟎𝟑                      is:
+   𝟐𝟔𝟒𝟏𝟎𝟐 + 𝟐𝟔𝟒𝟏𝟎𝟑 िी इिाई अंि ज्ञात िीजिये:                     𝟐𝟎𝟓𝟎 × 𝟏𝟒𝟎𝟓𝟎 िा दाई ओर से पहला शुन्येतर
+   a) 0       b) 2             c) 4             d) 6             अंि -
+                                                                 a) 4       b) 6           c) 2              d) 8
+240. Let     𝒙 = (𝟔𝟑𝟑)𝟐𝟒 − (𝟐𝟕𝟕)𝟑𝟖 + (𝟐𝟔𝟔)𝟓𝟒.
+   What is the units digit of 𝒙?
+                                                              247. Find the right most nonzero digit of 𝟏𝟑𝟎𝟏𝟖𝟎 +
+   यदद 𝒙 =   (𝟔𝟑𝟑)𝟐𝟒   −   (𝟐𝟕𝟕)𝟑𝟖    +   (𝟐𝟔𝟔)𝟓𝟒   है , तो      𝟏𝟖𝟎𝟏𝟑𝟎 .
+   𝒙 िा इिाई अंि क्या है ?                                       𝟏𝟑𝟎𝟏𝟖𝟎 + 𝟏𝟖𝟎𝟏𝟑𝟎      िा   दाई     ओर   से    पहला
+   a) 7       b) 6             c) 4             d) 8             शुन्येतर अंि -
+                                                                 a) 4       b) 1           c) 5              d) 3
+241. If  𝒙 = (𝟏𝟔𝟒)𝟏𝟔𝟗 + (𝟑𝟑𝟑)𝟑𝟑𝟕 − (𝟕𝟐𝟕)𝟕𝟐𝟔,
+   then what is the units digit of 𝒙?
+                                                              248. What is the right most non zero digit of
+   यदद 𝒙 = (𝟏𝟔𝟒)𝟏𝟔𝟗 + (𝟑𝟑𝟑)𝟑𝟑𝟕 − (𝟕𝟐𝟕)𝟕𝟐𝟔 है,                    𝟐𝟑𝟎𝟏𝟕𝟎 − 𝟖𝟎𝟏𝟎𝟎 ?
+   तो X िा इिाई अंि क्या है ?                                    𝟐𝟑𝟎𝟏𝟕𝟎 − 𝟖𝟎𝟏𝟎𝟎 िा दाई ओर से पहला शन्
+                                                                                                   ु येतर
+   a) 5       b) 7             c) 8             d) 9             अंि -
+                                                                 a) 9        b) 3          c) 4              d) 6
+242. What is the unit digit of (𝟐𝟏𝟕)𝟒𝟏𝟑 ×
+   (𝟖𝟏𝟗)𝟓𝟒𝟕 × (𝟒𝟏𝟒)𝟔𝟐𝟒 × (𝟑𝟒𝟐)𝟖𝟏𝟐 ?                           249. What is the unit digit of 𝟗𝟕𝟑𝟐𝟑𝟒! × 𝟐𝟑𝟒𝟗𝟕𝟑! ?
+   (𝟐𝟏𝟕)𝟒𝟏𝟑 × (𝟖𝟏𝟗)𝟓𝟒𝟕 × (𝟒𝟏𝟒)𝟔𝟐𝟒 × (𝟑𝟒𝟐)𝟖𝟏𝟐
+                                                                 𝟗𝟕𝟑𝟐𝟑𝟒! × 𝟐𝟑𝟒𝟗𝟕𝟑! िा इिाई अंि क्या है ?
+   िा इिाई अंि क्या है ?
+                                                                 a) 𝟐       b) 𝟔           c) 𝟕              d) 𝟗
+   a) 2       b) 4             c) 6             d) 8
+                                                              250. What is the unit digit of 𝟏𝟓 + 𝟐𝟓 + 𝟑𝟓 + ⋯ +
+                           𝒏
+243. The last digit of 𝟏𝟕 is 3. Then which of the                𝟐𝟎𝟓 ?
+   following cannot be the value of 𝒏?                           𝟏𝟓 + 𝟐𝟓 + 𝟑𝟓 + ⋯ + 𝟐𝟎𝟓 िा इिाई अंि क्या
+   𝟏𝟕 िा अंनतम अंि 3 है । तो ननम्न में से
+      𝒏
+                                                                 है ?
+   िौनसी संख्या 𝒏 िा मान नह ं हो सिती?
+                                                                 a) 0       b) 5           c) 2              d) 4
+   a) 51      b) 55            c) 63            d) 77
+251. If 𝒏 is a positive integer, then what is the digit   256. A number when divided by 18 leaves a
+   in the unit place of 𝟑𝟐𝒏+𝟏 + 𝟐𝟐𝒏+𝟏 ?                      remainder 7. The same number when divided
+   यदद 𝒏 एि िन पण
+                ू ाणि है, तो 𝟑𝟐𝒏+𝟏 + 𝟐𝟐𝒏+𝟏 िे                by 12 leaves a remainder n. How many values
+                                                             can n take?
+   इिाई स्थान में अंि क्या है ?
+                                                             एि संख्या िो 18 से ववभाजित िरने पर 7
+   a) 𝟎        b) 𝟑               c) 𝟓          d) 𝟕
+                                                             शेषफल बचता है। उस संख्या िो 12 से ववभाजित
+252. A number being divided by 52 gives a                    िरने पर शेषफल n बचता है। N िे कितने मान
+   remainder 45. If the number is divided by 13,
+                                                             हो सिते है ?
+   the remainder will be?
+                                                             a) 2       b) 0       c) 1       d) can’t say
+   एि संख्या िो 52 से भाग दे ने पर 45 शेषफल
+   रह िाते है। यदद उस संख्या िो 13 से भाग                 257. When two numbers are separately divided by
+   ददया िाये तो शेषफल क्या होगा?                             33, the remainders are 21 and 28 respectively,
+                                                             if the sum of two numbers is divided by 33, the
+   a) 0        b) 9               c) 6          d) 7
+                                                             remainder will be
+253. A number when divided by 899 gives a                    दो संख्याओं िो अलग अलग 33 से भाग दे ने
+   remainder 63. If the same number is divided by            पर, शेषफल क्रमशः 21 और 28 है , यदद दोनों
+   29, the remainder will be:
+                                                             संख्याओं िे योग िो 33 से भाग ददया िाये, तो
+   एि संख्या िो 899 से भाग दे ने पर शेषफल 63
+                                                             शेषफल ज्ञात िीजिये:
+   रहते है। यदद उसी संख्या िो 29 से भाग ददया
+                                                             a) 16      b) 7       c) 49      d) can’t say
+   िाये तो शेषफल क्या होगा?
+   a) 10       b) 5               c) 4          d) 2      258. Find the remainder when (𝟏𝟎𝟎𝟕 + 𝟏𝟎𝟎𝟖 +
+                                                             𝟏𝟎𝟎𝟗 + 𝟏𝟎𝟏𝟎) is divided by 6.
+254. A number when divided by 25 leaves 14                   िब (𝟏𝟎𝟎𝟕 + 𝟏𝟎𝟎𝟖 + 𝟏𝟎𝟎𝟗 + 𝟏𝟎𝟏𝟎) िो               6
+   remainder. What is the remainder if this
+                                                             से भाग ददया िाये तो शेषफल क्या होगा?
+   number is divided by 10?
+                                                             a) 0       b) 1          c) 2           d) 3
+   किसी संख्या िो 25 से ववभाजित िरने पर 14
+   शेष बचता है। अगर इस संख्या िो 10 से                    259. If two numbers are divided by the same
+   ववभाजित किया िाए तो शेष क्या बचेगा?                       divider, the remainders are respectively 3 and
+                                                             4. If the sum of the two numbers be divided by
+   a) 4        b) 6        c) 8          d) can’t say
+                                                             the same divisor, the remainder is 2. The
+                                                             divisor is
+255. A number when divided by 12 leaves 5
+   remainder. What is the remainder if square of             यदद दो संख्याओं िो एि ह भािि से भाग
+   this number is divided by 8?                              ददया िाये, तो शेषफल क्रमशः 3 और 4 प्राप्त
+   किसी संख्या िो 12 से ववभाजित िरने पर 5                    होते है। यदद दोनों संख्याओं िे योग िो उसी
+   शेष बचता है। अगर इस संख्या िे वगण िो 8 से                 भािि से भाग ददया िाये तो शेषफल 2 प्राप्त
+   ववभाजित किया िाए तो क्या शेष बचेगा?                       होते है। तो भािि ज्ञात िीजिये:
+   a) 7        b) 1        c) 5            d) can’t say      a) 9       b) 7          c) 5           d) 3
+260. The remainder when 𝟕𝟓 × 𝟕𝟑 × 𝟕𝟖 × 𝟕𝟔 is                by 45. What is the remainder if 𝟑𝒂𝟐 + 𝟓𝒃 + 𝒄𝟑
+   divided by 34 is:                                        is divided by 15?
+   𝟕𝟓 × 𝟕𝟑 × 𝟕𝟖 × 𝟕𝟔 िो 34 से ववभाजित िरने                  a, b, c तीन पूणाांि है जिन्हे अगर 45 से
+   पर प्राप्त शेषफल ज्ञात िरें |                            ववभाजित किया िाए तो क्रमश: 3, 4 व 8 शेष
+   a) 15       b) 18              c) 22        d) 12        बचता है। 𝟑𝒂𝟐 + 𝟓𝒃 + 𝒄𝟑 िो 15 से ववभाजित
+
+261. Find the last two digits of 𝟏𝟐𝟖𝟗𝟗 × 𝟗𝟔 ×               िरने पर शेष रालश ज्ञात िरें ?
+   𝟗𝟗𝟕.                                                     a) 0         b) 4        c) 5            d) 10
+   𝟏𝟐𝟖𝟗𝟗 × 𝟗𝟔 × 𝟗𝟗𝟕 िे अंनतम दो अंि ज्ञात
+                                                         266. If a number is divided by 129 leaves
+   िीजिए।                                                   remainder 27, if 4 times of this number is
+   a) 88       b) 78              c) 18        d) 48        divided by 86 then what will be the remainder?
+                                                            यदद किसी संख्या िो 129 से भाग ददया िाता
+262. Find the last two digits of 𝟗𝟖 × 𝟏𝟕𝟑𝟕𝟑 ×
+   𝟏𝟓𝟑 × 𝟗𝟔 × 𝟏𝟐𝟕.                                          तो शेष 27 बचता है , यदद इस संख्या िे 4 गुणा
+
+   𝟗𝟖 × 𝟏𝟕𝟑𝟕𝟑 × 𝟏𝟓𝟑 × 𝟗𝟔 × 𝟏𝟐𝟕 िे अंनतम दो                  िो 86 से ववभाजित किया िाता है तो शेषफल
+
+   अंि ज्ञात िीजिए।                                         क्या होगा?
+   a) 34       b) 64              c) 24        d) 04        a) 19        b) 22       c) 23           d) 25
+
+263. A number when divided by 6 leaves                   267. When a positive integer is divided by d, the
+   remainder 3. When the square of same number              remainder is 𝟏𝟓. When ten times of the same
+   is divided by 6, the remainder is                        number is divided by d, the remainder is 𝟔. The
+                                                            least possible value of d is:
+   एि संख्या िो 6 से भाग दे ने पर शेषफल 3
+                                                            िब किसी िन पूणाांि िो d से ववभाजित किया
+   रहते है। िब उसी संख्या िे वगण िो 6 से भाग
+                                                            िाता है , तो शेषफल 𝟏𝟓 प्राप्त होता है। िब उसी
+   ददया गया तो शेषफल ज्ञात िीजिये:
+   a) 0        b) 1               c) 2         d) 3         संख्या िे दस गुने िो d से ववभाजित किया िाता
+                                                            है , तो शेषफल 𝟔 प्राप्त होता है। d िा न्यन
+                                                                                                     ू तम
+264. When positive numbers 𝒙, 𝒚 and 𝒛 are                   संभव मान ज्ञात िीजिए|
+   divided by 𝟑𝟏, the remainders are 𝟏𝟕, 𝟐𝟒 and
+                                                            a) 𝟗         b) 𝟏𝟐    c) 𝟏𝟔      d) 𝟏𝟖
+   𝟐𝟕, respectively. When (𝟒𝒙 – 𝟐𝒚 + 𝟑𝒛) is
+   divided by 31, the remainder will be:
+                                                         268. When a number 𝑵 is divided by divisor D, it
+   िब िनात्मि संख्या 𝒙, 𝒚 और 𝒛 िो 𝟑𝟏 से                     leaves a remainder 10 and 𝑵𝟐 divided by D
+   ववभाजित किया िाता है , तो क्रमश: 𝟏𝟕, 𝟐𝟒 और               leaves remainder 4. How many values of D are
+                                                            possible?
+   𝟐𝟕      शेषफल        प्राप्त      होता   है |   िब
+                                                            िब किसी संख्या 𝑵 िो भािि D से ववभाजित
+   (𝟒𝒙 – 𝟐𝒚 + 𝟑𝒛) िो 𝟑𝟏 से ववभाजित किया
+                                                            किया है , तो शेष 10 बचता है और 𝑵𝟐 िो D से
+   िाता है , तो प्राप्त शेषफल ज्ञात िीजिए|
+   a) 𝟏𝟗          b) 𝟏𝟔            c) 𝟗     d) 𝟖            ववभाजित किया िाता है तो शेष 4 बचता है | D
+                                                            िे कितने मान संभव हैं?
+265. Let ‘a’, ‘b’, ‘c’ be three integers which give 3,      a) 5         b) 4        c) 6            d) 7
+   4 and 8 remainders respectively when divided
+269. If a number ‘N’ divided by a divisor D, of 2-                      𝟑𝟓𝟎 +𝟒𝟓𝟎                                    𝟕𝟔𝟓𝟔
+                                                                 m)                                            n) 𝟒𝟎𝟎
+                                                                           𝟐𝟎
+   digits, gives a remainder 𝟔𝟖. If 5N is divided by                                                                       𝟑𝟐
+                                                                        𝟗𝟓𝟕𝟓                                        𝟑𝟐𝟑𝟐
+   D, it gives remainder 8, then, find value of D?               o) 𝟏𝟖                                         p)      𝟕
+   यदद संख्या ‘N’ िो 2-अंिों िो भािि ‘D’ से                                           ..
+                                                                                         .   𝟏
+                                                                               𝟐𝟒𝟐𝟑                                        𝟒𝟓
+                                                                        𝟐𝟓𝟐𝟓                                        𝟏𝟓𝟑𝟎
+   ववभाजित किया िाता तो शेष 𝟔𝟖 बचता है | यदद                     q)            𝟗
+                                                                                                               r)     𝟖
+
+   5N िो ‘D’ से ववभाजित किया िाता है , तो शेष
+                                                              273. What is the remainder when 𝟒𝟗𝟎 is divided by
+   8 बचता है | D िा मान ज्ञात िरो?                               6?
+   a) 𝟖𝟑            b) 𝟔𝟖                   c) 𝟕𝟔   d) 𝟖𝟓
+                                                                 𝟒𝟗𝟎 िो 6 से ववभाजित िरने पर शेष क्या बचता
+
+270. Let 𝒙 be an odd natural number. If 𝒙 is divided             है ?
+   by 6, it leaves a remainder 𝒚. If 𝒚𝟐 is divided by            a) 2                        b) 3              c) 4                       d) 0
+   4, it leaves remainder of 𝒛. Which of the
+   following must be true for 𝒛?                                                                                              𝟏𝟎𝟎…𝟏
+                                                              274. What is the last digit of 𝟏𝟏𝟑𝟏𝟎𝟔                                   ?
+   माना कि x एि ववषम प्रािृनति संख्या है । यदद                                    …𝟏
+                                                                 𝟏𝟏𝟑      𝟏𝟎𝟔 𝟏𝟎𝟎
+                                                                                                 िा अंनतम अंि-
+   x िो 6 से भाग ददया गया तो शेषफल y प्राप्त                     a) 1                        b) 3              c) 7                       d) 9
+   हुआ। यदद 𝒚         𝟐
+                          िो 4 से भाग ददया          िाये तो
+   शेषफल z प्राप्त होता है। ननम्नललखित में से िौन             275. Find the remainder: शेष ज्ञात िरें :
+                                                                        𝟕𝟐𝟏𝟎𝟗                                       𝟓𝟒𝟐𝟓𝟑
+   सा वविलप z िे ललए सह है ?                                     a)    𝟑𝟕
+                                                                                                               b)    𝟒𝟑
+                                                                      𝟏𝟒𝟐𝟐𝟐                                         𝟒𝟒𝟕𝟒
+   a) 𝒛 = 𝟑                 b) 𝒛 = 𝟓                             c)                                            d) 𝟕𝟔
+                                                                         𝟐𝟑
+   c) 𝒛 = 𝟏                 d) 𝒛 is even                                𝟏𝟑𝟏𝟔𝟗                                       𝟑𝟕𝟏𝟒𝟐
+                                                                 e)                                            f)
+                                                                         𝟒𝟗                                          𝟐𝟓
+                                                                                                                                𝟏𝟎𝟎
+271. Find the remainder: शेष ज्ञात िरें :                        g)
+                                                                      𝟐𝟑𝟕𝟐𝟐 +𝟐𝟒𝟕𝟐𝟐
+                                                                                                               h)
+                                                                                                                    𝟗𝟏𝟑𝟏𝟎𝟏
+                                                                               𝟐𝟓                                      𝟏𝟎𝟏
+        𝟓𝟗𝟔𝟑𝟕                    𝟗𝟔𝟏𝟑𝟐
+   a)                       b)
+         𝟓𝟖                       𝟗𝟕
+                                                                                                            𝟓𝟓𝟓𝟓𝟐𝟐𝟐𝟐 + 𝟐𝟐𝟐𝟐𝟓𝟓𝟓𝟓
+        𝟏𝟖𝟏𝟕𝟓𝟑                   𝟐𝟓𝟕𝟏𝟎𝟎𝟖                      276. Find the remainder :                                                   =?
+   c)                       d)                                                                                       𝟕
+         𝟏𝟖𝟐                        𝟔𝟒
+                                                                                                             𝟓𝟓𝟓𝟓𝟐𝟐𝟐𝟐 + 𝟐𝟐𝟐𝟐𝟓𝟓𝟓𝟓
+   e)
+        𝟒𝟕𝟏𝟑𝟒𝟒
+                            f)
+                                 𝟒𝟗𝟒𝟏𝟑𝟗 +𝟑𝟗𝟔𝟏𝟑𝟕                  शेषफल ज्ञात िीजिए :                                                       =?
+                                                                                                                          𝟕
+          𝟏𝟏𝟖                               𝟗𝟗
+                                           𝟑𝟏                    a) 0                        b) 1              c) 2                       d) 6
+        𝟕𝟖𝟒                      𝟑𝟏𝟑𝟏
+   g) 𝟑𝟒𝟐                   h)     𝟑𝟐
+
+   i)
+        𝟏𝟓𝟑𝟏𝟓𝟑 +𝟏𝟓𝟑
+                            j)
+                                 𝟖𝟖𝟖𝟗 +𝟐𝟔                     277. Find the last 2-digits of : 𝟒𝟑𝟑𝟔𝟐
+                                                                 𝟒𝟑𝟑𝟔𝟐 िे अंनतम दो अंि ज्ञात िरें |
+              𝟏𝟓𝟒                   𝟖𝟗
+
+
+272. Find the remainder: शेष ज्ञात िरें :                        a) 19                       b) 49             c) 39                      d) 59
+        𝟗𝟏𝟕𝟖                     𝟒𝟐𝟎𝟎𝟕
+   a) 𝟏𝟑                    b)                                278. Find the last 𝟑-digits of : 𝟖𝟕𝟐𝟎𝟎𝟐
+                                  𝟏𝟕
+
+   c)
+        𝟐𝟗𝟏𝟐𝟎
+                            d)
+                                 𝟕𝟕𝟏𝟎𝟎
+                                                                 𝟖𝟕𝟐𝟎𝟎𝟐 िे अंनतम 𝟑 अंि ज्ञात िरें |
+         𝟏𝟑                        𝟏𝟎
+        𝟏𝟎𝟕𝟎                     𝟐𝟔𝟖                             a) 139                          b) 269             c) 569            d) 369
+   e)                       f) 𝟑𝟑
+         𝟕
+        𝟏𝟔𝟓𝟏𝟐                    𝟑𝟐𝟑𝟐
+   g)     𝟑𝟏
+                            h)     𝟕
+                                                              279. Find the last 3 digit of 𝟔𝟑𝟐𝟓 × 𝟐𝟓𝟔𝟑 .
+        𝟓𝟒𝟗
+   i) 𝟏𝟐𝟔
+                                 𝟑𝟖𝟓𝟑
+                            j) 𝟐𝟒𝟒                               𝟔𝟑𝟐𝟓 × 𝟐𝟓𝟔𝟑 िे अंनतम 𝟑 अंि ज्ञात िीजिए।
+        𝟓𝟎𝟖𝟎                     𝟐𝟓𝟎 ×𝟑𝟗𝟎                        a) 375                      b) 625       c) 125 d) None of these
+   k) 𝟐𝟒                    l)         𝟕
+                                                                                      𝟏        𝟐        𝟑                     𝟑𝟎
+280. Find the remainder:                                                       𝟏𝟎𝟏𝟎 + 𝟏𝟎𝟏𝟎 + 𝟏𝟎𝟏𝟎 +. … … … … . +𝟏𝟎𝟏𝟎
+   शेष ज्ञात िरें :                                                            िो 7 से ववभाजित िरने पर शेषफल क्या
+        𝟓𝟑𝟏𝟏𝟎           𝟏𝟖𝟗𝟏𝟓𝟖              𝟏𝟎𝟎𝟏𝟎𝟎
+   a)              b)                  c)                                      आएगा?
+          𝟗𝟎                𝟗𝟏                 𝟕𝟕
+                                                                               a) 0         b) 1            c) 3           d) 4
+281. The sum of the digits of a number N is 23. The
+   remainder when N is divided by 11 is 7. What is                          287. When a number is successively divided by 3, 4
+   the remainder when N is divided by 33?                                      and 7, the remainder obtained is 2, 3 and 5,
+   किसी संख्या N िे अंिो िा योग 23 है। N िो                                    respectively. What will be the remainder when
+                                                                               42 divides the same number?
+   11 से ववभाजित िरने पर शेषफल 7 बचता है।
+                                                                               िब किसी संख्या िो क्रमशः 3, 4 और 7 से
+   िब N िो 33 से ववभाजित किया िाता है तो
+                                                                               ववभाजित किया िाता है , तो शेषफल क्रमशः 2, 3
+   शेषफल क्या बचता है ?
+                                                                               और 5 प्राप्त होते है। िब उसी संख्या िो 42 से
+   a) 7            b) 29               c) 16                   d) 13
+                                                                               ववभाजित किया िाए तो प्राप्त शेषफल ज्ञात िरें |
+282. What is the remainder when 𝟕 + 𝟕𝟕 + 𝟕𝟕𝟕 +                                 a) 41        b) 30           c) 29          d) 31
+   𝟕𝟕𝟕𝟕+. . . . . . + (till 100 terms) is divided by 𝟖?
+   𝟕 + 𝟕𝟕 + 𝟕𝟕𝟕 + 𝟕𝟕𝟕𝟕+. . . . . . +                  (100         पदो      288. A number when successively divided by 4 and
+                                                                               5 leaves a remainder 1 and 4 respectively.
+   ति) िो 𝟖 से ववभाजित िरने पर क्या शेषफल
+                                                                               When it is successively divided by 5 and 4 the
+   होगा?                                                                       respective remainders would be
+   a) 𝟔            b) 𝟎                c) 𝟏                    d) 𝟕            एि संख्या िो लगातार 4 और 5 से भाग दे ने
+                                                                               पर शेषफल क्रमशः 1 और 4 रह िाते है। िब
+283. What is the remainder if 𝟏𝟏𝟓 + 𝟐𝟏𝟓 +
+   𝟑𝟏𝟓 + … + 𝟔𝟎𝟏𝟓 is divided by 4?                                             इसे लगातार 5 और 4 से            भाग ददया िाता है
+   𝟏𝟏𝟓 + 𝟐𝟏𝟓 + 𝟑𝟏𝟓 + … + 𝟔𝟎𝟏𝟓 िो                           4           से      तो शेषफल क्या होगा?
+   ववभाजित िरने पर शेष क्या बचता है ?                                          a) 2 and 3           b) 3 and 2
+                                                                               c) 4 and 1           d) can’t say
+   a) 0            b) 1                c) 2                d) 3
+
+       𝟏𝟎𝟏 +𝟏𝟎𝟐 +𝟏𝟎𝟑 +𝟏𝟎𝟒 +∙∙∙∙∙∙∙∙∙∙∙+𝟏𝟎𝟏𝟎𝟎
+                                                                            289. When a number ‘X’ is successively divided by
+284.                                           , find Remainder.               𝟗, 𝟖 and 𝟕 it gives remainder 𝟒, 𝟓 and
+                            𝟔
+   𝟏𝟎𝟏 +𝟏𝟎𝟐 +𝟏𝟎𝟑 +𝟏𝟎𝟒 +∙∙∙∙∙∙∙∙∙∙∙+𝟏𝟎𝟏𝟎𝟎
+                                            िा शेष ज्ञात िरें |                𝟑 respectively. Find that value of 𝑿 such that it
+                        𝟔
+                                                                               lies between 𝟓𝟐𝟎𝟎 and 𝟓𝟒𝟎𝟎?
+   a) 4            b) 1                c) 2                    d) 0
+                                                                               िब िोई संख्या ‘X’ क्रलमि रूप से 𝟗, 𝟖 और 𝟕
+285. Find the remainder if 𝟏𝟕 + 𝟏𝟕𝟐 +                                          से ववभाजित होती है , तो यह क्रमश: 𝟒, 𝟓 और
+   𝟏𝟕𝟑 + … … . + 𝟏𝟕𝟏𝟕 is divided by 34?                                        𝟑 शेष दे ती है | 𝑿 िा यह मान ज्ञात िीजिए िो
+   𝟏𝟕 + 𝟏𝟕𝟐 + 𝟏𝟕𝟑 + … … . + 𝟏𝟕𝟏𝟕 िो 34 से
+                                                                               𝟓𝟐𝟎𝟎 और 𝟓𝟒𝟎𝟎 िे बीच हो?
+   ववभाजित िरने पर शेष रालश ज्ञात िरें ?                                       a) 𝟓𝟑𝟎𝟓      b) 𝟓𝟑𝟏𝟒     c) 𝟓𝟐𝟖𝟔 d) none
+   a) 0            b) 1                c) 17                   d) 33
+                                                                            290. In a division sum, the divisor ‘d’ is 10 times the
+                                                    𝟏𝟎𝟏          𝟏𝟎𝟐
+286. the        remainder        when          𝟏𝟎         + 𝟏𝟎         +       quotient ‘q’ and 5 times the remainder ‘r’. If r =
+         𝟏𝟎𝟑                      𝟏𝟎𝟑𝟎                                         46, the dividend will be
+   𝟏𝟎          +. … … … . . +𝟏𝟎          is divided by 7.
+   भाग िे किसी प्रशन में भािि (d) भागफल (q)                   दो िनात्मि संख्याओं में 2001 िा अंतर है |
+   से 10 गुणा और शेष (r) से 5 गुणा है l यदद r =               बड़ी संख्या िो छोट संख्या से ववभाजित िरने
+   46 है तो भाज्य क्या होगा ?                                 पर भागफल 9 और शेष 41 बचता है | बड़ी संख्या
+   a) 5042       b) 5328      c) 5336         d) 4276         िे अंिो िा योग क्या होगा?
+                                                              a) 15      b) 11         c) 10            d) 14
+291. The divisor is 𝟐𝟒 times the quotient and 𝟖
+   times the remainder. If the quotient is 𝟏𝟖, then
+   the dividend is:                                        295. On dividing 𝟖𝟔𝟕𝟓𝟏𝟐𝟑 by a certain number,
+                                                              the quotient is 𝟑𝟑𝟔𝟏𝟏 and the remainder
+   भािि भागफल िा 𝟐𝟒 गन
+                     ु ा और शेषफल िा 𝟖
+                                                              is 𝟑𝟒𝟖𝟓. The divisor is _________.
+   गुना है। यदद भागफल 𝟏𝟖 है, तो भाज्य है:
+                                                              𝟖𝟔𝟕𝟓𝟏𝟐𝟑 िो एि ननजचचत संख्या से भाग दे ने
+   a) 𝟕𝟖𝟑𝟎           b) 𝟕𝟔𝟑𝟎 c) 𝟕𝟖𝟒𝟎 d) 𝟕𝟒𝟓𝟎
+                                                              पर भागफल 𝟑𝟑𝟔𝟏𝟏और शेषफल 𝟑𝟑𝟔𝟏𝟏आता है।
+292. In division sum, the divisor is 4 times the              भािि ज्ञात िीजिए।
+   quotient and twice the remainder. If a and b               a) 𝟐𝟒𝟖     b) 𝟓𝟑𝟖        c) 𝟑𝟓𝟔           d) 𝟐𝟓𝟖
+   are respectively the divisor and the divided,
+   then                                                    296. A General of Army wants to form a square
+   किसी ववभािन िे प्रचन में भािि, भागफल िा                    from 36562 soldiers. After arrangement, he
+                                                              found some soldiers were left. How many
+   चार गन
+        ु ा और शेषफल िा दोगन
+                           ु ा है | अगर a और
+                                                              soldiers were left?
+   b क्रमशः भािि और भाज्य हैं तो                              एि सेना िा िनरल 36562 लसपादहयों िो एि
+        𝟒𝒂−𝒂𝟐                       𝟒𝒃−𝟐𝒂
+   a)     𝒂
+                =𝟑             b)     𝒂𝟐                      वगण में व्यवजस्थत िरना चाहता है | िरने िे बाद
+                                    𝒂 (𝒂+𝟐)
+                                                              िुछ लसपाह बच िाते हैं| कितने लसपाह बचे?
+                𝟐
+   c) (𝒂 + 𝟏) = 𝟒𝒃             d)             =𝟒
+                                      𝒃
+                                                              a) 81    b) 36         c) 97       d) 65
+293. Two positive numbers differ by𝟑𝟗𝟓𝟏. When
+   the larger number is divided by the smaller             297. To get a perfect square, what should the
+   number, the quotient is 𝟏𝟐 and the remainder               minimum number be added to 𝟖𝟐𝟏𝟐.
+   is 𝟏𝟑. The sum of the digits of the larger
+                                                              एि पण
+                                                                  ू ण वगण प्राप्त िरने िे ललए 𝟖𝟐𝟏𝟐 में
+   number is:
+                                                              न्यूनतम कितनी संख्या िोड़ी िाए।
+   दो िनात्मि संख्याओं में 𝟑𝟗𝟓𝟏 िा अंतर है |
+                                                              a) 𝟏𝟐𝟑       b) 𝟔𝟗     c) 𝟏𝟏𝟐     d) 𝟓𝟒
+   िब बड़ी संख्या िो छोट संख्या से ववभाजित
+   किया िाता है , तो भागफल 𝟏𝟐 आता है और शेष                298. Let 𝒙 be the least number which subtracted
+                                                              from 𝟏𝟎𝟒𝟐𝟒 given a perfect square number.
+   𝟏𝟑 बचता है | बड़ी संख्या िे अंिों िो योग क्या
+                                                              What is the least number by which 𝒙 should be
+   होगा?                                                      multiplied to get a perfect square?
+   a) 𝟏𝟐         b) 𝟏𝟔         c) 𝟏𝟖               d) 𝟏𝟒      मान 𝒙 वह छोट से छोट संख्या है , जिसे 𝟏𝟎𝟒𝟐𝟒
+
+294. Two positive numbers differ by 2001. When                में से घटाने पर एि पण
+                                                                                  ू ण वगण संख्या प्राप्त होती
+   the larger number is divided by the smaller                है वह छोट से छोट संख्या ज्ञात िरें , जिसे 𝒙 से
+   number, the quotient is 9 and the remainder is
+                                                              गण
+                                                               ु ा िरने पर एि पण
+                                                                               ू ण वगण संख्या प्राप्त हो|
+   41. The sum of the digits of the larger number
+                                                              a) 𝟑          b) 𝟔        c) 𝟓    d) 𝟐
+   is:
+299. How many natural numbers are there                    303. The square root of which of the following is a
+   between √𝟐𝟔𝟏 and √𝟒𝟓𝟏𝟎𝟗?                                   rational number?
+   √𝟐𝟔𝟏 तथा √𝟒𝟓𝟏𝟎𝟗 िे मध्य कितनी प्रािनतणि                    ननम्नललखित में से किसिा वगणमूल एि पररमेय
+   संख्याए है ?                                               संख्या है ?
+   a) 144           b) 196      c) 168       d) 195           a) 𝟓𝟖𝟐𝟑. 𝟖𝟐                   b) 𝟐𝟐𝟓𝟎𝟒. 𝟗
+                                                              c) 𝟐𝟒𝟔𝟎. 𝟏𝟒                   d) 𝟏𝟒𝟖𝟗. 𝟗𝟔
+300. A toy factory manufactured a batch of
+                                                           304. The square root of which of the following is a
+   electronic toys. If the toys were packed in
+                                                              rational number?
+   boxes of 115 each, 13 boxes would not be filled
+   completely. If the Toys were packed in boxes of            ननम्नललखित में से किसिा वगणमूल एि पररमेय
+   65 each, 22 such boxes would not be enough to              संख्या है ?
+   pack all of them. Coincidentally, in the end, the          a) 𝟏𝟐𝟓𝟎. 𝟒𝟗                   b) 𝟔𝟐𝟓𝟎. 𝟒𝟗
+   toys were packed in n boxes containing n toys              c) 𝟏𝟑𝟓𝟒. 𝟐𝟒                   d) 𝟓𝟕𝟔𝟖. 𝟐𝟖
+   each, without any remainder. The total
+   number of toys was                                      305. How many perfect squares less than 10,000
+   खिलौना िारिाने ने िुछ खिलोने बनाये| यदद                    end with 4?
+   प्रत्येि बॉक्स में 115 खिलोने रिे िाते हैं तो              10000 से िम कितने पूणण वगों िे अन्त में 4
+   13 बॉक्स पूर तरह नह ं भर पाते| यदद प्रत्येि                आता है ?
+   बॉक्स में 65 खिलोने रिे िाते हैं तो इस तरह                 a) 9           b) 18          c) 10         d) 20
+
+   िे 22 बॉक्स खिलोने भरने िे ललए िम पड़                              𝟑
+                                                           306. If √𝑵 lies between 𝟔 and 𝟕, where 𝑵 is an
+   िायेंगे| अंत में िब प्रत्येि बॉक्स में n खिलोने            integer then how many values 𝑵 can take?
+   भरे गए तो n बॉक्स पूर तरह भर गए| खिलोनो                    यदद √𝑵 िो कि 𝟔 तथा 𝟕 िे मध्य जस्थत है , और
+                                                                         𝟑
+
+
+
+   िी संख्या बताओ|                                            िहाँ N एि पूणाणि है , तो N िे कितने मान हो
+   a) 1444         b) 1454      c) 1424          d) 1434      सिते है ?
+                                                              a) 𝟏𝟐𝟔           b) 𝟏𝟐𝟕       c) 𝟏𝟐𝟖    d) 𝟏𝟐𝟓
+301. The product of two consecutive prime
+   numbers is 𝟕𝟑𝟖𝟕. What is the difference of the          307. Sum of two numbers is 40 and their product is
+   two numbers?                                               375. What will be the sum of their reciprocals?
+   दो क्रमागत अभाज्य संख्याओं िा गुणनफल                       दो संख्याओं िा योग 40 है और उनिा गण
+                                                                                                ु नफल
+   𝟕𝟑𝟖𝟕 है | इन दोनों संख्याओं में कितना अंतर है ?            375 है। इनिे पारस्पररिों िा योग क्या होगा?
+   a) 𝟑           b) 𝟔       c) 𝟐         d) 𝟒                   𝟖              𝟏             𝟕𝟓             𝟕𝟓
+                                                              a) 𝟕𝟓          b) 𝟒𝟎          c) 𝟖          d) 𝟒
+
+302. The square root of which of the following is a
+   rational number?                                        308. Two positive integers differ by 8 and their
+                                                                                        𝟐
+                                                              reciprocals differ by 𝟒𝟓, then which of the
+   ननम्नललखित में से किसिा वगणमूल एि पररमेय
+                                                              following can possibly be one of these
+   संख्या है ?
+                                                              integers?
+   a) 𝟓𝟓𝟑𝟓. 𝟑𝟔                  b) 𝟑𝟏𝟓𝟐. 𝟖𝟖
+   c) 𝟕𝟐𝟗𝟎𝟓. 𝟐                  d) 𝟔𝟕𝟓𝟎𝟖. 𝟓
+   दो िनात्मि पण
+               ू ाांिो िा अंतर 8           है व उनिे        𝟔𝟓𝟒𝟑𝟐𝟏 × 𝟏𝟐𝟑𝟒𝟓𝟔 िे अंनतम तीन अंि क्या
+   पारस्पररिों िा अंतर 2/45 है तो ननम्न में से              हैं?
+   िौनसी संख्या उन दो संख्यायाओं में से एि है ?             a) 𝟑𝟕𝟔     b) 𝟑𝟒𝟒      c) 𝟑𝟐𝟒      d) 𝟑𝟓𝟐
+   a) 12       b) 14            c) 16            d) 18
+                                                         314. A student was asked to divide a number by 6
+                                                            and add 12 to the quotient. He, however, first
+309. The average of the largest and smallest 3 digit
+   numbers formed by 0, 2 and 4 would be                    added 12 to the number and then divided it by
+                                                            6, getting 112 as the answer the correct answer
+   अंिों 0,2 और 4 से बनने वाल 3 अंिों िे सबसे
+                                                            should have been
+   बडी और सबसे छोट संख्याओं िा औसत क्या                     एि छात्र िो एि संख्या िो 6 से भाग दे ने और
+   होगा?                                                    भागफल में 12 िोड़ने िो िहा गया। उसने पहले
+   a) 312      b) 213         c) 222    d) 303
+                                                            संख्या में 12 िोड़ ददए और कफर 6 से भाग ददया
+
+310. How many digits in all are required to write           तो उसे उिर में 112 प्राप्त हुए। सह उिर क्या
+   numbers from 1 to 50?                                    होना चादहए?
+   1 से 50 ति ललिने िे ललए िुल कितने अंिों                  a) 124        b) 122      c) 102      d) 114
+   िी आवशयिता है ?
+   a) 100      b) 92            c) 91            d) 50   315. If              𝑵 = 𝟏 + 𝟏𝟏 + 𝟏𝟏𝟏 + 𝟏𝟏𝟏𝟏 +
+                                                            ⋯ . . +𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏, then what is the sum of
+                                                            the digit’s of 𝑵?
+311. If the sum of ten different positive integers is
+   100, then what is the greatest possible number           यदद                𝑵 = 𝟏 + 𝟏𝟏 + 𝟏𝟏𝟏 + 𝟏𝟏𝟏𝟏 +
+   among these 10 numbers?                                  ⋯ . . +𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏 हो तो 𝑵 िे अंिो िा योग क्या
+   यदद 10 ववलभन्न िनात्मि पुनि
+                             ण ो िा योग 100                 है ?
+   है तो इन 10 संख्याओ में सबसे बड़ी संभाववत                 a) 45      b) 18          c) 36             d) 5
+   संख्या क्या है ?
+                                                         316. If the sum of the digits of a number 𝟏𝟎𝒏 − 𝟏,
+   a) 45       b)91             c)55             d)64
+                                                            where 𝒏 is a natural number, is equal to 𝟑𝟕𝟗𝟖,
+312. Consider the multiplication 𝟗𝟗𝟗 × 𝒂𝒃𝒄 =                then what is the value of 𝒏?
+   𝒅𝒆𝒇𝟏𝟑𝟐 in decimal notation, where                        यदद संख्या 𝟏𝟎𝒏 − 𝟏 िे अंिों िा योगफल, िहाँ
+   𝒂, 𝒃, 𝒄, 𝒅, 𝒆 and 𝒇 are digits. What are the             𝒏 एि िनपण
+                                                                    ू ाांि है, 𝟑𝟕𝟗𝟖 िे बराबर है , तो 𝒏
+   values of 𝒂, 𝒃, 𝒄, 𝒅, 𝒆 and 𝒇, respectively?
+                                                            िा मान क्या है ?
+   दशमलव संिेत पध्दनत में गुणनफल 𝟗𝟗𝟗 ×
+                                                            a) 𝟒𝟐𝟏     b) 𝟒𝟐𝟐       c) 𝟒𝟐𝟑      d) 𝟒𝟐𝟒
+   𝒂𝒃𝒄 = 𝒅𝒆𝒇𝟏𝟑𝟐          पर     ववचार   िीजिए, िहाँ
+   𝒂, 𝒃, 𝒄, 𝒅, 𝒆 और 𝒇 अंि हैं| 𝒂, 𝒃, 𝒄, 𝒅, 𝒆 और          317. A woman sells to the first customer half her
+                                                            stock of apples and half an apple, to the second
+   𝒇 िे मान क्रमश: क्या हैं?
+                                                            customer half an apple and half of her
+   a) 𝟔, 𝟔, 𝟖, 𝟔, 𝟖, 𝟕          b) 𝟖, 𝟔, 𝟖, 𝟔, 𝟕, 𝟖         remaining stock and so also to a third and to a
+   c) 𝟔, 𝟖, 𝟖, 𝟕, 𝟖, 𝟔          d) 𝟖, 𝟔, 𝟖, 𝟖, 𝟔, 𝟕         fourth customer. She finds that she has now 15
+                                                            apples left. How many had she at first?
+313. What are the last three digit of the
+   multiplication 𝟔𝟓𝟒𝟑𝟐𝟏 × 𝟏𝟐𝟑𝟒𝟓𝟔?
+   एि औरत अपने पहले ग्राहि िो आिे सेब और                    a) 50, 20 b) 70, 50     c) 20, 50 d) 50, 70
+
+   एि आिा सेब बेचती है | दस
+                          ु रे ग्राहि िो एि              320. The sum of three positive numbers is 18 and
+   आिा सेब और बािी बचे सेबों में से आिे सेब                 their product is 162. If the sum of two numbers
+   बेचती है | और इसी तरह से तीसरे और चौथे                   is equal to the third then the sum of squares of
+                                                            the numbers is
+   ग्राहि िो भी सेब बेचती है | अब उसिे पास 15
+                                                            तीन िनात्मि संख्याओं िा योग 18 है और
+   सेब बचते हैं तो बताओ कि पहले उसिे पास
+                                                            उनिा गुणनफल 162 है l यदद दो संख्याओ िा
+   कितने सेब थे?
+                                                            योग तीसर संख्या िे बराबर हो तो संख्याओं िे
+   a) 125      b) 255      c) 250        d) 155
+                                                            वगों िा िोड़ क्या होगा ?
+318. Each member of a club contributes as much              a) 120     b) 126        c) 132           d) 138
+   rupees and as much paise as the number of
+   members of the club. If the total contribution        321. The sum of squares of three positive integers
+   is Rs. 2525, then the number of members of the           is 323. If the sum of squares of two numbers is
+   club is                                                  twice the third, their product is
+   किसी क्लब िे सभी सदस्य, क्लब िे सदस्यों िी               किसी तीन िन पण
+                                                                         ु ोिो िे वगण िा िोड़ 323 है
+   संख्या िे समान ह रूपये और पैसे िा योगदान                 l यदद दो संख्याओं िे वगो िा िोड़ तीसर संख्या
+   दे ते है l यदद िुल योगदान 2525 रुपये है तो               से दग
+                                                                ु ना हो, तो उनिा गण
+                                                                                  ु नफल बताइए ?
+   क्लब िे सदस्यों िी संख्या क्या होगी ?                    a) 255       b) 260           c) 265          d) 270
+   a) 60       b) 45          c) 55           d) 50
+                                                            Answer Key
+                                                             1. C    2. C         3. B        4. C       5. C
+319. Natu and Buchku each have certain number
+   of oranges. Natu says to Buchku, “If you give             6. B      7. D       8. B        9. C       10. D
+   me 10 of your orange, I will have twice the               11. D     12. C      13. D       14. D      15. D
+   number of oranges left with you”. Buchku
+                                                             16. D     17. C      18. C       19. D      20. B
+   replies, “If you give me 10 of your oranges, I will
+   have the same number of oranges as left with              21. D     22. C      23. D       24. D      25. B
+   you”. What is the number of oranges with Natu             26. A     27. B      28. B       29. B      30. D
+   and Buchku, respectively?
+                                                             31. D     32. B      33. B       34. C      35. D
+   नाथू और बुचिू प्रत्येि िे पास िुछ संतरे है l
+                                                             36. C     37. D      38. B       39. A      40. C
+   नाथू बुचिू से िहता है , “यदद तुम अपने संतरों
+                                                             41. B     42. D      43. C       44. C      45. C
+   में से मुझे 10 संतरे दे दो तो तुम्हारे पास जितने
+                                                             46. B     47. *      48. C       49. D      50. A
+   संतरे शेष बच रहें है, उससे दोगन
+                                 ु ा संतरे मेरे पास
+                                                             51. D     52. B      53. A       54. D      55. B
+   हो िाएंगे l बुचिू उिर दे ता है , “यदद तुम अपने
+                                                             56. B     57. C      58. B       59. A      60. D
+   संतरों में से मझ
+                  ु े 10 संतरे दे दो तो मेरे पास
+                                                             61. C     62. C      63. D       64. C      65. D
+   संतरों िी वह संख्या हो िाएगी िो तुम्हारे पास
+                                                             66. b     67. D      68. B       69. A      70. B
+   शेष रह िाएगी l नाथू और बुचिू िे पास क्रमशः
+                                                             71. B     72. A      73. D       74. C      75. B
+   कितने संतरों िी संख्या होगी ?                             76. C     77. D      78. A       79. C      80. A
+81. D    82. B    83. B    84. C    85. A            246. A   247. A   248. C     249. B      250. A
+86. D    87. C    88. B    89. C    90. B            251. C   252. C   253. B     254. D      255. B
+91. B    92. C    93. B    94. A    95. C            256. A   257. A   258. C     259. C      260. C
+96. B    97. B    98. B    99. A    100. D           261. A   262. D   263. D     264. D      265. B
+101. B   102. C   103. B   104. A   105. D           266. B   267. C   268. C     269. A      270. C
+106. D   107. A   108. B   109. D   110. C           271. *   272. *   273. C     274. A      275. *
+111. A   112. C   113. B   114. D   115. A           276. A   277. B   278. C     279. A      280. B
+116. C   117. C   118. A   119. B   120. D           281. B   282. A   283. A     284. A      285. C
+121. C   122. B   123. A   124. C   125. A           286. B   287. C   288. A     289. A      290. C
+126. C   127. B   128. C   129. D   130. C           291. A   292. D   293. B     294. D      295. D
+131. D   132. A   133. C   134. B   135. A           296. A   297. B   298. C     299. B      300. A
+136. B   137. B   138. B   139. B   140. A           301. B   302. A   303. D     304. C      305. D
+141. B   142. C   143. B   144. C   145. A           306. A   307. A   308. D     309. A      310. C
+146. B   147. D   148. D   149. D   150. A           311. C   312. D   313. A     314. B      315. A
+151. D   152. C   153. D   154. D   155. B           316. B   317. C   318. D     319. B      320. B
+156. D   157. B   158. B   159. B   160. C           321. A
+161. A   162. C   163. A   164. B   165. D
+166. B   167. C   168. A   169. A   170. C       Question no – 47
+171. A   172. C   173. C   174. A   175. C       𝟒𝟕
+                                              a. 𝟗𝟗
+                                                                 𝟓𝟑
+                                                              b. 𝟗𝟗
+                                                                           𝟓𝟏𝟐
+                                                                         c. 𝟗𝟗𝟗
+                                                                                           𝟒𝟏𝟗
+                                                                                       d. 𝟗𝟗𝟎
+176. B   177. C   178. B   179. D   180. C       𝟑𝟏𝟒𝟑           𝟐𝟔𝟖𝟓        𝟒𝟎𝟗            𝟔𝟔
+                                              e. 𝟗𝟗𝟎𝟎         f. 𝟗𝟗𝟎     g. 𝟗𝟗         h. 𝟗𝟎
+181. D   182. A   183. A   184. A   185. A
+186. A   187. D   188. B   189. A   190. A
+                                             Question no – 271
+191. C   192. C   193. B   194. D   195. A
+196. C   197. D   198. D   199. B   200. D    a. 1            b. 1       c. 181        d. 1
+
+201. A   202. D   203. A   204. A   205. C    e. 1            f. 98      g. 1          h. 31
+
+206. D   207. B   208. D   209. D   210. D    i. 152          j. 25
+
+211. B   212. C   213. B   214. A   215. C
+216. D   217. D   218. A   219. D   220. D   Question no – 272
+
+221. B   222. C   223. D   224. B   225. B    a. 9            b. 13      c. 1          d. 1
+
+226. C   227. D   228. C   229. C   230. B    e. 4            f. 25      g. 8          h. 2
+
+231. A   232. D   233. C   234. C   235. B    i. 5            j. 27      k. 16         l. 4
+
+236. C   237. A   238. B   239. A   240. D    m. 5            n. 1       o. 35         p. 4
+
+241. C   242. D   243. D   244. D   245. B    q. 7            r. 1
+Question no – 275
+ a. 35    b. 11     c. 12   d. 36   e. 13
+ f. 19    g. 5      h. 4
+

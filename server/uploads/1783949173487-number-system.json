@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "prompt": "How many non-negative integers are not more than 40?"
+  },
+  {
+    "number": 2,
+    "prompt": "How many whole numbers for 'x' satisfy the inequality 2x + 7 <= 39?"
+  },
+  {
+    "number": 3,
+    "prompt": "How many positive integers for 'p' satisfy the inequality 3p + 5 < 33?"
+  },
+  {
+    "number": 4,
+    "prompt": "How many positive even numbers are not more than 82?"
+  },
+  {
+    "number": 5,
+    "prompt": "Let S1 be the set of all positive integers less than 52 and S2 be the set of all non-negative integers not more than 81. Let X' be the number of elements in S1 and Y' be the number of elements in S2. Find Y - X?"
+  },
+  {
+    "number": 6,
+    "prompt": "What is smallest six-digit number that can be formed using the digits 0, 1, 3, 4, 5, 7?"
+  },
+  {
+    "number": 7,
+    "prompt": "If a & b are odd numbers, then which of the following is even?"
+  },
+  {
+    "number": 8,
+    "prompt": "Let a & b be even integers and 'c' be an odd integer, which of the following is odd?"
+  },
+  {
+    "number": 9,
+    "prompt": "If x and y are natural numbers such that x + y = 2017 then what is the value of (-1)^x + (-1)^y?"
+  },
+  {
+    "number": 10,
+    "prompt": "If 2x + 6y is odd, which of the following must be true?"
+  },
+  {
+    "number": 11,
+    "prompt": "The sum of p even numbers is even and the sum of q odd numbers is odd. Which of the following must be true?"
+  },
+  {
+    "number": 12,
+    "prompt": "If a & b are two odd positive integers, then by which of the following integers is (a^4 - b^4) always divisible?"
+  },
+  {
+    "number": 13,
+    "prompt": "If x & y are even positive integers and z is odd negative integer, which of the following is definitely true?"
+  },
+  {
+    "number": 14,
+    "prompt": "If 'a' is even integer, and b & c are odd integers, which of the following cannot be an integer?"
+  },
+  {
+    "number": 15,
+    "prompt": "Consider the following statements in respect of two integers p and q (both > 1) which are relatively prime. 1. Both p and q may be prime numbers. 2. Both p and q may be composite numbers. 3. One of p and q may be prime and the other composite. Which of the above statements are correct?"
+  },
+  {
+    "number": 16,
+    "prompt": "If 'N' is an irrational number, then which of the following must be a rational number?"
+  },
+  {
+    "number": 17,
+    "prompt": "Which of the following statements is true?"
+  },
+  {
+    "number": 18,
+    "prompt": "If x is positive even integer and y is negative odd integer, then x^y is"
+  },
+  {
+    "number": 19,
+    "prompt": "If I = a^2 + b^2 + c^2, where a and b are consecutive integers and c = ab then I is"
+  },
+  {
+    "number": 20,
+    "prompt": "Let 'x' be the sum of all prime number less than 30, and 'y' be their product. Which of the following is true?"
+  },
+  {
+    "number": 21,
+    "prompt": "x, y and z are distinct prime numbers where x < y < z. If x + y + z = 70 then what is the value of z?"
+  },
+  {
+    "number": 22,
+    "prompt": "x, y and z are prime numbers and x + y + z = 38. what is the maximum value of x?"
+  },
+  {
+    "number": 23,
+    "prompt": "The sum of three prime numbers is 100. If one of them exceeds another by 36, then one of the number is"
+  },
+  {
+    "number": 24,
+    "prompt": "If x is a prime number, which of the following cannot be true?"
+  },
+  {
+    "number": 25,
+    "prompt": "Let p, q, r be three consecutive odd numbers. If all p, q, r are prime, find r?"
+  },
+  {
+    "number": 26,
+    "prompt": "If N, (N+2) and (N+4) are prime numbers, then the number of possible solutions for N are"
+  },
+  {
+    "number": 27,
+    "prompt": "If N^2 - 33, N^2 - 31 and N^2 - 29 are prime numbers, then what is the number of possible values of N, where N is an integer?"
+  },
+  {
+    "number": 28,
+    "prompt": "The number of prime numbers which are less then 100 is"
+  },
+  {
+    "number": 29,
+    "prompt": "If m is the number of prime numbers between 0 and 50; and n is the number of prime numbers between 50 and 100, then what is (m-n) equal to?"
+  },
+  {
+    "number": 30,
+    "prompt": "How many composite numbers are there from 53 to 97?"
+  },
+  {
+    "number": 31,
+    "prompt": "A prime number contains the digit X at unit's place. How many values of X are possible?"
+  },
+  {
+    "number": 32,
+    "prompt": "How many two-digit prime numbers are there between 10 to 100 which remains prime numbers when the order of their digits is reversed?"
+  },
+  {
+    "number": 33,
+    "prompt": "The number of pairs of twin primes between 1 and 100 are:"
+  },
+  {
+    "number": 34,
+    "prompt": "Which one of the following is a prime number?"
+  },
+  {
+    "number": 35,
+    "prompt": "N is the smallest three-digit prime number. When N is divided by 13, then what will be the remainder?"
+  },
+  {
+    "number": 36,
+    "prompt": "Which of the following statements is not true?"
+  },
+  {
+    "number": 37,
+    "prompt": "Find the average of all the prime numbers between 1 to 50. [Give your answer correct to one decimal place.]"
+  },
+  {
+    "number": 38,
+    "prompt": "Ratio between average of first four prime numbers and first four composite numbers is"
+  },
+  {
+    "number": 39,
+    "prompt": "P1 is the average of all prime numbers below 12 and P2 is the average of all prime numbers between 12 and 30. what is the value of 5P1 - P2?"
+  },
+  {
+    "number": 40,
+    "prompt": "The difference between the squares of two consecutive odd integers is always divisible by"
+  },
+  {
+    "number": 41,
+    "prompt": "If k is any even positive integer, then (k^2 + 2k) is"
+  },
+  {
+    "number": 42,
+    "prompt": "What is 26^2 + 97^2 equal to?"
+  },
+  {
+    "number": 43,
+    "prompt": "Which of the following is correct in respect of the number 1729?"
+  },
+  {
+    "number": 44,
+    "prompt": "Five consecutive even numbers are such that the sum of the smallest two is exactly equal to the last number. If these five numbers are written in ascending order, what is the middle number?"
+  },
+  {
+    "number": 45,
+    "prompt": "For any two real numbers a and b, sqrt((a-b)^2) + sqrt((b-a)^2) is"
+  },
+  {
+    "number": 46,
+    "prompt": "If [n] denotes the greatest integer < n and (n) denotes the smallest integer > n where n is any real number, then (1 1/5) * [1 1/5] - (1 1/5) / [1 1/5] + (1.5) is."
+  },
+  {
+    "number": 47,
+    "prompt": "Convert the following decimal values in fractions"
+  },
+  {
+    "number": 48,
+    "prompt": "Express 0.346 as a vulgar fraction."
+  },
+  {
+    "number": 49,
+    "prompt": "The value of 2.4(bar) + 11.567(bar) - 33.59(bar) is:"
+  },
+  {
+    "number": 50,
+    "prompt": "If A = 0.312(bar), B = 0.415(bar) and C = 0.309(bar), then what is the value of A+B+C?"
+  },
+  {
+    "number": 51,
+    "prompt": "The value of 0.47(bar) + 0.503(bar) - 0.39(bar) * 0.8(bar) is:"
+  },
+  {
+    "number": 52,
+    "prompt": "The value of 0.46(bar) + 0.723(bar) - 0.39(bar) * 0.7(bar) is:"
+  },
+  {
+    "number": 53,
+    "prompt": "The value of 0.56(bar) - 0.723(bar) + 0.39(bar) * 0.7(bar) is:"
+  },
+  {
+    "number": 54,
+    "prompt": "The value of (2.4(bar) * 0.6(bar) * 3 * 0.16(bar)) * [0.27(bar) * (0.83(bar) / 0.16(bar))] is:"
+  },
+  {
+    "number": 55,
+    "prompt": "The value of (0.4(bar) + 0.567(bar) - 0.59(bar)) / ((0.226(bar) / 0.75(bar)) * 3.4 / 2.54(bar) * 3.3(bar)) lies between:"
+  },
+  {
+    "number": 56,
+    "prompt": "Let x = 1.05(bar) / 0.95(bar) * 0.409(bar) and y = (0.75(bar) / 0.226(bar)) * (5.09(bar) / 1.7) then the value of xy is:"
+  },
+  {
+    "number": 57,
+    "prompt": "The value of ((0.95 / 1.05) / 0.409) / ((0.84(bar) / 0.93(bar)) / 0.54) is:"
+  },
+  {
+    "number": 58,
+    "prompt": "Let x = (0.47(bar) / 0.52(bar)) / 2.272(bar); and y = 1 3/5 - 1 2/9 of 3 3/11 / 5 1/7 of 7/9. What is the value of x/y?"
+  },
+  {
+    "number": 59,
+    "prompt": "If x is a positive quantity, then what is the value of 3x, if 0.423(bar) - 0.2 of 52.5 / 0.84 = x^2 - (0.021(bar) + 12.5)?"
+  },
+  {
+    "number": 60,
+    "prompt": "How many of the following are irrational numbers? I. 1.4689723 II. 0.27777...... III. sqrt(243) IV. 1.2020020002....."
+  },
+  {
+    "number": 61,
+    "prompt": "Let N = 0.363636... What is the smallest positive number that is to be multiplied to N so that the result is an integer?"
+  },
+  {
+    "number": 62,
+    "prompt": "Let N = 0.abababab..., where a, b are nonzero digits. Three of the following numbers when multiplied with N definitely produces an integer. Which is the odd one out?"
+  },
+  {
+    "number": 63,
+    "prompt": "If A = 0.abcabc...., then by what number A should be multiplied so as to get an integral value?"
+  },
+  {
+    "number": 64,
+    "prompt": "Which of the following numbers has a terminating decimal?"
+  },
+  {
+    "number": 65,
+    "prompt": "Which one of the following rational numbers has non-terminating and repeating decimal expansion?"
+  },
+  {
+    "number": 66,
+    "prompt": "Let 'p' and 'q' be two non-zero integers. The fraction p/q when converted to decimal form, the result is a non-terminating decimal. Then q cannot be:"
+  },
+  {
+    "number": 67,
+    "prompt": "How many significant digits are there to the right of the decimal point in the product of 95.75 and 0.02554?"
+  },
+  {
+    "number": 68,
+    "prompt": "Consider the following statements: 1. There is a finite number of rational numbers between any two rational numbers. 2. There is an infinite number of rational numbers between any two rational numbers. 3. There is a finite number of irrational numbers between any two rational numbers. Which of the above statement(s) is/are correct?"
+  },
+  {
+    "number": 69,
+    "prompt": "If N = 0.369369369... and M = 0.531531531..., then what is the value of (1/N) + (1/M)?"
+  },
+  {
+    "number": 70,
+    "prompt": "If 56 * 75 * 60 * 84 * 210 = 2^p * 3^q * 5^r * 7^s then what is the value of [(p+q)/s] + r?"
+  },
+  {
+    "number": 71,
+    "prompt": "If (18)^k is exactly divisible by 3^29 what is the smallest possible integer for k?"
+  },
+  {
+    "number": 72,
+    "prompt": "What is the least value of n such that 10^n is exactly divisible by 1600?"
+  },
+  {
+    "number": 73,
+    "prompt": "If p and q are positive integers such that 18^p and 12^q are divisible by 108, the minimum value of pq is:"
+  },
+  {
+    "number": 74,
+    "prompt": "If (36)^2n is divisible by 2^81, where n is an integer, what is the least possible value of n?"
+  },
+  {
+    "number": 75,
+    "prompt": "Find the smallest number which gives a perfect square when multiplied by 392."
+  },
+  {
+    "number": 76,
+    "prompt": "By what smallest no. should we divide 2800 to make it a perfect square?"
+  },
+  {
+    "number": 77,
+    "prompt": "By which smallest number 1323 must be multiplied, so that it becomes a perfect cube?"
+  },
+  {
+    "number": 78,
+    "prompt": "The smallest natural number by which 5145 must be divided to make the quotient a perfect cube is"
+  },
+  {
+    "number": 79,
+    "prompt": "Find the smallest four digit perfect square which is divisible by 44?"
+  },
+  {
+    "number": 80,
+    "prompt": "How many four digit perfect squares are multiples of 72?"
+  },
+  {
+    "number": 81,
+    "prompt": "'N' is an even number such that 3N is a perfect cube. What is the smallest possible value of N?"
+  },
+  {
+    "number": 82,
+    "prompt": "How many perfect cubes are there between 1 and 100000 which are divisible by 7?"
+  },
+  {
+    "number": 83,
+    "prompt": "4^61 + 4^62 + 4^63 + 4^64 is divisible by"
+  },
+  {
+    "number": 84,
+    "prompt": "5^71 + 5^72 + 5^73 is divisible by"
+  },
+  {
+    "number": 85,
+    "prompt": "5^71 + 5^72 + 5^73 + 5^74 + 5^75 is divisible by which of the following number?"
+  },
+  {
+    "number": 86,
+    "prompt": "2^122 + 4^62 + 8^42 + 4^64 + 2^130 is not divisible by which one of the following integers?"
+  },
+  {
+    "number": 87,
+    "prompt": "Which one of the following is the largest divisor of 3x + 3^(x+1) + 3^(x+2), if x is any natural number?"
+  },
+  {
+    "number": 88,
+    "prompt": "If the sum of five consecutive positive odd numbers is a perfect square, which of the following can not be one of the numbers?"
+  },
+  {
+    "number": 89,
+    "prompt": "If b is largest square divisor of c and a^2 divides c, then which one of the following is correct (where a, b and c are integers)?"
+  },
+  {
+    "number": 90,
+    "prompt": "The number of (a, b, c), where a, b, c are positive integers such that abc = 30, is"
+  },
+  {
+    "number": 91,
+    "prompt": "How many even factors of 1008 are not divisible by 8?"
+  },
+  {
+    "number": 92,
+    "prompt": "How many factors of 1080 are divisible by 6 but not by 9?"
+  },
+  {
+    "number": 93,
+    "prompt": "Find the number of factors of 480, which are divisible by 6 but not by 8?"
+  },
+  {
+    "number": 94,
+    "prompt": "How many factors of 2^2 * 3^1 * 5^2 * 7^1 are divisible by 50 but not by 100?"
+  },
+  {
+    "number": 95,
+    "prompt": "How many factors of 7200 are perfect squares?"
+  },
+  {
+    "number": 96,
+    "prompt": "How many factors of 10368 are perfect cubes?"
+  },
+  {
+    "number": 97,
+    "prompt": "If N = 9^9 then N is divisible by how many positive perfect cubes?"
+  },
+  {
+    "number": 98,
+    "prompt": "How many factors of 360 are in the form of 4k + 2, where k is an integer?"
+  },
+  {
+    "number": 99,
+    "prompt": "If N = 4^11 + 4^12 + 4^13 + 4^14, then how many positive factors of N are there?"
+  },
+  {
+    "number": 100,
+    "prompt": "If N = 3^14 + 3^13 - 12, then what is the largest prime factor of N?"
+  }
+]

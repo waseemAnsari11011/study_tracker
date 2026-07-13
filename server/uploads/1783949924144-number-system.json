@@ -1,0 +1,1286 @@
+[
+  {
+    "number": 1,
+    "prompt": "How many non-negative integers are not more than 40?"
+  },
+  {
+    "number": 2,
+    "prompt": "How many whole numbers for 'x' satisfy the inequality 2x+7<=39?"
+  },
+  {
+    "number": 3,
+    "prompt": "How many positive integers for p' satisfy the inequality 3p+5<33?"
+  },
+  {
+    "number": 4,
+    "prompt": "How many positive even numbers are not more than 82?"
+  },
+  {
+    "number": 5,
+    "prompt": "Let S1 be the set of all positive integers less than 52 and S2 be the set of all non-negative integers not more than 81. Let X' be the number of elements in S1 and Y' be the number of elements in S2. Find Y-X?"
+  },
+  {
+    "number": 6,
+    "prompt": "What is smallest six-digit number that can be formed using the digits 0, 1, 3, 4, 5, 7?"
+  },
+  {
+    "number": 7,
+    "prompt": "If a & b are odd numbers, then which of the following is even?"
+  },
+  {
+    "number": 8,
+    "prompt": "Let a & b be even integers and 'c' be an odd integer, which of the following is odd?"
+  },
+  {
+    "number": 9,
+    "prompt": "If x and y are natural numbers such that x+ y=2017 then what is the value of (-1)^x + (-1)^y?"
+  },
+  {
+    "number": 10,
+    "prompt": "If 2x+6y is odd, which of the following must be true?"
+  },
+  {
+    "number": 11,
+    "prompt": "The sum of p even numbers is even and the sum of q odd numbers is odd. Which of the following must be true?"
+  },
+  {
+    "number": 12,
+    "prompt": "If a & b are two odd positive integers, then by which of the following integers is (a^4-b^4) always divisible?"
+  },
+  {
+    "number": 13,
+    "prompt": "If x & y are even positive integers and z is odd negative integer, which of the following is definitely true?"
+  },
+  {
+    "number": 14,
+    "prompt": "If 'a' is even integer, and b & c are odd integers, which of the following cannot be an integer?"
+  },
+  {
+    "number": 15,
+    "prompt": "Consider the following statements in respect of two integers p and q (both > 1) which are relatively prime. 1. Both p and q may be prime numbers. 2. Both p and q may be composite numbers. 3. One of p and q may be prime and the other composite. Which of the above statements are correct?"
+  },
+  {
+    "number": 16,
+    "prompt": "If 'N' is an irrational number, then which of the following must be a rational number?"
+  },
+  {
+    "number": 17,
+    "prompt": "Which of the following statements is true?"
+  },
+  {
+    "number": 18,
+    "prompt": "If x is positive even integer and y is negative odd integer, then x^y is"
+  },
+  {
+    "number": 19,
+    "prompt": "If I=a^2+b^2+c^2, where a and b are consecutive integers and c=ab then I is"
+  },
+  {
+    "number": 20,
+    "prompt": "Let 'x' be the sum of all prime number less than 30, and 'y' be their product. Which of the following is true?"
+  },
+  {
+    "number": 21,
+    "prompt": "x, y and z are distinct prime numbers where x<y<z. If x+y+z=70 then what is the value of z?"
+  },
+  {
+    "number": 22,
+    "prompt": "x, y and z are prime numbers and x+y+z= 38. what is the maximum value of x?"
+  },
+  {
+    "number": 23,
+    "prompt": "The sum of three prime numbers is 100. If one of them exceeds another by 36, then one of the number is"
+  },
+  {
+    "number": 24,
+    "prompt": "If x is a prime number, which of the following cannot be true?"
+  },
+  {
+    "number": 25,
+    "prompt": "Let p, q, r be three consecutive odd numbers. If all p, q, r are prime, find r?"
+  },
+  {
+    "number": 26,
+    "prompt": "If N, (N+2) and (N+4) are prime numbers, then the number of possible solutions for N are"
+  },
+  {
+    "number": 27,
+    "prompt": "If N^2-33, N^2-31 and N^2-29 are prime numbers, then what is the number of possible values of N, where N is an integer?"
+  },
+  {
+    "number": 28,
+    "prompt": "The number of prime numbers which are less then 100 is"
+  },
+  {
+    "number": 29,
+    "prompt": "If m is the number of prime numbers between 0 and 50; and n is the number of prime numbers between 50 and 100, then what is (m-n) equal to?"
+  },
+  {
+    "number": 30,
+    "prompt": "How many composite numbers are there from 53 to 97?"
+  },
+  {
+    "number": 31,
+    "prompt": "A prime number contains the digit X at unit's place. How many values of X are possible?"
+  },
+  {
+    "number": 32,
+    "prompt": "How many two-digit prime numbers are there between 10 to 100 which remains prime numbers when the order of their digits is reversed?"
+  },
+  {
+    "number": 33,
+    "prompt": "The number of pairs of twin primes between 1 and 100 are:"
+  },
+  {
+    "number": 34,
+    "prompt": "Which one of the following is a prime number?"
+  },
+  {
+    "number": 35,
+    "prompt": "N is the smallest three-digit prime number. When N is divided by 13, then what will be the remainder?"
+  },
+  {
+    "number": 36,
+    "prompt": "Which of the following statements is not true?"
+  },
+  {
+    "number": 37,
+    "prompt": "Find the average of all the prime numbers between 1 to 50. [Give your answer correct to one decimal place.]"
+  },
+  {
+    "number": 38,
+    "prompt": "Ratio between average of first four prime numbers and first four composite numbers is"
+  },
+  {
+    "number": 39,
+    "prompt": "P1 is the average of all prime numbers below 12 and P2 is the average of all prime numbers between 12 and 30. what is the value of 5P1-P2?"
+  },
+  {
+    "number": 40,
+    "prompt": "The difference between the squares of two consecutive odd integers is always divisible by"
+  },
+  {
+    "number": 41,
+    "prompt": "If k is any even positive integer, then (k^2+ 2k) is"
+  },
+  {
+    "number": 42,
+    "prompt": "What is 26^2+97^2 equal to?"
+  },
+  {
+    "number": 43,
+    "prompt": "Which of the following is correct in respect of the number 1729?"
+  },
+  {
+    "number": 44,
+    "prompt": "Five consecutive even numbers are such that the sum of the smallest two is exactly equal to the last number. If these five numbers are written in ascending order, what is the middle number?"
+  },
+  {
+    "number": 45,
+    "prompt": "For any two real numbers a and b, sqrt((a-b)^2)+sqrt((b-a)^2) is"
+  },
+  {
+    "number": 46,
+    "prompt": "If [n] denotes the greatest integer <n and (n) denotes the smallest integer >n where n is any real number, then (1 1/5) * [1 1/5] - (1 1/5) / [1 1/5] + (1.5) is."
+  },
+  {
+    "number": 47,
+    "prompt": "Convert the following decimal values in fractions"
+  },
+  {
+    "number": 48,
+    "prompt": "Express 0.346 as a vulgar fraction."
+  },
+  {
+    "number": 49,
+    "prompt": "The value of 22.44(bar) + 11.567(bar) - 33.59(bar) is:"
+  },
+  {
+    "number": 50,
+    "prompt": "If A=0.312(bar), B=0.415(bar) and C=0.309(bar), then what is the value of A+B+C?"
+  },
+  {
+    "number": 51,
+    "prompt": "The value of 0.47(bar)+0.503(bar)-0.39(bar)x0.8(bar) is:"
+  },
+  {
+    "number": 52,
+    "prompt": "The value of 46(bar)+0.723(bar)-0.39(bar)x0.7(bar) is:"
+  },
+  {
+    "number": 53,
+    "prompt": "The value of 0.56(bar)-0.723(bar)+0.39(bar)x0.7(bar) is:"
+  },
+  {
+    "number": 54,
+    "prompt": "The value of (2.4(bar)x0.6(bar)x3x0.16(bar))x[0.27(bar)x(0.83(bar)/0.16(bar))] is:"
+  },
+  {
+    "number": 55,
+    "prompt": "The value of (0.4(bar)+0.567(bar)-0.59(bar)) / ((0.226(bar)/0.75(bar))x3.4-2.54(bar)x3.3(bar)) lies between:"
+  },
+  {
+    "number": 56,
+    "prompt": "Let x=1.05(bar)/0.95(bar)x0.409(bar) and y=(0.75(bar)/0.226(bar))x(5.09(bar)/1.7) then the value of xy is:"
+  },
+  {
+    "number": 57,
+    "prompt": "The value of (0.95/1.05)/0.409 / (0.84(bar)/0.93(bar)/0.54) is:"
+  },
+  {
+    "number": 58,
+    "prompt": "Let x=(0.47(bar)/0.52(bar))/2.272(bar); and y=1 3/5 - 1 2/9 of 3 3/11 / 5 1/7 of 7/9. What is the value of x/y?"
+  },
+  {
+    "number": 59,
+    "prompt": "If x is a positive quantity, then what is the value of 3x, if 0.423(bar)-0.2 of 52.5 /0.84= x^2-(0.021(bar)+12.5)?"
+  },
+  {
+    "number": 60,
+    "prompt": "How many of the following are irrational numbers? I. 1.4689723 II. 0.27777...... III. sqrt(243) IV. 1.2020020002....."
+  },
+  {
+    "number": 61,
+    "prompt": "Let N=0.363636... What is the smallest positive number that is to be multiplied to N so that the result is an integer?"
+  },
+  {
+    "number": 62,
+    "prompt": "Let N=0.abababab..., where a, b are nonzero digits. Three of the following numbers when multiplied with N definitely produces an integer. Which is the odd one out?"
+  },
+  {
+    "number": 63,
+    "prompt": "If A=0.abcabc...., then by what number A should be multiplied so as to get an integral value?"
+  },
+  {
+    "number": 64,
+    "prompt": "Which of the following numbers has a terminating decimal?"
+  },
+  {
+    "number": 65,
+    "prompt": "Which one of the following rational numbers has non-terminating and repeating decimal expansion?"
+  },
+  {
+    "number": 66,
+    "prompt": "Let 'p' and 'q' be two non-zero integers. The fraction p/q when converted to decimal form, the result is a non-terminating decimal. Then q cannot be:"
+  },
+  {
+    "number": 67,
+    "prompt": "How many significant digits are there to the right of the decimal point in the product of 95.75 and 0.02554?"
+  },
+  {
+    "number": 68,
+    "prompt": "Consider the following statements: 1. There is a finite number of rational numbers between any two rational numbers. 2. There is an infinite number of rational numbers between any two rational numbers. 3. There is a finite number of irrational numbers between any two rational numbers. Which of the above statement(s) is/are correct?"
+  },
+  {
+    "number": 69,
+    "prompt": "If N=0.369369369... and M=531531531....., then what is the value of (1/N)+(1/M)?"
+  },
+  {
+    "number": 70,
+    "prompt": "If 56x75x60x84x210=2^p x 3^q x 5^r x 7^s then what is the value of [(p+q)/s]+r?"
+  },
+  {
+    "number": 71,
+    "prompt": "If (18)^k is exactly divisible by 3^29 what is the smallest possible integer for k?"
+  },
+  {
+    "number": 72,
+    "prompt": "What is the least value of n such that 10^n is exactly divisible by 1600?"
+  },
+  {
+    "number": 73,
+    "prompt": "If p and q are positive integers such that 18^p and 12^q are divisible by 108, the minimum value of pq is:"
+  },
+  {
+    "number": 74,
+    "prompt": "If (36)^2n is divisible by 2^81, where n is an integer, what is the least possible value of n?"
+  },
+  {
+    "number": 75,
+    "prompt": "Find the smallest number which gives a perfect square when multiplied by 392."
+  },
+  {
+    "number": 76,
+    "prompt": "By what smallest no. should we divide 2800 to make it a perfect square?"
+  },
+  {
+    "number": 77,
+    "prompt": "By which smallest number 1323 must be multiplied, so that it becomes a perfect cube?"
+  },
+  {
+    "number": 78,
+    "prompt": "The smallest natural number by which 5145 must be divided to make the quotient a perfect cube is"
+  },
+  {
+    "number": 79,
+    "prompt": "Find the smallest four digit perfect square which is divisible by 44?"
+  },
+  {
+    "number": 80,
+    "prompt": "How many four digit perfect squares are multiples of 72?"
+  },
+  {
+    "number": 81,
+    "prompt": "'N' is an even number such that 3N is a perfect cube. What is the smallest possible value of N?"
+  },
+  {
+    "number": 82,
+    "prompt": "How many perfect cubes are there between 1 and 100000 which are divisible by 7?"
+  },
+  {
+    "number": 83,
+    "prompt": "4^61+4^62+4^63+4^64 is divisible by"
+  },
+  {
+    "number": 84,
+    "prompt": "5^71+5^72+5^73 is divisible by"
+  },
+  {
+    "number": 85,
+    "prompt": "5^71+5^72+5^73+5^74+5^75 is divisible by which of the following number?"
+  },
+  {
+    "number": 86,
+    "prompt": "2^122+4^62+8^42+4^64+2^130 is not divisible by which one of the following integers?"
+  },
+  {
+    "number": 87,
+    "prompt": "Which one of the following is the largest divisor of 3x+3^(x+1)+3^(x+2), if x is any natural number?"
+  },
+  {
+    "number": 88,
+    "prompt": "If the sum of five consecutive positive odd numbers is a perfect square, which of the following can not be one of the numbers?"
+  },
+  {
+    "number": 89,
+    "prompt": "If b is largest square divisor of c and a^2 divides c, then which one of the following is correct (where a, b and c are integers)?"
+  },
+  {
+    "number": 90,
+    "prompt": "The number of (a, b, c), where a, b, c are positive integers such that abc=30, is"
+  },
+  {
+    "number": 91,
+    "prompt": "How many even factors of 1008 are not divisible by 8?"
+  },
+  {
+    "number": 92,
+    "prompt": "How many factors of 1080 are divisible by 6 but not by 9?"
+  },
+  {
+    "number": 93,
+    "prompt": "Find the number of factors of 480, which are divisible by 6 but not by 8?"
+  },
+  {
+    "number": 94,
+    "prompt": "How many factors of 2^2 x 3^1 x 5^2 x 7^1 are divisible by 50 but not by 100?"
+  },
+  {
+    "number": 95,
+    "prompt": "How many factors of 7200 are perfect squares?"
+  },
+  {
+    "number": 96,
+    "prompt": "How many factors of 10368 are perfect cubes?"
+  },
+  {
+    "number": 97,
+    "prompt": "If N=9^9 then N is divisible by how many positive perfect cubes?"
+  },
+  {
+    "number": 98,
+    "prompt": "How many factors of 360 are in the form of 4k + 2, where k is an integer?"
+  },
+  {
+    "number": 99,
+    "prompt": "If N=4^11+4^12+4^13+4^14, then how many positive factors of N are there?"
+  },
+  {
+    "number": 100,
+    "prompt": "If N=3^14+3^13-12, then what is the largest prime factor of N?"
+  },
+  {
+    "number": 101,
+    "prompt": "For how many positive integer values of n, (n^2+11n+48)/n is an integer?"
+  },
+  {
+    "number": 102,
+    "prompt": "When 200 is divided by a positive integer x, the remainder is 8. How many values of x are there?"
+  },
+  {
+    "number": 103,
+    "prompt": "When 732 is divided by a positive integer x, the remainder is 12. How many values of x are there?"
+  },
+  {
+    "number": 104,
+    "prompt": "When 43 is divided by x, the remainder is x - 5. If x is a natural number, how many solutions will x have?"
+  },
+  {
+    "number": 105,
+    "prompt": "How many natural numbers less than 225 has odd number of factors?"
+  },
+  {
+    "number": 106,
+    "prompt": "The total number of three digit number which have only 3 factors will be?"
+  },
+  {
+    "number": 107,
+    "prompt": "Let p, q, r and s be positive natural numbers having three exact factors including 1 and the number itself. If q>p and both are two-digit numbers, and r>s and both are one-digit numbers, then the value of the expression (p-q-1)/(r-s) is:"
+  },
+  {
+    "number": 108,
+    "prompt": "Find the number of prime factors in the product (30)^5 x (24)^5"
+  },
+  {
+    "number": 109,
+    "prompt": "What is the smallest number which has exactly 6 factors?"
+  },
+  {
+    "number": 110,
+    "prompt": "What is the smallest number which has 15 factors?"
+  },
+  {
+    "number": 111,
+    "prompt": "In how many ways 320 can be written as a product of two integers?"
+  },
+  {
+    "number": 112,
+    "prompt": "How many positive integer pairs of p & q satisfy pq=324?"
+  },
+  {
+    "number": 113,
+    "prompt": "How many numbers less than 36 are relative primes to 36?"
+  },
+  {
+    "number": 114,
+    "prompt": "How many numbers less than 100 are co-primes to 30?"
+  },
+  {
+    "number": 115,
+    "prompt": "How many numbers not more than 100 are co-primes to 18?"
+  },
+  {
+    "number": 116,
+    "prompt": "The sum of all even factors of 320 is:"
+  },
+  {
+    "number": 117,
+    "prompt": "Find the sum of all odd natural numbers which can divide 540?"
+  },
+  {
+    "number": 118,
+    "prompt": "Find the sum of all factors of 840 which are divisible by 6?"
+  },
+  {
+    "number": 119,
+    "prompt": "The sum of all the even factors of 504 which are not divisible by 8 is:"
+  },
+  {
+    "number": 120,
+    "prompt": "Find the sum of all the factors of 1240 which are divisible by 4 but not by 8?"
+  },
+  {
+    "number": 121,
+    "prompt": "What is the sum of the divisors of 484 that are perfect squares?"
+  },
+  {
+    "number": 122,
+    "prompt": "What is the sum of all the factors of 1080 which are multiples of 3 and end with 5?"
+  },
+  {
+    "number": 123,
+    "prompt": "What is the product of all the factors of 576?"
+  },
+  {
+    "number": 124,
+    "prompt": "What can be the maximum value of p so that 30! / 2^p is an integer?"
+  },
+  {
+    "number": 125,
+    "prompt": "Find the maximum value of P such that 70! / 5^p is an integer."
+  },
+  {
+    "number": 126,
+    "prompt": "If 6^k is a factor of 90!, what is the maximum possible value of k?"
+  },
+  {
+    "number": 127,
+    "prompt": "If 200! / 49^x is an integral value, then find the maximum value that x can have."
+  },
+  {
+    "number": 128,
+    "prompt": "If 82! is exactly divisible by 4^n, then n cannot be greater than:"
+  },
+  {
+    "number": 129,
+    "prompt": "If 100! is a multiple of 24^r, then the maximum possible value of r is:"
+  },
+  {
+    "number": 130,
+    "prompt": "Find the total no of zeroes after the right most non-zero digit in 100!."
+  },
+  {
+    "number": 131,
+    "prompt": "Find the total no of zeroes after the right most non-zero digit in 120!"
+  },
+  {
+    "number": 132,
+    "prompt": "Numbers 2, 4, 6, 8, 10...396, 398, 400 are multiplied together. The number of zeroes at the end of the product on the right will be equal to-"
+  },
+  {
+    "number": 133,
+    "prompt": "Let n be an integer such that n! ends with 50 zeroes. What is the maximum possible value of n?"
+  },
+  {
+    "number": 134,
+    "prompt": "The number 25^64 x 64^25 is the square of a natural number n. The sum of digits of n is"
+  },
+  {
+    "number": 135,
+    "prompt": "Find the zeros at end of (126! - 125!)"
+  },
+  {
+    "number": 136,
+    "prompt": "From the following numbers, find the numbers which exactly divisible by 42."
+  },
+  {
+    "number": 137,
+    "prompt": "How many of the following numbers are divisible by 156? 312, 620, 939, 1402, 1872, 3216, 7176, 8108"
+  },
+  {
+    "number": 138,
+    "prompt": "If a nine-digit number 7698x138y is divisible by 72, then the value of sqrt(4x+y) is:"
+  },
+  {
+    "number": 139,
+    "prompt": "If a nine-digit number 389x6378y is divisible by 72, then the value of sqrt(6x+7y) will be:"
+  },
+  {
+    "number": 140,
+    "prompt": "If the 9-digit number 5p42978n6 is divisible by 72, what is the value of (2p-1), where n is the second largest of all the possible value of n? Given that p and n are natural numbers."
+  },
+  {
+    "number": 141,
+    "prompt": "If the 8-digit number 888x53y4 is divisible by 72, then what is the value of (7x+2y) for the maximum value of y?"
+  },
+  {
+    "number": 142,
+    "prompt": "If a 11 digit number 5y5884805x6 is divisible by 72, where x=y, then the value of sqrt(xy) is"
+  },
+  {
+    "number": 143,
+    "prompt": "If the 9-digit number 72x8431y4 is divisible by 36, what is the value of (x/y - y/x) for the smallest possible value of y, given that x and y are natural numbers?"
+  },
+  {
+    "number": 144,
+    "prompt": "Find the sum of all the possible values of (a+b), so that the number 4a067b is divisible by 11."
+  },
+  {
+    "number": 145,
+    "prompt": "Find the greatest value of b so that 30a68b (a>b) is divisible by 11."
+  },
+  {
+    "number": 146,
+    "prompt": "If a number 54k31m82 is divisible by 11, what will be the maximum value of (k+m)?"
+  },
+  {
+    "number": 147,
+    "prompt": "If the number A92578684 is divisible by 11, then what is the least value of A-B?"
+  },
+  {
+    "number": 148,
+    "prompt": "Let 'N' be a six-digit number such that it does not change even if the digits are reversed. Then N must be divisible by:"
+  },
+  {
+    "number": 149,
+    "prompt": "If the nine-digit number '8475639AB' is divisible by 99, then what is the value of A and B?"
+  },
+  {
+    "number": 150,
+    "prompt": "If a 9-digit number 609a5b9c9 is divisible by 99, then (a+b+c) is equal to:"
+  },
+  {
+    "number": 151,
+    "prompt": "If the number 48k2048p6 is divisible by 99, then (k x p) is equal to:"
+  },
+  {
+    "number": 152,
+    "prompt": "If the 9-digit number 4x92y6588 is exactly divisible by 99 (x+y<10) then what is the value of 2(y-x)?"
+  },
+  {
+    "number": 153,
+    "prompt": "If the 9-digit number 957x5y6z2 is divisible by 33, then the sum of all the possible values of (x+y+z)?"
+  },
+  {
+    "number": 154,
+    "prompt": "If the number 476**0 is divisible by both 3 and 11, then in the hundredth and tenth places, the non-zero digits are, respectively:"
+  },
+  {
+    "number": 155,
+    "prompt": "How many five-digit numbers of the form of XXYXX is/are divisible by 33?"
+  },
+  {
+    "number": 156,
+    "prompt": "If the nine-digit number 7p5964q28 is completely divisible by 88, what is the value of (p^2-q), for the largest value of q, where p and q are natural numbers?"
+  },
+  {
+    "number": 157,
+    "prompt": "If the 8-digit number 7x5739y2 is divisible by 88, then the largest possible value of (4x+ 3y) is:"
+  },
+  {
+    "number": 158,
+    "prompt": "If a 10 digit number 2094x843y2 is divisible by 88, then the value of (5x-7y) for the largest possible value of x, is:"
+  },
+  {
+    "number": 159,
+    "prompt": "Find the least value of (A+B) if the number 27B58A4 is completely divisible by 88."
+  },
+  {
+    "number": 160,
+    "prompt": "What are the values of R and M, respectively, if the given number is perfectly divisible by 16 and 11? 34R05030M6"
+  },
+  {
+    "number": 161,
+    "prompt": "If the 5-digit number 688xy is divisible by 3, 7 and 11, then what is the value of (5x+3y)?"
+  },
+  {
+    "number": 162,
+    "prompt": "If the 5-digit number 676xy is divisible by 3, 7 and 11, then what is the value of (3x-5y)?"
+  },
+  {
+    "number": 163,
+    "prompt": "If the six-digit number 5z3x4y is divisible by 7, 11 and 13, then what is the value of (x+y-z)?"
+  },
+  {
+    "number": 164,
+    "prompt": "The number 823p2q is exactly divisible by 7, 11 and 13. What is the value of (p-q)?"
+  },
+  {
+    "number": 165,
+    "prompt": "A six-digit number of the form ababab is always divisible by:"
+  },
+  {
+    "number": 166,
+    "prompt": "If the number 732xy is divisible by 70, then find the minimum value of (x+y)/2."
+  },
+  {
+    "number": 167,
+    "prompt": "If the 7-digit number x8942y4 is divisible by 56, what is the value of (x^2+y) for the largest value of y, where x and y are natural numbers?"
+  },
+  {
+    "number": 168,
+    "prompt": "The six-digit number 537xy5 is divisible by 125. How many such six-digit numbers are there?"
+  },
+  {
+    "number": 169,
+    "prompt": "If 'a' is a natural number, then (7a^2+7a) is always divisible by:"
+  },
+  {
+    "number": 170,
+    "prompt": "The largest natural number which divides every natural number of the form (n^3-n)(n-2) where n is a natural number greater than 2 is"
+  },
+  {
+    "number": 171,
+    "prompt": "If n is whole number greater than 1, then n^2(n^2-1) is always divisible by"
+  },
+  {
+    "number": 172,
+    "prompt": "The sum of 3-digit numbers abc, cab and bca is not divisible by:"
+  },
+  {
+    "number": 173,
+    "prompt": "If the sum of the digits of a three digit number is subtracted from that number, then it will always be divisible by"
+  },
+  {
+    "number": 174,
+    "prompt": "A six-digit number is divisible by 198. If the digits are rearranged, even then the number will be divisible by:"
+  },
+  {
+    "number": 175,
+    "prompt": "A six-digit number is divisible by 198. If the digits are reversed, even then the number will be divisible by:"
+  },
+  {
+    "number": 176,
+    "prompt": "Find the value of k in the number 3426k if the number is divisible by 6 but NOT divisible by 5."
+  },
+  {
+    "number": 177,
+    "prompt": "Find the greatest number 234a5b, which is divisible by 22, but NOT divisible by 5."
+  },
+  {
+    "number": 178,
+    "prompt": "Find the greatest number 23a68b, which is divisible by 3 but NOT divisible by 9."
+  },
+  {
+    "number": 179,
+    "prompt": "The number 2143251 is divisible by:"
+  },
+  {
+    "number": 180,
+    "prompt": "A number is formed by writing the 1st 35 natural numbers side by side. Find the remainder when it is divided by 4."
+  },
+  {
+    "number": 181,
+    "prompt": "A 100-digit number is formed by writing natural numbers side by side starting from 1. Find the remainder when this number is divided by 8."
+  },
+  {
+    "number": 182,
+    "prompt": "What is the sum of all the possible values of k for which a seven-digit number 23k567k is divisible by 3?"
+  },
+  {
+    "number": 183,
+    "prompt": "What is the value of k such that number 72k460k is divisible by 6?"
+  },
+  {
+    "number": 184,
+    "prompt": "If the number 87m6203m is divisible by 6 then find the sum of all possible values of 'm'."
+  },
+  {
+    "number": 185,
+    "prompt": "If the number 34k56k is divisible by 6, then what will be largest value of k?"
+  },
+  {
+    "number": 186,
+    "prompt": "If the number 8764x5 is divisible by 9, then find the least possible value of x where x is a two-digit number."
+  },
+  {
+    "number": 187,
+    "prompt": "What is the product of the largest and the smallest possible values of m for which a number 5m83m4m1 is divisible by 9?"
+  },
+  {
+    "number": 188,
+    "prompt": "If 8947A56B1 is divisible by 9, where B is an odd number. Find the sum of all possible value of A?"
+  },
+  {
+    "number": 189,
+    "prompt": "If a nine-digit number 1263487xy is divisible by both 8 and 5, then the greatest possible values of x and y, respectively, are:"
+  },
+  {
+    "number": 190,
+    "prompt": "n=475AB is a positive integer whose tens and units digits are A and B, respectively. If n is divisible by 5, 8 and 9, then what is (10A+B)?"
+  },
+  {
+    "number": 191,
+    "prompt": "Find the greatest possible value of (a+b) for which the 8-digit number 143b203a is divisible by 15."
+  },
+  {
+    "number": 192,
+    "prompt": "A four-digit pin, say abcd, of a lock has different non-zero digits. The digits satisfy b=2a, c=2b, d=2c. The pin is divisible by:"
+  },
+  {
+    "number": 193,
+    "prompt": "If the number 670458x95y52 is divisible by 144, then find the value of sqrt(2x+3y) for the maximum value of x."
+  },
+  {
+    "number": 194,
+    "prompt": "If p & q are the digits of the number 3479p25q2 such that the number is exactly divisible by 24, then which of the following cannot be the value of pq?"
+  },
+  {
+    "number": 195,
+    "prompt": "What is the remainder if 17^26 - 11^26 is divided by 42?"
+  },
+  {
+    "number": 196,
+    "prompt": "What is the remainder when we divide 5^70 + 7^70 by 74?"
+  },
+  {
+    "number": 197,
+    "prompt": "For every positive integer n, 5^(4n) - 4^(4n) is divisible by:"
+  },
+  {
+    "number": 198,
+    "prompt": "The expression 2^(6n) - 4^(2n), where n is a natural number is always divisible by"
+  },
+  {
+    "number": 199,
+    "prompt": "(68)^n + 1 is exactly divisible by 23 when n is?"
+  },
+  {
+    "number": 200,
+    "prompt": "One of the factors of (8^(2k) + 5^(2k)) where k is an odd number, is:"
+  },
+  {
+    "number": 201,
+    "prompt": "N = 2^48 - 1 and N is exactly divisible by two numbers between 60 and 70. What is the sum of those two numbers?"
+  },
+  {
+    "number": 202,
+    "prompt": "2^18 - 1 is divisible by:"
+  },
+  {
+    "number": 203,
+    "prompt": "Find the remainder when 11^15 + 12^15 + 13^15 + 14^15 is divided by 50?"
+  },
+  {
+    "number": 204,
+    "prompt": "Which of the following statement(s) is/are TRUE ? I. 1^99 + 2^99 + 3^99 + 4^99 + 5^99 is exactly divisible by 5. II. 31^11 > 17^14"
+  },
+  {
+    "number": 205,
+    "prompt": "23^9 + 24^9 + 25^9 + 26^9 is divisible by:"
+  },
+  {
+    "number": 206,
+    "prompt": "13^15 - 7^15 - 6^15 is always divisible by:"
+  },
+  {
+    "number": 207,
+    "prompt": "Given a number, N = 55^5 + 17^5 - 72^5, then which of the following is true?"
+  },
+  {
+    "number": 208,
+    "prompt": "A number 4^16 + 1 is divisible by x. Which among the following is also divisible by x?"
+  },
+  {
+    "number": 209,
+    "prompt": "Given that 2^20 + 1 is completely divisible by a whole number. Which of the following is completely divisible by the same number?"
+  },
+  {
+    "number": 210,
+    "prompt": "(31^20 - 1024) is not divisible by:"
+  },
+  {
+    "number": 211,
+    "prompt": "Which of the following statement(s) is/are TRUE? I. Highest common factor of (3^2002 - 1) and (3^2002 + 1) is 4. II. (4^84 - 1) is exactly divisible by 5."
+  },
+  {
+    "number": 212,
+    "prompt": "The sum of digits of a two digit number is 10. The number formed by reversing the digits is 18 less than the original number. Find the original number."
+  },
+  {
+    "number": 213,
+    "prompt": "How many two digit numbers increases by 27 by reversing the digits?"
+  },
+  {
+    "number": 214,
+    "prompt": "If the digits in the unit's and ten's places of a three digit number are interchanged, a new number is formed, which is greater than the original number by 63. Suppose the digit in the unit place of the original number be x. Then, all the possible values of x are"
+  },
+  {
+    "number": 215,
+    "prompt": "A certain number of two digits is three times the sum of its digits. If 45 be added to it, the digits are reversed. The number is"
+  },
+  {
+    "number": 216,
+    "prompt": "If the digit of a two digit number is reversed, then the number is decreased by 36. Which of the following is correct regarding the number? I. The difference of the digits is 4. II. The value of number can be 84. III. Number is always a composite number."
+  },
+  {
+    "number": 217,
+    "prompt": "In a two-digit number, its units digit exceeds its tens digit by 2 and that the product of the given number and the sum of its digits is equal to 460. The number is:"
+  },
+  {
+    "number": 218,
+    "prompt": "A number consists of two digits. If the number formed by interchanging the digits is added to the original number, the resulting number must be divisible by"
+  },
+  {
+    "number": 219,
+    "prompt": "The sum of two digit number and the number obtained by reversing its digits is a square number. How many such numbers are there?"
+  },
+  {
+    "number": 220,
+    "prompt": "Let ab, a!=b, is a 2-digit prime number such that ba is also a prime number. The sum of all such numbers is:"
+  },
+  {
+    "number": 221,
+    "prompt": "The age of a woman is a two-digit integer. On reversing this integer, the new integer is the age of her husband who is elder to her. The difference between their ages is one-eleventh of their sum. What is the difference between their ages?"
+  },
+  {
+    "number": 222,
+    "prompt": "When a two-digit number is multiplied by the sum of its digits, the product is 424. When the number obtained by interchanging its digits is multiplied by the sum of the digits, the result is 280. The sum of the digits of the given number is:"
+  },
+  {
+    "number": 223,
+    "prompt": "A three-digit number is divisible by 11 and has its digit in the unit's place equal to 1. The number is 297 more than the number obtained by reversing the digit. What is the number?"
+  },
+  {
+    "number": 224,
+    "prompt": "In a three digit number the digit at the hundreds place is two times the digit at the units place and the sum of the digits is 18. If the digits are reversed, the number is reduced by 396. The difference of the hundreds and tens digit of the number is"
+  },
+  {
+    "number": 225,
+    "prompt": "M is a three digit number such that the tens digit is twice to that of units digit and the hundreds digit is twice to that of tens digit. If N is another number obtained by reversing the digits of M. Then M-N is always divisible by:"
+  },
+  {
+    "number": 226,
+    "prompt": "There is a number consisting of two digits, the digit in the units place is twice that in the tens place and if 2 be subtracted from the sum of the digits, the difference is equal to 1/6th of the number. The number is"
+  },
+  {
+    "number": 227,
+    "prompt": "The sum of the digits of a two-digit number is 1/7 of the number. The units digit is 4 less than the tens digit. If the number obtained on reversing its digits is divided by 7, the remainder will be:"
+  },
+  {
+    "number": 228,
+    "prompt": "Let d be a two digit number. If half of d exceeds one third of d by the sum of digits in d, then the sum of digits in d is"
+  },
+  {
+    "number": 229,
+    "prompt": "A number consists of two digits and the digit in ten's place exceeds that in unit's place by 5. If 5 times the sum of the digits be subtracted from the number, the digits of the number are reversed. Then the sum of the digits of the number is."
+  },
+  {
+    "number": 230,
+    "prompt": "Find the unit digit of 9!."
+  },
+  {
+    "number": 231,
+    "prompt": "What is the last digit of 2!+3!+4!+...+90! ?"
+  },
+  {
+    "number": 232,
+    "prompt": "If the unit digit of 433 x 456 x 43N is (N+2). Then what is the value of N?"
+  },
+  {
+    "number": 233,
+    "prompt": "All odd prime numbers up to 110 are multiplied together. What is the unit digit in this product?"
+  },
+  {
+    "number": 234,
+    "prompt": "Find the 123rd number of the sequence a, b, e, k, a, b, e, k, a........."
+  },
+  {
+    "number": 235,
+    "prompt": "What is the 72nd number in the following sequence 3, 2, 1, 8, 4, 3, 2, 1, 8, 4, 3,...?"
+  },
+  {
+    "number": 236,
+    "prompt": "The 50th number of the sequence 3, 7, 2, 3, 7, 2, 3, 7..."
+  },
+  {
+    "number": 237,
+    "prompt": "The 149th number of the sequence 1, 8, 1, 8, 1........."
+  },
+  {
+    "number": 238,
+    "prompt": "Unit digit of 2169^1793 x 615^317 x 132^491 is"
+  },
+  {
+    "number": 239,
+    "prompt": "Find the unit digit of 264^102 + 264^103"
+  },
+  {
+    "number": 240,
+    "prompt": "Let x = (633)^24 - (277)^38 + (266)^54. What is the units digit of x?"
+  },
+  {
+    "number": 241,
+    "prompt": "If x = (164)^169 + (333)^337 - (727)^726, then what is the units digit of x?"
+  },
+  {
+    "number": 242,
+    "prompt": "What is the unit digit of (217)^413 x (819)^547 x (414)^624 x (342)^812 ?"
+  },
+  {
+    "number": 243,
+    "prompt": "The last digit of 17^n is 3. Then which of the following cannot be the value of n?"
+  },
+  {
+    "number": 244,
+    "prompt": "Let p be a two digit integer such that the last digit of 12^p is 8. How many values p can take?"
+  },
+  {
+    "number": 245,
+    "prompt": "The right most nonzero digit of 120^250 is:"
+  },
+  {
+    "number": 246,
+    "prompt": "The right most non zero digit of 20^50 x 140^72 is:"
+  },
+  {
+    "number": 247,
+    "prompt": "Find the right most nonzero digit of 130^180 + 180^130"
+  },
+  {
+    "number": 248,
+    "prompt": "What is the right most non zero digit of 230^170 - 80^100 ?"
+  },
+  {
+    "number": 249,
+    "prompt": "What is the unit digit of 973^(234!) x 234^(973!) ?"
+  },
+  {
+    "number": 250,
+    "prompt": "What is the unit digit of 1^5 + 2^5 + 3^5 + ... + 20^5 ?"
+  },
+  {
+    "number": 251,
+    "prompt": "If n is a positive integer, then what is the digit in the unit place of 3^(2n+1) + 2^(2n+1) ?"
+  },
+  {
+    "number": 252,
+    "prompt": "A number being divided by 52 gives a remainder 45. If the number is divided by 13, the remainder will be?"
+  },
+  {
+    "number": 253,
+    "prompt": "A number when divided by 899 gives a remainder 63. If the same number is divided by 29, the remainder will be:"
+  },
+  {
+    "number": 254,
+    "prompt": "A number when divided by 25 leaves 14 remainder. What is the remainder if this number is divided by 10?"
+  },
+  {
+    "number": 255,
+    "prompt": "A number when divided by 12 leaves 5 remainder. What is the remainder if square of this number is divided by 8?"
+  },
+  {
+    "number": 256,
+    "prompt": "A number when divided by 18 leaves a remainder 7. The same number when divided by 12 leaves a remainder n. How many values can n take?"
+  },
+  {
+    "number": 257,
+    "prompt": "When two numbers are separately divided by 33, the remainders are 21 and 28 respectively, if the sum of two numbers is divided by 33, the remainder will be"
+  },
+  {
+    "number": 258,
+    "prompt": "Find the remainder when (1007 + 1008 + 1009 + 1010) is divided by 6."
+  },
+  {
+    "number": 259,
+    "prompt": "If two numbers are divided by the same divisor, the remainders are 3 and 4 respectively. If the sum of the two numbers be divided by the same divisor, the remainder is 2. The divisor is"
+  },
+  {
+    "number": 260,
+    "prompt": "The remainder when 75 x 73 x 78 x 76 is divided by 34 is:"
+  },
+  {
+    "number": 261,
+    "prompt": "Find the last two digits of 12899 x 96 x 997."
+  },
+  {
+    "number": 262,
+    "prompt": "Find the last two digits of 98 x 17373 x 153 x 96 x 127."
+  },
+  {
+    "number": 263,
+    "prompt": "A number when divided by 6 leaves remainder 3. When the square of same number is divided by 6, the remainder is"
+  },
+  {
+    "number": 264,
+    "prompt": "When positive numbers x, y and z are divided by 31, the remainders are 17, 24 and 27, respectively. When (4x - 2y + 3z) is divided by 31, the remainder will be:"
+  },
+  {
+    "number": 265,
+    "prompt": "Let 'a', 'b', 'c' be three integers which give 3, 4 and 8 remainders respectively when divided by 45. What is the remainder if 3a^2 + 5b + c^3 is divided by 15?"
+  },
+  {
+    "number": 266,
+    "prompt": "If a number is divided by 129 leaves remainder 27, if 4 times of this number is divided by 86 then what will be the remainder?"
+  },
+  {
+    "number": 267,
+    "prompt": "When a positive integer is divided by d, the remainder is 15. When ten times of the same number is divided by d, the remainder is 6. The least possible value of d is:"
+  },
+  {
+    "number": 268,
+    "prompt": "When a number N is divided by divisor D, it leaves a remainder 10 and N^2 divided by D leaves remainder 4. How many values of D are possible?"
+  },
+  {
+    "number": 269,
+    "prompt": "If a number 'N' divided by a divisor D, of 2-digits, gives a remainder 68. If 5N is divided by D, it gives remainder 8, then, find value of D?"
+  },
+  {
+    "number": 270,
+    "prompt": "Let x be an odd natural number. If x is divided by 6, it leaves a remainder y. If y^2 is divided by 4, it leaves remainder of z. Which of the following must be true for z?"
+  },
+  {
+    "number": 271,
+    "prompt": "Find the remainder for the following calculations: a) 59^637 / 58, b) 96^132 / 97, c) 181^753 / 182, d) 257^1008 / 64, e) 471^344 / 118, f) (494^139 + 396^137) / 99, g) 7^84 / 342, h) 31^(31^31) / 32, i) (153^153 + 153) / 154, j) (88^89 + 26) / 89"
+  },
+  {
+    "number": 272,
+    "prompt": "Find the remainder for the following calculations: a) 9^178 / 13, b) 4^2007 / 17, c) 29^120 / 13, d) 77^100 / 10, e) 10^70 / 7, f) 2^68 / 33, g) 16^512 / 31, h) 32^32 / 7, i) 5^49 / 126, j) 3^853 / 244, k) 50^80 / 24, l) (2^50 * 3^90) / 7, m) (3^50 + 4^50) / 20, n) 7^656 / 400, o) 95^75 / 18, p) 32^(32^32) / 7, q) 25^(25^(24^23)) / 9, r) 15^(30^45) / 8"
+  },
+  {
+    "number": 273,
+    "prompt": "What is the remainder when 4^90 is divided by 6?"
+  },
+  {
+    "number": 274,
+    "prompt": "What is the last digit of 113^(106^(100^...1)) ?"
+  },
+  {
+    "number": 275,
+    "prompt": "Find the remainder for the following calculations: a) 72^109 / 37, b) 54^253 / 43, c) 14^222 / 23, d) 44^74 / 76, e) 13^169 / 49, f) 37^142 / 25, g) (23^722 + 24^722) / 25, h) 913^(101^100) / 101"
+  },
+  {
+    "number": 276,
+    "prompt": "Find the remainder: (5555^2222 + 2222^5555) / 7 = ?"
+  },
+  {
+    "number": 277,
+    "prompt": "Find the last 2-digits of: 43^362"
+  },
+  {
+    "number": 278,
+    "prompt": "Find the last 3-digits of: 87^2002"
+  },
+  {
+    "number": 279,
+    "prompt": "Find the last 3 digit of 63^25 x 25^63."
+  },
+  {
+    "number": 280,
+    "prompt": "Find the remainder for the following calculations: a) 53^110 / 90, b) 189^158 / 91, c) 100^100 / 77"
+  },
+  {
+    "number": 281,
+    "prompt": "The sum of the digits of a number N is 23. The remainder when N is divided by 11 is 7. What is the remainder when N is divided by 33?"
+  },
+  {
+    "number": 282,
+    "prompt": "What is the remainder when 7 + 77 + 777 + 7777 + ...... + (till 100 terms) is divided by 8?"
+  },
+  {
+    "number": 283,
+    "prompt": "What is the remainder if 1^15 + 2^15 + 3^15 + ... + 60^15 is divided by 4?"
+  },
+  {
+    "number": 284,
+    "prompt": "Find the remainder when (10^1 + 10^2 + 10^3 + 10^4 + ... + 10^100) is divided by 6."
+  },
+  {
+    "number": 285,
+    "prompt": "Find the remainder if 17 + 17^2 + 17^3 + ... + 17^17 is divided by 34?"
+  },
+  {
+    "number": 286,
+    "prompt": "What is the remainder when 10^(10^1) + 10^(10^2) + 10^(10^3) + ... + 10^(10^30) is divided by 7?"
+  },
+  {
+    "number": 287,
+    "prompt": "When a number is successively divided by 3, 4 and 7, the remainder obtained is 2, 3 and 5, respectively. What will be the remainder when 42 divides the same number?"
+  },
+  {
+    "number": 288,
+    "prompt": "A number when successively divided by 4 and 5 leaves a remainder 1 and 4 respectively. When it is successively divided by 5 and 4 the respective remainders would be"
+  },
+  {
+    "number": 289,
+    "prompt": "When a number 'X' is successively divided by 9, 8 and 7 it gives remainder 4, 5 and 3 respectively. Find that value of X such that it lies between 5200 and 5400?"
+  },
+  {
+    "number": 290,
+    "prompt": "In a division sum, the divisor 'd' is 10 times the quotient 'q' and 5 times the remainder 'r'. If r = 46, the dividend will be"
+  },
+  {
+    "number": 291,
+    "prompt": "The divisor is 24 times the quotient and 8 times the remainder. If the quotient is 18, then the dividend is:"
+  },
+  {
+    "number": 292,
+    "prompt": "In a division sum, the divisor is 4 times the quotient and twice the remainder. If a and b are respectively the divisor and the dividend, then evaluate the given choices."
+  },
+  {
+    "number": 293,
+    "prompt": "Two positive numbers differ by 3951. When the larger number is divided by the smaller number, the quotient is 12 and the remainder is 13. The sum of the digits of the larger number is:"
+  },
+  {
+    "number": 294,
+    "prompt": "Two positive numbers differ by 2001. When the larger number is divided by the smaller number, the quotient is 9 and the remainder is 41. The sum of the digits of the larger number is:"
+  },
+  {
+    "number": 295,
+    "prompt": "On dividing 8675123 by a certain number, the quotient is 33611 and the remainder is 3485. The divisor is"
+  },
+  {
+    "number": 296,
+    "prompt": "A General of Army wants to form a square from 36562 soldiers. After arrangement, he found some soldiers were left. How many soldiers were left?"
+  },
+  {
+    "number": 297,
+    "prompt": "To get a perfect square, what should the minimum number be added to 8212?"
+  },
+  {
+    "number": 298,
+    "prompt": "Let x be the least number which subtracted from 10424 gives a perfect square number. What is the least number by which x should be multiplied to get a perfect square?"
+  },
+  {
+    "number": 299,
+    "prompt": "How many natural numbers are there between sqrt(261) and sqrt(45109)?"
+  },
+  {
+    "number": 300,
+    "prompt": "A toy factory manufactured a batch of electronic toys. If the toys were packed in boxes of 115 each, 13 boxes would not be filled completely. If the toys were packed in boxes of 65 each, 22 such boxes would not be enough to pack all of them. Coincidentally, in the end, the toys were packed in n boxes containing n toys each, without any remainder. The total number of toys was"
+  },
+  {
+    "number": 301,
+    "prompt": "The product of two consecutive prime numbers is 7387. What is the difference of the two numbers?"
+  },
+  {
+    "number": 302,
+    "prompt": "The square root of which of the following is a rational number? Choices given are: a) 5535.36, b) 3152.88, c) 72905.2, d) 67508.5"
+  },
+  {
+    "number": 303,
+    "prompt": "The square root of which of the following is a rational number? Choices given are: a) 5823.82, b) 22504.9, c) 2460.14, d) 1489.96"
+  },
+  {
+    "number": 304,
+    "prompt": "The square root of which of the following is a rational number? Choices given are: a) 1250.49, b) 6250.49, c) 1354.24, d) 5768.28"
+  },
+  {
+    "number": 305,
+    "prompt": "How many perfect squares less than 10,000 end with 4?"
+  },
+  {
+    "number": 306,
+    "prompt": "If cbrt(N) lies between 6 and 7, where N is an integer then how many values N can take?"
+  },
+  {
+    "number": 307,
+    "prompt": "Sum of two numbers is 40 and their product is 375. What will be the sum of their reciprocals?"
+  },
+  {
+    "number": 308,
+    "prompt": "Two positive integers differ by 8 and their reciprocals differ by 2/45, then which of the following can possibly be one of these integers?"
+  },
+  {
+    "number": 309,
+    "prompt": "The average of the largest and smallest 3 digit numbers formed by 0, 2 and 4 would be"
+  },
+  {
+    "number": 310,
+    "prompt": "How many digits in all are required to write numbers from 1 to 50?"
+  },
+  {
+    "number": 311,
+    "prompt": "If the sum of ten different positive integers is 100, then what is the greatest possible number among these 10 numbers?"
+  },
+  {
+    "number": 312,
+    "prompt": "Consider the multiplication 999 x abc = def132 in decimal notation, where a, b, c, d, e and f are digits. What are the values of a, b, c, d, e and f, respectively?"
+  },
+  {
+    "number": 313,
+    "prompt": "What are the last three digit of the multiplication 654321 x 123456?"
+  },
+  {
+    "number": 314,
+    "prompt": "A student was asked to divide a number by 6 and add 12 to the quotient. He, however, first added 12 to the number and then divided it by 6, getting 112 as the answer. The correct answer should have been"
+  },
+  {
+    "number": 315,
+    "prompt": "If N = 1 + 11 + 111 + 1111 + ... + 111111111, then what is the sum of the digits of N?"
+  },
+  {
+    "number": 316,
+    "prompt": "If the sum of the digits of a number 10^n - 1, where n is a natural number, is equal to 3798, then what is the value of n?"
+  },
+  {
+    "number": 317,
+    "prompt": "A woman sells to the first customer half her stock of apples and half an apple, to the second customer half an apple and half of her remaining stock and so also to a third and to a fourth customer. She finds that she has now 15 apples left. How many had she at first?"
+  },
+  {
+    "number": 318,
+    "prompt": "Each member of a club contributes as much rupees and as much paise as the number of members of the club. If the total contribution is Rs. 2525, then the number of members of the club is"
+  },
+  {
+    "number": 319,
+    "prompt": "Natu and Buchku each have certain number of oranges. Natu says to Buchku, \"If you give me 10 of your orange, I will have twice the number of oranges left with you\". Buchku replies, \"If you give me 10 of your oranges, I will have the same number of oranges as left with you\". What is the number of oranges with Natu and Buchku, respectively?"
+  },
+  {
+    "number": 320,
+    "prompt": "The sum of three positive numbers is 18 and their product is 162. If the sum of two numbers is equal to the third then the sum of squares of the numbers is"
+  },
+  {
+    "number": 321,
+    "prompt": "The sum of squares of three positive integers is 323. If the sum of squares of two numbers is twice the third, find their product."
+  }
+]
