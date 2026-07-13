@@ -24,7 +24,9 @@ export async function ensureSeedData(dbConnected) {
 export async function listSubjects(dbConnected) {
   if (!dbConnected) return clone(memorySubjects);
 
-  const subjects = await SubjectModel.find().sort({ createdAt: 1 }).lean();
+  const subjects = await SubjectModel.find()
+    .sort({ sortOrder: 1, createdAt: 1 })
+    .lean();
   return subjects.map((subject) => {
     const plainSubject = { ...subject };
     plainSubject.chapters = (plainSubject.chapters ?? []).filter(
@@ -38,12 +40,16 @@ export async function listSubjects(dbConnected) {
 
 export async function createSubject(dbConnected, payload) {
   const id = payload.id || slugify(payload.name);
+  const sortOrder = dbConnected
+    ? await SubjectModel.countDocuments()
+    : memorySubjects.length;
   const subject = {
     id,
     name: payload.name,
     subtitle: payload.subtitle || `${payload.exam || "SSC CGL"} ${payload.name}`,
     exam: payload.exam || "SSC CGL",
     courseName: payload.courseName || payload.name,
+    sortOrder,
     course: {
       totalVideos: Number(payload.totalVideos || 0),
       completedVideos: 0,
@@ -62,6 +68,38 @@ export async function createSubject(dbConnected, payload) {
   const existing = await SubjectModel.exists({ id });
   if (existing) return null;
   return SubjectModel.create(subject).then((document) => document.toObject());
+}
+
+export async function moveSubjectToTop(dbConnected, subjectId) {
+  if (!dbConnected) {
+    const index = memorySubjects.findIndex((subject) => subject.id === subjectId);
+    if (index < 0) return null;
+    const [subject] = memorySubjects.splice(index, 1);
+    memorySubjects.unshift(subject);
+    return clone(memorySubjects);
+  }
+
+  const subjects = await SubjectModel.find()
+    .sort({ sortOrder: 1, createdAt: 1 })
+    .select({ id: 1 })
+    .lean();
+  const selected = subjects.find((subject) => subject.id === subjectId);
+  if (!selected) return null;
+
+  const ordered = [
+    selected,
+    ...subjects.filter((subject) => subject.id !== subjectId),
+  ];
+  await SubjectModel.bulkWrite(
+    ordered.map((subject, sortOrder) => ({
+      updateOne: {
+        filter: { id: subject.id },
+        update: { $set: { sortOrder } },
+      },
+    })),
+  );
+
+  return listSubjects(dbConnected);
 }
 
 export async function createChapter(dbConnected, payload) {

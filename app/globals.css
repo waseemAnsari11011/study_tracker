@@ -184,6 +184,51 @@ a {
   padding: 4px;
 }
 
+.subject-item-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  gap: 4px;
+  padding: 4px;
+}
+
+.subject-select {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.subject-pin {
+  display: grid;
+  place-items: center;
+  align-self: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+}
+
+.subject-pin:hover:not(:disabled) {
+  color: var(--brand);
+  background: var(--panel-strong);
+}
+
+.subject-pin:disabled {
+  cursor: default;
+  color: var(--brand);
+  opacity: 0.55;
+}
+
 .chapter-select {
   display: flex;
   align-items: center;
@@ -226,7 +271,9 @@ a {
 }
 
 .chapter-select:focus-visible,
-.chapter-delete:focus-visible {
+.chapter-delete:focus-visible,
+.subject-select:focus-visible,
+.subject-pin:focus-visible {
   outline: 2px solid var(--brand);
   outline-offset: 1px;
 }

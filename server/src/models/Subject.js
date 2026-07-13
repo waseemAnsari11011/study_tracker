@@ -56,6 +56,7 @@ const subjectSchema = new mongoose.Schema(
     subtitle: { type: String, required: true },
     exam: { type: String, default: "SSC CGL" },
     courseName: { type: String, required: true },
+    sortOrder: { type: Number, default: 0 },
     course: { type: courseSchema, default: () => ({}) },
     chapters: { type: [chapterSchema], default: [] },
   },

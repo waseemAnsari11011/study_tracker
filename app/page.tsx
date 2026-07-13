@@ -16,6 +16,7 @@ import {
   GraduationCap,
   Minus,
   Moon,
+  Pin,
   Plus,
   Search,
   Settings,
@@ -60,6 +61,34 @@ import {
 
 const apiBase = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api";
 const pageSize = 10;
+const subjectOrderStorageKey = "studytrack-subject-order";
+
+function orderSubjects(subjects: Subject[], preferredIds: string[]) {
+  const positions = new Map(preferredIds.map((id, index) => [id, index]));
+  return [...subjects].sort((left, right) => {
+    const leftPosition = positions.get(left.id) ?? Number.MAX_SAFE_INTEGER;
+    const rightPosition = positions.get(right.id) ?? Number.MAX_SAFE_INTEGER;
+    return leftPosition - rightPosition;
+  });
+}
+
+function readSubjectOrder() {
+  try {
+    const value = JSON.parse(window.localStorage.getItem(subjectOrderStorageKey) ?? "[]");
+    return Array.isArray(value)
+      ? value.filter((item): item is string => typeof item === "string")
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveSubjectOrder(subjects: Subject[]) {
+  window.localStorage.setItem(
+    subjectOrderStorageKey,
+    JSON.stringify(subjects.map((subject) => subject.id)),
+  );
+}
 
 type ChapterForm = {
   subjectId: string;
@@ -336,6 +365,11 @@ export default function Home() {
 
   useEffect(() => {
     let cancelled = false;
+    const preferredSubjectOrder = readSubjectOrder();
+    const restoreOrderTimer = window.setTimeout(
+      () => setSubjects((current) => orderSubjects(current, preferredSubjectOrder)),
+      0,
+    );
 
     async function loadDashboard() {
       try {
@@ -344,17 +378,18 @@ export default function Home() {
         const data = (await response.json()) as { subjects: Subject[] };
         if (cancelled || !data.subjects?.length) return;
 
-        setSubjects(data.subjects);
+        const orderedSubjects = orderSubjects(data.subjects, preferredSubjectOrder);
+        setSubjects(orderedSubjects);
         setActiveSubjectId((current) =>
-          data.subjects.some((subject) => subject.id === current)
+          orderedSubjects.some((subject) => subject.id === current)
             ? current
-            : data.subjects[0].id,
+            : orderedSubjects[0].id,
         );
         setActiveChapterId((current) => {
-          const hasCurrent = data.subjects.some((subject) =>
+          const hasCurrent = orderedSubjects.some((subject) =>
             subject.chapters.some((chapter) => chapter.id === current),
           );
-          return hasCurrent ? current : data.subjects[0].chapters[0]?.id ?? "";
+          return hasCurrent ? current : orderedSubjects[0].chapters[0]?.id ?? "";
         });
       } catch {
         // The UI remains fully usable with local seeded data when the API is off.
@@ -364,6 +399,7 @@ export default function Home() {
     loadDashboard();
     return () => {
       cancelled = true;
+      window.clearTimeout(restoreOrderTimer);
     };
   }, []);
 
@@ -864,6 +900,29 @@ export default function Home() {
     }
   }
 
+  async function moveSubjectToTop(subjectId: string) {
+    setSubjects((current) => {
+      const selected = current.find((subject) => subject.id === subjectId);
+      if (!selected) return current;
+      const ordered = [selected, ...current.filter((subject) => subject.id !== subjectId)];
+      saveSubjectOrder(ordered);
+      return ordered;
+    });
+
+    try {
+      const response = await fetch(`${apiBase}/subjects/${subjectId}/move-to-top`, {
+        method: "PATCH",
+      });
+      if (!response.ok) return;
+      const data = (await response.json()) as { subjects: Subject[] };
+      const ordered = orderSubjects(data.subjects, readSubjectOrder());
+      setSubjects(ordered);
+      saveSubjectOrder(ordered);
+    } catch {
+      // Keep the chosen local order available while the API is offline.
+    }
+  }
+
   if (!activeSubject) {
     return null;
   }
@@ -921,29 +980,43 @@ export default function Home() {
           </div>
 
           <div className="chapter-list" style={{ marginTop: 14 }}>
-            {subjects.map((subject) => (
-              <button
-                className={`chapter-item ${subject.id === activeSubject.id ? "active" : ""}`}
+            {subjects.map((subject, index) => (
+              <div
+                className={`chapter-item subject-item-row ${subject.id === activeSubject.id ? "active" : ""}`}
                 key={subject.id}
-                type="button"
-                onClick={() => {
-                  setActiveSubjectId(subject.id);
-                  setActiveChapterId(subject.chapters[0]?.id ?? "");
-                  setCurrentPage(1);
-                }}
               >
-                <div className="chapter-number">{subject.name.slice(0, 1)}</div>
-                <div className="chapter-meta">
-                  <span className="chapter-title">{subject.name}</span>
-                  <span className="tiny">
-                    {subject.chapters.reduce(
-                      (sum, chapter) => sum + chapter.totalQuestions,
-                      0,
-                    )}{" "}
-                    questions
+                <button
+                  className="subject-select"
+                  type="button"
+                  onClick={() => {
+                    setActiveSubjectId(subject.id);
+                    setActiveChapterId(subject.chapters[0]?.id ?? "");
+                    setCurrentPage(1);
+                  }}
+                >
+                  <span className="chapter-number">{subject.name.slice(0, 1)}</span>
+                  <span className="chapter-meta">
+                    <span className="chapter-title">{subject.name}</span>
+                    <span className="tiny">
+                      {subject.chapters.reduce(
+                        (sum, chapter) => sum + chapter.totalQuestions,
+                        0,
+                      )}{" "}
+                      questions
+                    </span>
                   </span>
-                </div>
-              </button>
+                </button>
+                <button
+                  className="subject-pin"
+                  type="button"
+                  aria-label={index === 0 ? `${subject.name} is already at top` : `Move ${subject.name} to top`}
+                  title={index === 0 ? "Already at top" : "Move to top"}
+                  disabled={index === 0}
+                  onClick={() => moveSubjectToTop(subject.id)}
+                >
+                  <Pin size={16} />
+                </button>
+              </div>
             ))}
           </div>
         </section>

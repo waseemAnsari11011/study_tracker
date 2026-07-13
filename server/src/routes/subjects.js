@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { z } from "zod";
-import { createSubject, updateCourse } from "../store.js";
+import { createSubject, moveSubjectToTop, updateCourse } from "../store.js";
 
 const subjectSchema = z.object({
   name: z.string().trim().min(1).max(100),
@@ -29,6 +29,23 @@ subjectsRouter.post("/", async (req, res, next) => {
     }
 
     return res.status(201).json({ subject });
+  } catch (error) {
+    return next(error);
+  }
+});
+
+subjectsRouter.patch("/:subjectId/move-to-top", async (req, res, next) => {
+  try {
+    const subjects = await moveSubjectToTop(
+      req.app.locals.dbConnected,
+      req.params.subjectId,
+    );
+
+    if (!subjects) {
+      return res.status(404).json({ message: "Subject not found." });
+    }
+
+    return res.json({ subjects });
   } catch (error) {
     return next(error);
   }
