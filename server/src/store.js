@@ -115,6 +115,7 @@ export async function createChapter(dbConnected, payload) {
     totalQuestions,
     sourcePdfName: payload.sourcePdfName,
     sourcePdfUrl: payload.sourcePdfUrl,
+    notes: [],
     questions: prompts.length
       ? prompts.map((prompt, index) => ({
           id: `${chapterId}-q-${index + 1}`,
@@ -197,6 +198,53 @@ export async function softDeleteChapter(dbConnected, chapterId) {
   return result ? { chapterId, deletedAt } : null;
 }
 
+export async function addChapterNote(dbConnected, chapterId, payload) {
+  const note = {
+    id: payload.id || `${chapterId}-note-${Date.now()}`,
+    text: String(payload.text).trim(),
+    createdAt: new Date().toISOString(),
+  };
+
+  if (!dbConnected) {
+    for (const subject of memorySubjects) {
+      const chapter = subject.chapters.find((item) => item.id === chapterId);
+      if (!chapter) continue;
+      chapter.notes ||= [];
+      chapter.notes.push(note);
+      return clone(note);
+    }
+    return null;
+  }
+
+  const subject = await SubjectModel.findOne({ "chapters.id": chapterId });
+  if (!subject) return null;
+  const chapter = subject.chapters.find((item) => item.id === chapterId);
+  if (!chapter) return null;
+  chapter.notes.push(note);
+  await subject.save();
+  return note;
+}
+
+export async function deleteChapterNote(dbConnected, chapterId, noteId) {
+  if (!dbConnected) {
+    for (const subject of memorySubjects) {
+      const chapter = subject.chapters.find((item) => item.id === chapterId);
+      if (!chapter) continue;
+      const before = (chapter.notes ?? []).length;
+      chapter.notes = (chapter.notes ?? []).filter((note) => note.id !== noteId);
+      return before === chapter.notes.length ? null : { noteId };
+    }
+    return null;
+  }
+
+  const result = await SubjectModel.updateOne(
+    { "chapters.id": chapterId, "chapters.notes.id": noteId },
+    { $pull: { "chapters.$[chapter].notes": { id: noteId } } },
+    { arrayFilters: [{ "chapter.id": chapterId }] },
+  );
+  return result.modifiedCount > 0 ? { noteId } : null;
+}
+
 function buildAppendedQuestions(chapter, prompts) {
   const maxNumber = chapter.questions.reduce(
     (currentMax, question) => Math.max(currentMax, Number(question.number || 0)),
@@ -262,6 +310,10 @@ export async function updateAttempt(dbConnected, questionId, attemptNumber, payl
       payload.status === "not_attempted"
         ? undefined
         : payload.attemptedAt || new Date().toISOString(),
+    blockedImages: payload.blockedImages ?? [],
+    learningImages: payload.learningImages ?? [],
+    blockedContent: payload.blockedContent,
+    learningContent: payload.learningContent,
   };
 
   if (!dbConnected) {
@@ -297,6 +349,23 @@ export async function updateAttempt(dbConnected, questionId, attemptNumber, payl
   if (!updatedQuestion) return null;
   await subject.save();
   return updatedQuestion.toObject ? updatedQuestion.toObject() : updatedQuestion;
+}
+
+export async function findAttempt(dbConnected, questionId, attemptNumber) {
+  const subjects = dbConnected
+    ? await SubjectModel.find({ "chapters.questions.id": questionId }).lean()
+    : memorySubjects;
+
+  for (const subject of subjects) {
+    for (const chapter of subject.chapters ?? []) {
+      const question = chapter.questions?.find((item) => item.id === questionId);
+      const attempt = question?.attempts?.find(
+        (item) => item.attemptNumber === attemptNumber,
+      );
+      if (attempt) return clone(attempt);
+    }
+  }
+  return null;
 }
 
 export async function updateCourse(dbConnected, subjectId, payload) {

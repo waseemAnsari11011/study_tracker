@@ -3,8 +3,10 @@ import { Router } from "express";
 import multer from "multer";
 import { z } from "zod";
 import {
+  addChapterNote,
   appendQuestionsToChapter,
   createChapter,
+  deleteChapterNote,
   softDeleteChapter,
 } from "../store.js";
 
@@ -45,6 +47,11 @@ const appendQuestionsSchema = z
   .refine((value) => value.questions?.length || value.rawText?.trim(), {
     message: "Add at least one question.",
   });
+
+const chapterNoteSchema = z.object({
+  id: z.string().min(1).optional(),
+  text: z.string().trim().min(1).max(500),
+});
 
 export const chaptersRouter = Router();
 
@@ -94,6 +101,35 @@ chaptersRouter.post("/:chapterId/questions", async (req, res, next) => {
     }
 
     return res.status(201).json(result);
+  } catch (error) {
+    return next(error);
+  }
+});
+
+chaptersRouter.post("/:chapterId/notes", async (req, res, next) => {
+  try {
+    const payload = chapterNoteSchema.parse(req.body);
+    const note = await addChapterNote(
+      req.app.locals.dbConnected,
+      req.params.chapterId,
+      payload,
+    );
+    if (!note) return res.status(404).json({ message: "Chapter not found." });
+    return res.status(201).json({ note });
+  } catch (error) {
+    return next(error);
+  }
+});
+
+chaptersRouter.delete("/:chapterId/notes/:noteId", async (req, res, next) => {
+  try {
+    const result = await deleteChapterNote(
+      req.app.locals.dbConnected,
+      req.params.chapterId,
+      req.params.noteId,
+    );
+    if (!result) return res.status(404).json({ message: "Note not found." });
+    return res.json(result);
   } catch (error) {
     return next(error);
   }

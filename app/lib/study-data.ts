@@ -13,6 +13,36 @@ export type AttemptLog = {
   learning: string;
   solvedIndependently: boolean;
   attemptedAt?: string;
+  blockedImages?: AttemptAttachment[];
+  learningImages?: AttemptAttachment[];
+  blockedContent?: EditorDocument;
+  learningContent?: EditorDocument;
+};
+
+export type EditorNode = {
+  type: string;
+  attrs?: Record<string, unknown>;
+  content?: EditorNode[];
+  text?: string;
+  marks?: Array<{ type: string; attrs?: Record<string, unknown> }>;
+};
+
+export type EditorDocument = {
+  type: "doc";
+  content: EditorNode[];
+};
+
+export type AttemptAttachment = {
+  id: string;
+  publicId: string;
+  url: string;
+  filename: string;
+  mimeType: string;
+  size: number;
+  width?: number;
+  height?: number;
+  caption?: string;
+  createdAt: string;
 };
 
 export type Question = {
@@ -22,6 +52,12 @@ export type Question = {
   attempts: AttemptLog[];
 };
 
+export type ChapterNote = {
+  id: string;
+  text: string;
+  createdAt: string;
+};
+
 export type Chapter = {
   id: string;
   name: string;
@@ -29,6 +65,7 @@ export type Chapter = {
   sourcePdfName?: string;
   sourcePdfUrl?: string;
   deletedAt?: string | null;
+  notes?: ChapterNote[];
   questions: Question[];
 };
 

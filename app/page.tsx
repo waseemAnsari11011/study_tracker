@@ -16,6 +16,7 @@ import {
   GraduationCap,
   Minus,
   Moon,
+  NotebookPen,
   Pin,
   Plus,
   Search,
@@ -31,7 +32,13 @@ import {
   X,
   XCircle,
 } from "lucide-react";
-import { ChangeEvent, useEffect, useMemo, useState } from "react";
+import {
+  ChangeEvent,
+  FormEvent,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import {
   Bar,
   BarChart,
@@ -46,22 +53,40 @@ import {
 } from "recharts";
 import {
   AttemptLog,
+  AttemptAttachment,
   AttemptNumber,
   AttemptStatus,
   Chapter,
+  ChapterNote,
   CourseProgress,
+  EditorDocument,
   Question,
   Subject,
   attemptNumbers,
-  createDefaultSubjects,
-  createQuestions,
-  slugify,
   statusLabels,
 } from "./lib/study-data";
+import {
+  PreparedEditorImage,
+  RichNoteEditor,
+} from "./components/RichNoteEditor";
 
 const apiBase = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api";
 const pageSize = 10;
 const subjectOrderStorageKey = "studytrack-subject-order";
+
+type ApiErrorBody = { message?: string };
+
+async function apiRequest<T>(url: string, init?: RequestInit): Promise<T> {
+  const response = await fetch(url, {
+    ...init,
+    signal: init?.signal ?? AbortSignal.timeout(30_000),
+  });
+  const body = (await response.json().catch(() => ({}))) as T & ApiErrorBody;
+  if (!response.ok) {
+    throw new Error(body.message || `Request failed with status ${response.status}.`);
+  }
+  return body;
+}
 
 function orderSubjects(subjects: Subject[], preferredIds: string[]) {
   const positions = new Map(preferredIds.map((id, index) => [id, index]));
@@ -117,9 +142,24 @@ type OutcomeDraft = {
   questionId: string;
   status: AttemptStatus;
   reasonCategory: string;
-  blockedDetail: string;
-  learning: string;
+  blockedContent: EditorDocument;
+  learningContent: EditorDocument;
   attemptedAt: string;
+  blockedImages: AttemptAttachment[];
+  learningImages: AttemptAttachment[];
+  pendingBlockedImages: PendingImage[];
+  pendingLearningImages: PendingImage[];
+};
+
+type PendingImage = {
+  id: string;
+  file: File;
+  previewUrl: string;
+};
+
+type SaveNotice = {
+  kind: "saving" | "success" | "error";
+  message: string;
 };
 
 const statusOptions: AttemptStatus[] = [
@@ -141,7 +181,6 @@ const modalStatusOptions: Array<{
     status: "struggled",
   },
   { icon: <XCircle size={24} />, label: "Couldn't solve", status: "unsolved" },
-  { icon: <Clock size={24} />, label: "Clear attempt", status: "not_attempted" },
 ];
 
 const struggleReasons = [
@@ -153,6 +192,133 @@ const struggleReasons = [
   "Language/wording confusion",
   "Other",
 ];
+
+const imageTargetBytes = 50 * 1024;
+const acceptedImageTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
+
+function canvasToBlob(canvas: HTMLCanvasElement, quality: number) {
+  return new Promise<Blob>((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => (blob ? resolve(blob) : reject(new Error("Image compression failed."))),
+      "image/webp",
+      quality,
+    );
+  });
+}
+
+async function compressImage(file: File): Promise<File> {
+  if (!acceptedImageTypes.has(file.type)) {
+    throw new Error(`${file.name}: only JPEG, PNG, and WebP images are supported.`);
+  }
+
+  const bitmap = await createImageBitmap(file);
+  let width = Math.min(bitmap.width, 1600);
+  let height = Math.round((bitmap.height * width) / bitmap.width);
+  if (height > 1600) {
+    width = Math.round((width * 1600) / height);
+    height = 1600;
+  }
+
+  const canvas = document.createElement("canvas");
+  const context = canvas.getContext("2d");
+  if (!context) throw new Error("Your browser cannot compress this image.");
+
+  let result: Blob | null = null;
+  for (let resizePass = 0; resizePass < 7; resizePass += 1) {
+    canvas.width = Math.max(320, Math.round(width));
+    canvas.height = Math.max(240, Math.round(height));
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+
+    for (let quality = 0.86; quality >= 0.28; quality -= 0.08) {
+      result = await canvasToBlob(canvas, quality);
+      if (result.size <= imageTargetBytes) break;
+    }
+    if (result && result.size <= imageTargetBytes) break;
+    width *= 0.82;
+    height *= 0.82;
+  }
+  bitmap.close();
+
+  if (!result || result.size > imageTargetBytes) {
+    throw new Error(`${file.name}: could not be reduced below 50 KB.`);
+  }
+  const baseName = file.name.replace(/\.[^.]+$/, "") || "study-image";
+  return new File([result], `${baseName}.webp`, {
+    type: "image/webp",
+    lastModified: Date.now(),
+  });
+}
+
+async function compressImageWithTimeout(file: File) {
+  let timeoutId: ReturnType<typeof setTimeout> | undefined;
+  try {
+    return await Promise.race([
+      compressImage(file),
+      new Promise<never>((_resolve, reject) => {
+        timeoutId = setTimeout(
+          () => reject(new Error(`${file.name}: image processing timed out.`)),
+          15_000,
+        );
+      }),
+    ]);
+  } finally {
+    if (timeoutId) clearTimeout(timeoutId);
+  }
+}
+
+function legacyEditorDocument(
+  text: string,
+  images: AttemptAttachment[],
+): EditorDocument {
+  const content: EditorDocument["content"] = [];
+  content.push(
+    text
+      ? { type: "paragraph", content: [{ type: "text", text }] }
+      : { type: "paragraph" },
+  );
+  images.forEach((image) => {
+    content.push({
+      type: "image",
+      attrs: {
+        src: image.url,
+        alt: image.filename,
+        title: image.filename,
+        attachmentId: image.id,
+        publicId: image.publicId,
+      },
+    });
+    content.push(
+      image.caption
+        ? { type: "paragraph", content: [{ type: "text", text: image.caption }] }
+        : { type: "paragraph" },
+    );
+  });
+  return { type: "doc", content };
+}
+
+function editorText(document: EditorDocument) {
+  const parts: string[] = [];
+  const visit = (node: EditorDocument["content"][number]) => {
+    if (node.text) parts.push(node.text);
+    node.content?.forEach(visit);
+    if (["paragraph", "heading", "listItem"].includes(node.type)) parts.push("\n");
+  };
+  document.content.forEach(visit);
+  return parts.join("").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+function editorImageIds(document: EditorDocument, attribute: "attachmentId" | "pendingId") {
+  const ids = new Set<string>();
+  const visit = (node: EditorDocument["content"][number]) => {
+    const value = node.type === "image" ? node.attrs?.[attribute] : undefined;
+    if (typeof value === "string" && value) ids.add(value);
+    node.content?.forEach(visit);
+  };
+  document.content.forEach(visit);
+  return ids;
+}
 
 function getAttempt(question: Question, attemptNumber: AttemptNumber) {
   return (
@@ -256,29 +422,41 @@ function buildTrend(chapter: Chapter | undefined) {
   });
 }
 
+function localDateKey(date: Date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 function buildConsistency(chapter: Chapter | undefined) {
-  const labels = ["M", "T", "W", "T", "F", "S", "S"];
   const today = new Date();
   const dayIndex = (today.getDay() + 6) % 7;
   const monday = new Date(today);
   monday.setHours(0, 0, 0, 0);
   monday.setDate(today.getDate() - dayIndex);
 
-  const days = labels.map((label, index) => {
+  const days = Array.from({ length: 7 }, (_, index) => {
     const date = new Date(monday);
     date.setDate(monday.getDate() + index);
     return {
       count: 0,
       date,
-      day: label,
-      key: date.toISOString().slice(0, 10),
+      day: date.toLocaleDateString("en-IN", { weekday: "short" }),
+      displayDate: date.toLocaleDateString("en-IN", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        weekday: "short",
+      }),
+      key: localDateKey(date),
     };
   });
 
   chapter?.questions.forEach((question) => {
     question.attempts.forEach((attempt) => {
       if (!attempt.attemptedAt || attempt.status === "not_attempted") return;
-      const key = new Date(attempt.attemptedAt).toISOString().slice(0, 10);
+      const key = localDateKey(new Date(attempt.attemptedAt));
       const day = days.find((item) => item.key === key);
       if (day) day.count += 1;
     });
@@ -288,14 +466,14 @@ function buildConsistency(chapter: Chapter | undefined) {
     (chapter?.questions ?? []).flatMap((question) =>
       question.attempts
         .filter((attempt) => attempt.attemptedAt && attempt.status !== "not_attempted")
-        .map((attempt) => new Date(attempt.attemptedAt as string).toISOString().slice(0, 10)),
+        .map((attempt) => localDateKey(new Date(attempt.attemptedAt as string))),
     ),
   );
 
   let streak = 0;
   const cursor = new Date(today);
   cursor.setHours(0, 0, 0, 0);
-  while (attemptedDates.has(cursor.toISOString().slice(0, 10))) {
+  while (attemptedDates.has(localDateKey(cursor))) {
     streak += 1;
     cursor.setDate(cursor.getDate() - 1);
   }
@@ -311,7 +489,10 @@ function statusIcon(status: AttemptStatus) {
 }
 
 export default function Home() {
-  const [subjects, setSubjects] = useState<Subject[]>(() => createDefaultSubjects());
+  const [subjects, setSubjects] = useState<Subject[]>([]);
+  const [dashboardStatus, setDashboardStatus] = useState<"loading" | "ready" | "error">(
+    "loading",
+  );
   const [activeSubjectId, setActiveSubjectId] = useState("mathematics");
   const [activeChapterId, setActiveChapterId] = useState("number-system");
   const [activeAttempt, setActiveAttempt] = useState<AttemptNumber>(1);
@@ -324,6 +505,9 @@ export default function Home() {
   const [isSubjectModalOpen, setIsSubjectModalOpen] = useState(false);
   const [isQuestionModalOpen, setIsQuestionModalOpen] = useState(false);
   const [questionFileError, setQuestionFileError] = useState("");
+  const [chapterNoteText, setChapterNoteText] = useState("");
+  const [saveNotice, setSaveNotice] = useState<SaveNotice | null>(null);
+  const [pendingAction, setPendingAction] = useState<string | null>(null);
   const [outcomeDraft, setOutcomeDraft] = useState<OutcomeDraft | null>(null);
   const [chapterForm, setChapterForm] = useState<ChapterForm>({
     subjectId: "mathematics",
@@ -373,13 +557,15 @@ export default function Home() {
 
     async function loadDashboard() {
       try {
-        const response = await fetch(`${apiBase}/dashboard`);
-        if (!response.ok) return;
-        const data = (await response.json()) as { subjects: Subject[] };
-        if (cancelled || !data.subjects?.length) return;
+        const data = await apiRequest<{ subjects: Subject[] }>(`${apiBase}/dashboard`);
+        if (cancelled) return;
+        if (!data.subjects?.length) {
+          throw new Error("MongoDB returned no subjects.");
+        }
 
         const orderedSubjects = orderSubjects(data.subjects, preferredSubjectOrder);
         setSubjects(orderedSubjects);
+        setDashboardStatus("ready");
         setActiveSubjectId((current) =>
           orderedSubjects.some((subject) => subject.id === current)
             ? current
@@ -391,8 +577,16 @@ export default function Home() {
           );
           return hasCurrent ? current : orderedSubjects[0].chapters[0]?.id ?? "";
         });
-      } catch {
-        // The UI remains fully usable with local seeded data when the API is off.
+      } catch (error) {
+        if (cancelled) return;
+        setDashboardStatus("error");
+        setSaveNotice({
+          kind: "error",
+          message:
+            error instanceof Error
+              ? `${error.message} The dashboard was not loaded from MongoDB.`
+              : "The dashboard was not loaded from MongoDB.",
+        });
       }
     }
 
@@ -473,45 +667,30 @@ export default function Home() {
 
   const reviewCount = stats.review;
 
-  function updateAttemptLocal(
-    questionId: string,
-    updater: (attempt: AttemptLog) => AttemptLog,
-  ) {
-    let nextAttempt: AttemptLog | undefined;
-
-    setSubjects((currentSubjects) =>
-      currentSubjects.map((subject) => ({
-        ...subject,
-        chapters: subject.chapters.map((chapter) => ({
-          ...chapter,
-          questions: chapter.questions.map((question) => {
-            if (question.id !== questionId) return question;
-
-            return {
-              ...question,
-              attempts: question.attempts.map((attempt) => {
-                if (attempt.attemptNumber !== activeAttempt) return attempt;
-                nextAttempt = updater(attempt);
-                return nextAttempt;
-              }),
-            };
-          }),
-        })),
-      })),
-    );
-
-    return nextAttempt;
-  }
-
-  async function syncAttempt(questionId: string, attempt: AttemptLog) {
+  async function persistAction<T>(
+    action: string,
+    savingMessage: string,
+    successMessage: string,
+    request: () => Promise<T>,
+  ): Promise<T | null> {
+    if (pendingAction) return null;
+    setPendingAction(action);
+    setSaveNotice({ kind: "saving", message: savingMessage });
     try {
-      await fetch(`${apiBase}/questions/${questionId}/attempts/${attempt.attemptNumber}`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(attempt),
+      const result = await request();
+      setSaveNotice({ kind: "success", message: successMessage });
+      return result;
+    } catch (error) {
+      setSaveNotice({
+        kind: "error",
+        message:
+          error instanceof Error
+            ? `${error.message} Your changes were not applied.`
+            : "The save failed. Your changes were not applied.",
       });
-    } catch {
-      // Local edits stay visible even when the API is not running.
+      return null;
+    } finally {
+      setPendingAction(null);
     }
   }
 
@@ -527,28 +706,103 @@ export default function Home() {
       questionId: question.id,
       status: attempt.status,
       reasonCategory: matchedReason,
-      blockedDetail:
-        matchedReason === "Other" || !matchedReason ? attempt.reason : "",
-      learning: attempt.learning,
+      blockedContent:
+        attempt.blockedContent ??
+        legacyEditorDocument(
+          matchedReason === "Other" || !matchedReason ? attempt.reason : "",
+          attempt.blockedImages ?? [],
+        ),
+      learningContent:
+        attempt.learningContent ??
+        legacyEditorDocument(attempt.learning, attempt.learningImages ?? []),
       attemptedAt: toInputDate(attempt.attemptedAt),
+      blockedImages: attempt.blockedImages ?? [],
+      learningImages: attempt.learningImages ?? [],
+      pendingBlockedImages: [],
+      pendingLearningImages: [],
     });
   }
 
   function closeOutcomeModal() {
+    if (outcomeDraft) {
+      [...outcomeDraft.pendingBlockedImages, ...outcomeDraft.pendingLearningImages].forEach(
+        (image) => URL.revokeObjectURL(image.previewUrl),
+      );
+    }
     setOutcomeDraft(null);
   }
 
-  function saveOutcome() {
+  async function prepareOutcomeImage(
+    section: "blocked" | "learning",
+    file: File,
+  ): Promise<PreparedEditorImage | null> {
+    if (!outcomeDraft || pendingAction) return null;
+    setPendingAction("compress-images");
+    setSaveNotice({ kind: "saving", message: "Compressing images to 50 KB..." });
+    try {
+      const compressed = await compressImageWithTimeout(file);
+      const pending = {
+        id: crypto.randomUUID(),
+        file: compressed,
+        previewUrl: URL.createObjectURL(compressed),
+      };
+      setOutcomeDraft((current) =>
+        current
+          ? {
+              ...current,
+              ...(section === "blocked"
+                ? { pendingBlockedImages: [...current.pendingBlockedImages, pending] }
+                : { pendingLearningImages: [...current.pendingLearningImages, pending] }),
+            }
+          : current,
+      );
+      setSaveNotice({
+        kind: "success",
+        message: "Image inserted. Save the attempt to upload it.",
+      });
+      return { id: pending.id, previewUrl: pending.previewUrl };
+    } catch (error) {
+      setSaveNotice({
+        kind: "error",
+        message: error instanceof Error ? error.message : "Image compression failed.",
+      });
+      return null;
+    } finally {
+      setPendingAction(null);
+    }
+  }
+
+  async function saveOutcome() {
     if (!outcomeDraft) return;
 
+    const clearingAttempt = outcomeDraft.status === "not_attempted";
+    const emptyDocument: EditorDocument = {
+      type: "doc",
+      content: [{ type: "paragraph" }],
+    };
+    const blockedContent = clearingAttempt ? emptyDocument : outcomeDraft.blockedContent;
+    const learningContent = clearingAttempt ? emptyDocument : outcomeDraft.learningContent;
     const reason =
-      outcomeDraft.status === "not_attempted"
-        ? ""
-        : outcomeDraft.blockedDetail.trim() || outcomeDraft.reasonCategory;
-    const learning =
-      outcomeDraft.status === "not_attempted" ? "" : outcomeDraft.learning.trim();
-    const nextAttempt = updateAttemptLocal(outcomeDraft.questionId, (attempt) => ({
-      ...attempt,
+      clearingAttempt ? "" : editorText(blockedContent) || outcomeDraft.reasonCategory;
+    const learning = clearingAttempt ? "" : editorText(learningContent);
+    const blockedAttachmentIds = editorImageIds(blockedContent, "attachmentId");
+    const learningAttachmentIds = editorImageIds(learningContent, "attachmentId");
+    const blockedPendingIds = editorImageIds(blockedContent, "pendingId");
+    const learningPendingIds = editorImageIds(learningContent, "pendingId");
+    const retainedBlockedImages = outcomeDraft.blockedImages.filter((image) =>
+      blockedAttachmentIds.has(image.id),
+    );
+    const retainedLearningImages = outcomeDraft.learningImages.filter((image) =>
+      learningAttachmentIds.has(image.id),
+    );
+    const pendingBlockedImages = outcomeDraft.pendingBlockedImages.filter((image) =>
+      blockedPendingIds.has(image.id),
+    );
+    const pendingLearningImages = outcomeDraft.pendingLearningImages.filter((image) =>
+      learningPendingIds.has(image.id),
+    );
+    const nextAttempt: AttemptLog = {
+      attemptNumber: activeAttempt,
       attemptedAt:
         outcomeDraft.status === "not_attempted"
           ? undefined
@@ -557,45 +811,110 @@ export default function Home() {
       reason,
       solvedIndependently: outcomeDraft.status === "solved",
       status: outcomeDraft.status,
-    }));
-
-    if (nextAttempt) void syncAttempt(outcomeDraft.questionId, nextAttempt);
+      blockedImages: retainedBlockedImages,
+      learningImages: retainedLearningImages,
+      blockedContent,
+      learningContent,
+    };
+    const questionId = outcomeDraft.questionId;
+    const formData = new FormData();
+    formData.set("status", nextAttempt.status);
+    formData.set("reason", nextAttempt.reason);
+    formData.set("learning", nextAttempt.learning);
+    formData.set("solvedIndependently", String(nextAttempt.solvedIndependently));
+    if (nextAttempt.attemptedAt) formData.set("attemptedAt", nextAttempt.attemptedAt);
+    formData.set(
+      "existingBlockedImages",
+      JSON.stringify(nextAttempt.blockedImages ?? []),
+    );
+    formData.set(
+      "existingLearningImages",
+      JSON.stringify(nextAttempt.learningImages ?? []),
+    );
+    formData.set("pendingBlockedCaptions", "[]");
+    formData.set("pendingLearningCaptions", "[]");
+    formData.set("blockedContent", JSON.stringify(blockedContent));
+    formData.set("learningContent", JSON.stringify(learningContent));
+    formData.set(
+      "blockedPendingIds",
+      JSON.stringify(pendingBlockedImages.map((image) => image.id)),
+    );
+    formData.set(
+      "learningPendingIds",
+      JSON.stringify(pendingLearningImages.map((image) => image.id)),
+    );
+    if (!clearingAttempt) {
+      pendingBlockedImages.forEach((image) =>
+        formData.append("blockedImages", image.file),
+      );
+      pendingLearningImages.forEach((image) =>
+        formData.append("learningImages", image.file),
+      );
+    }
+    const result = await persistAction(
+      "attempt",
+      "Saving attempt to MongoDB...",
+      "Attempt saved to MongoDB.",
+      () =>
+        apiRequest<{ question: Question }>(
+          `${apiBase}/questions/${questionId}/attempts/${activeAttempt}/with-images`,
+          {
+            method: "PATCH",
+            body: formData,
+          },
+        ),
+    );
+    if (!result) return;
+    [...outcomeDraft.pendingBlockedImages, ...outcomeDraft.pendingLearningImages].forEach(
+      (image) => URL.revokeObjectURL(image.previewUrl),
+    );
+    setSubjects((currentSubjects) =>
+      currentSubjects.map((subject) => ({
+        ...subject,
+        chapters: subject.chapters.map((chapter) => ({
+          ...chapter,
+          questions: chapter.questions.map((question) =>
+            question.id === questionId ? result.question : question,
+          ),
+        })),
+      })),
+    );
     setOutcomeDraft(null);
   }
 
-  function updateCourse(field: keyof CourseProgress, value: number | string) {
-    if (!activeSubject) return;
-    let nextSubject: Subject | undefined;
-
-    setSubjects((currentSubjects) =>
-      currentSubjects.map((subject) => {
-        if (subject.id !== activeSubject.id) return subject;
-
-        const nextCourse = {
-          ...subject.course,
-          [field]: typeof value === "number" ? Math.max(value, 0) : value,
-        };
-
-        if (field === "completedVideos") {
-          nextCourse.completedVideos = clamp(
-            Number(nextCourse.completedVideos),
-            0,
-            Number(nextCourse.totalVideos),
-          );
-        }
-
-        nextSubject = { ...subject, course: nextCourse };
-        return nextSubject;
-      }),
-    );
-
-    if (nextSubject) {
-      void fetch(`${apiBase}/subjects/${nextSubject.id}/course`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(nextSubject.course),
-      }).catch(() => undefined);
+  async function updateCourse(field: keyof CourseProgress, value: number | string) {
+    if (!activeSubject || pendingAction) return;
+    const nextCourse = {
+      ...activeSubject.course,
+      [field]: typeof value === "number" ? Math.max(value, 0) : value,
+    };
+    if (field === "completedVideos") {
+      nextCourse.completedVideos = clamp(
+        Number(nextCourse.completedVideos),
+        0,
+        Number(nextCourse.totalVideos),
+      );
     }
+    const subjectId = activeSubject.id;
+    const result = await persistAction(
+      "course",
+      "Saving lecture progress to MongoDB...",
+      "Lecture progress saved to MongoDB.",
+      () =>
+        apiRequest<{ subject: Subject }>(`${apiBase}/subjects/${subjectId}/course`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(nextCourse),
+        }),
+    );
+    if (!result) return;
+    setSubjects((current) =>
+      current.map((subject) =>
+        subject.id === subjectId
+          ? { ...subject, course: result.subject.course }
+          : subject,
+      ),
+    );
   }
 
   function switchView(view: DashboardView) {
@@ -638,43 +957,23 @@ export default function Home() {
       return;
     }
 
-    const id = `${slugify(name)}-${Date.now()}`;
-    const subject: Subject = {
-      id,
-      name,
-      subtitle: `${exam} ${name}`,
-      exam,
-      courseName,
-      course: {
-        totalVideos,
-        completedVideos: 0,
-        dailySpeed,
-        startedAt: new Date().toISOString().slice(0, 10),
-      },
-      chapters: [],
-    };
-
-    setSubjects((current) => [...current, subject]);
-    setActiveSubjectId(id);
+    const result = await persistAction(
+      "subject",
+      "Creating subject in MongoDB...",
+      "Subject created in MongoDB.",
+      () =>
+        apiRequest<{ subject: Subject }>(`${apiBase}/subjects`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, exam, courseName, totalVideos, dailySpeed }),
+        }),
+    );
+    if (!result) return;
+    setSubjects((current) => [...current, result.subject]);
+    setActiveSubjectId(result.subject.id);
     setActiveChapterId("");
     setCurrentPage(1);
     setIsSubjectModalOpen(false);
-
-    try {
-      const response = await fetch(`${apiBase}/subjects`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, exam, courseName, totalVideos, dailySpeed }),
-      });
-      if (!response.ok) return;
-      const data = (await response.json()) as { subject: Subject };
-      setSubjects((current) =>
-        current.map((item) => (item.id === id ? data.subject : item)),
-      );
-      setActiveSubjectId(data.subject.id);
-    } catch {
-      // Keep the locally created subject usable while the API is offline.
-    }
   }
 
   function extractJsonQuestions(value: unknown): string[] {
@@ -757,57 +1056,37 @@ export default function Home() {
 
     if (!selectedSubject || !chapterName || !Number.isFinite(totalQuestions)) return;
 
-    const chapterId = `${slugify(chapterName)}-${Date.now()}`;
-    const nextChapter: Chapter = {
-      id: chapterId,
-      name: chapterName,
-      totalQuestions,
-      sourcePdfName: chapterForm.sourceFile?.name,
-      questions: pastedQuestions.length
-        ? pastedQuestions.map((prompt, index) => ({
-            id: `${chapterId}-q-${index + 1}`,
-            number: index + 1,
-            prompt,
-            attempts: attemptNumbers.map((attemptNumber) => ({
-              attemptNumber,
-              status: "not_attempted",
-              reason: "",
-              learning: "",
-              solvedIndependently: false,
-            })),
-          }))
-        : createQuestions(totalQuestions, chapterName, chapterId),
-    };
+    const formData = new FormData();
+    formData.append("subjectId", selectedSubject.id);
+    formData.append("subjectName", selectedSubject.name);
+    formData.append("chapterName", chapterName);
+    formData.append("totalQuestions", String(totalQuestions));
+    if (chapterForm.questionText.trim()) {
+      formData.append("rawText", chapterForm.questionText);
+    }
+    if (chapterForm.sourceFile) formData.append("sourceFile", chapterForm.sourceFile);
 
+    const result = await persistAction(
+      "chapter",
+      "Creating chapter in MongoDB...",
+      "Chapter created in MongoDB.",
+      () =>
+        apiRequest<{ chapter: Chapter }>(`${apiBase}/chapters`, {
+          method: "POST",
+          body: formData,
+        }),
+    );
+    if (!result) return;
     setSubjects((currentSubjects) =>
       currentSubjects.map((subject) =>
         subject.id === selectedSubject.id
-          ? { ...subject, chapters: [...subject.chapters, nextChapter] }
+          ? { ...subject, chapters: [...subject.chapters, result.chapter] }
           : subject,
       ),
     );
     setActiveSubjectId(selectedSubject.id);
-    setActiveChapterId(chapterId);
+    setActiveChapterId(result.chapter.id);
     setIsModalOpen(false);
-
-    try {
-      const formData = new FormData();
-      formData.append("subjectId", selectedSubject.id);
-      formData.append("subjectName", selectedSubject.name);
-      formData.append("chapterName", chapterName);
-      formData.append("totalQuestions", String(totalQuestions));
-      if (chapterForm.questionText.trim()) {
-        formData.append("rawText", chapterForm.questionText);
-      }
-      if (chapterForm.sourceFile) formData.append("sourceFile", chapterForm.sourceFile);
-
-      await fetch(`${apiBase}/chapters`, {
-        method: "POST",
-        body: formData,
-      });
-    } catch {
-      // The locally created chapter stays usable even without the API.
-    }
   }
 
   async function deleteChapter(chapterId: string) {
@@ -817,8 +1096,15 @@ export default function Home() {
       return;
     }
 
+    const result = await persistAction(
+      "delete-chapter",
+      "Deleting chapter from MongoDB...",
+      "Chapter deleted from MongoDB.",
+      () => apiRequest<{ chapterId: string }>(`${apiBase}/chapters/${chapterId}`, { method: "DELETE" }),
+    );
+    if (!result) return;
     const remainingChapters = activeSubject.chapters.filter(
-      (item) => item.id !== chapterId,
+      (item) => item.id !== result.chapterId,
     );
     setSubjects((currentSubjects) =>
       currentSubjects.map((subject) =>
@@ -827,104 +1113,139 @@ export default function Home() {
           : subject,
       ),
     );
-    if (activeChapter?.id === chapterId) {
+    if (activeChapter?.id === result.chapterId) {
       setActiveChapterId(remainingChapters[0]?.id ?? "");
       setCurrentPage(1);
-    }
-
-    try {
-      await fetch(`${apiBase}/chapters/${chapterId}`, { method: "DELETE" });
-    } catch {
-      // Keep the local soft-delete behavior available while the API is offline.
     }
   }
 
   async function addQuestionsToChapter() {
     const prompts = parseQuestionLines(addQuestionForm.rawText);
     if (!addQuestionForm.chapterId || prompts.length === 0) return;
-
-    const targetChapter = subjects
-      .flatMap((subject) => subject.chapters)
-      .find((chapter) => chapter.id === addQuestionForm.chapterId);
-
-    if (!targetChapter) return;
-
-    const maxNumber = targetChapter.questions.reduce(
-      (currentMax, question) => Math.max(currentMax, Number(question.number || 0)),
-      0,
+    const chapterId = addQuestionForm.chapterId;
+    const result = await persistAction(
+      "add-questions",
+      "Adding questions to MongoDB...",
+      "Questions added to MongoDB.",
+      () =>
+        apiRequest<{ chapter: Chapter }>(`${apiBase}/chapters/${chapterId}/questions`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ questions: prompts }),
+        }),
     );
-    const newQuestions: Question[] = prompts.map((prompt, index) => {
-      const number = maxNumber + index + 1;
-      return {
-        id: `${targetChapter.id}-q-${number}`,
-        number,
-        prompt,
-        attempts: attemptNumbers.map((attemptNumber) => ({
-          attemptNumber,
-          status: "not_attempted",
-          reason: "",
-          learning: "",
-          solvedIndependently: false,
-        })),
-      };
-    });
-
+    if (!result) return;
     setSubjects((currentSubjects) =>
       currentSubjects.map((subject) => ({
         ...subject,
         chapters: subject.chapters.map((chapter) =>
-          chapter.id === addQuestionForm.chapterId
+          chapter.id === chapterId ? result.chapter : chapter,
+        ),
+      })),
+    );
+    setActiveChapterId(chapterId);
+    setCurrentPage(Math.max(1, Math.ceil(result.chapter.questions.length / pageSize)));
+    setIsQuestionModalOpen(false);
+  }
+
+  async function moveSubjectToTop(subjectId: string) {
+    const result = await persistAction(
+      "subject-order",
+      "Saving subject order to MongoDB...",
+      "Subject order saved to MongoDB.",
+      () =>
+        apiRequest<{ subjects: Subject[] }>(
+          `${apiBase}/subjects/${subjectId}/move-to-top`,
+          { method: "PATCH" },
+        ),
+    );
+    if (!result) return;
+    setSubjects(result.subjects);
+    saveSubjectOrder(result.subjects);
+  }
+
+  async function addChapterNote(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const text = chapterNoteText.trim();
+    if (!activeChapter || !text) return;
+
+    const noteId = `${activeChapter.id}-note-${Date.now()}`;
+    const chapterId = activeChapter.id;
+    const result = await persistAction(
+      "add-note",
+      "Saving chapter note to MongoDB...",
+      "Chapter note saved to MongoDB.",
+      () =>
+        apiRequest<{ note: ChapterNote }>(`${apiBase}/chapters/${chapterId}/notes`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ id: noteId, text }),
+        }),
+    );
+    if (!result) return;
+    setSubjects((current) =>
+      current.map((subject) => ({
+        ...subject,
+        chapters: subject.chapters.map((chapter) =>
+          chapter.id === chapterId
+            ? { ...chapter, notes: [...(chapter.notes ?? []), result.note] }
+            : chapter,
+        ),
+      })),
+    );
+    setChapterNoteText("");
+  }
+
+  async function removeChapterNote(noteId: string) {
+    if (!activeChapter) return;
+    const chapterId = activeChapter.id;
+    const result = await persistAction(
+      "delete-note",
+      "Deleting chapter note from MongoDB...",
+      "Chapter note deleted from MongoDB.",
+      () =>
+        apiRequest<{ noteId: string }>(
+          `${apiBase}/chapters/${chapterId}/notes/${noteId}`,
+          { method: "DELETE" },
+        ),
+    );
+    if (!result) return;
+    setSubjects((current) =>
+      current.map((subject) => ({
+        ...subject,
+        chapters: subject.chapters.map((chapter) =>
+          chapter.id === chapterId
             ? {
                 ...chapter,
-                questions: [...chapter.questions, ...newQuestions],
-                totalQuestions: chapter.questions.length + newQuestions.length,
+                notes: (chapter.notes ?? []).filter(
+                  (note) => note.id !== result.noteId,
+                ),
               }
             : chapter,
         ),
       })),
     );
-    setActiveChapterId(addQuestionForm.chapterId);
-    setCurrentPage(
-      Math.max(1, Math.ceil((targetChapter.questions.length + newQuestions.length) / pageSize)),
-    );
-    setIsQuestionModalOpen(false);
-
-    try {
-      await fetch(`${apiBase}/chapters/${addQuestionForm.chapterId}/questions`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ questions: prompts }),
-      });
-    } catch {
-      // The local update remains visible; the next API refresh will show persisted data.
-    }
-  }
-
-  async function moveSubjectToTop(subjectId: string) {
-    setSubjects((current) => {
-      const selected = current.find((subject) => subject.id === subjectId);
-      if (!selected) return current;
-      const ordered = [selected, ...current.filter((subject) => subject.id !== subjectId)];
-      saveSubjectOrder(ordered);
-      return ordered;
-    });
-
-    try {
-      const response = await fetch(`${apiBase}/subjects/${subjectId}/move-to-top`, {
-        method: "PATCH",
-      });
-      if (!response.ok) return;
-      const data = (await response.json()) as { subjects: Subject[] };
-      const ordered = orderSubjects(data.subjects, readSubjectOrder());
-      setSubjects(ordered);
-      saveSubjectOrder(ordered);
-    } catch {
-      // Keep the chosen local order available while the API is offline.
-    }
   }
 
   if (!activeSubject) {
-    return null;
+    return (
+      <main className="startup-screen">
+        <div className="startup-panel">
+          {dashboardStatus === "loading" ? <Clock size={28} /> : <AlertCircle size={28} />}
+          <h1>{dashboardStatus === "loading" ? "Loading StudyTrack" : "Database unavailable"}</h1>
+          <p>
+            {dashboardStatus === "loading"
+              ? "Waiting for confirmed data from MongoDB..."
+              : "No local demo data is being shown. Start the API, check MongoDB, and retry."}
+          </p>
+          {dashboardStatus === "error" ? (
+            <button className="primary-button" type="button" onClick={() => window.location.reload()}>
+              Retry connection
+            </button>
+          ) : null}
+        </div>
+      </main>
+    );
   }
 
   return (
@@ -1103,6 +1424,28 @@ export default function Home() {
       </aside>
 
       <section className="main">
+        {saveNotice ? (
+          <div
+            className={`save-notice ${saveNotice.kind}`}
+            role={saveNotice.kind === "error" ? "alert" : "status"}
+          >
+            {saveNotice.kind === "error" ? (
+              <AlertCircle size={19} />
+            ) : saveNotice.kind === "success" ? (
+              <CheckCircle2 size={19} />
+            ) : (
+              <Clock size={19} />
+            )}
+            <span>{saveNotice.message}</span>
+            <button
+              type="button"
+              aria-label="Dismiss save notification"
+              onClick={() => setSaveNotice(null)}
+            >
+              <X size={17} />
+            </button>
+          </div>
+        ) : null}
         <div className="topbar">
           <div className="breadcrumbs">
             <strong>{activeSubject.name}</strong>
@@ -1290,7 +1633,7 @@ export default function Home() {
                       }}
                       formatter={(value) => [`${value} questions`, "Completed"]}
                       labelFormatter={(_, payload) =>
-                        payload?.[0]?.payload?.key ?? "Study day"
+                        payload?.[0]?.payload?.displayDate ?? "Study day"
                       }
                     />
                     <Bar dataKey="count" radius={[8, 8, 8, 8]}>
@@ -1345,6 +1688,7 @@ export default function Home() {
                   <label className="course-stepper">
                     <button
                       aria-label="Decrease completed videos"
+                      disabled={pendingAction !== null}
                       type="button"
                       onClick={() =>
                         updateCourse(
@@ -1357,6 +1701,7 @@ export default function Home() {
                     </button>
                     <input
                       aria-label="Completed videos"
+                      disabled={pendingAction !== null}
                       min="0"
                       type="number"
                       value={activeSubject.course.completedVideos}
@@ -1366,6 +1711,7 @@ export default function Home() {
                     />
                     <button
                       aria-label="Increase completed videos"
+                      disabled={pendingAction !== null}
                       type="button"
                       onClick={() =>
                         updateCourse(
@@ -1384,6 +1730,7 @@ export default function Home() {
                     </span>
                     <input
                       aria-label="Daily video speed"
+                      disabled={pendingAction !== null}
                       min="0"
                       step="0.5"
                       type="number"
@@ -1423,6 +1770,62 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {activeChapter ? (
+          <section className="panel chapter-notes-panel">
+            <div className="panel-heading">
+              <div>
+                <p className="eyebrow">Chapter memory</p>
+                <h2 className="panel-title">Notes to remember</h2>
+              </div>
+              <span className="note-count">
+                {(activeChapter.notes ?? []).length} notes
+              </span>
+            </div>
+            <div className="panel-body chapter-notes-body">
+              <form className="chapter-note-form" onSubmit={addChapterNote}>
+                <NotebookPen size={20} />
+                <input
+                  maxLength={500}
+                  placeholder="e.g. Memorize squares up to 25"
+                  value={chapterNoteText}
+                  onChange={(event) => setChapterNoteText(event.target.value)}
+                />
+                <button
+                  className="primary-button"
+                  disabled={!chapterNoteText.trim() || pendingAction !== null}
+                  type="submit"
+                >
+                  <Plus size={18} />
+                  Add note
+                </button>
+              </form>
+
+              {(activeChapter.notes ?? []).length > 0 ? (
+                <div className="chapter-note-list">
+                  {(activeChapter.notes ?? []).map((note) => (
+                    <div className="chapter-note" key={note.id}>
+                      <NotebookPen size={18} />
+                      <span>{note.text}</span>
+                      <button
+                        type="button"
+                        aria-label={`Delete note: ${note.text}`}
+                        title="Delete note"
+                        onClick={() => removeChapterNote(note.id)}
+                      >
+                        <Trash2 size={17} />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="muted chapter-notes-empty">
+                  Keep formulas, ranges, shortcuts, and facts you want to revise.
+                </p>
+              )}
+            </div>
+          </section>
+        ) : null}
 
         <section className="panel question-panel">
           <div className="panel-heading">
@@ -1699,7 +2102,11 @@ export default function Home() {
               </button>
               <button
                 className="primary-button"
-                disabled={!subjectForm.name.trim() || !subjectForm.exam.trim()}
+                disabled={
+                  !subjectForm.name.trim() ||
+                  !subjectForm.exam.trim() ||
+                  pendingAction !== null
+                }
                 type="button"
                 onClick={createSubjectFromForm}
               >
@@ -1805,45 +2212,65 @@ export default function Home() {
                 </label>
               </div>
 
-              <label className="form-field">
-                What exactly blocked me?
-                <textarea
-                  className="modal-textarea"
+              <div className="form-field">
+                <span>What exactly blocked me?</span>
+                <RichNoteEditor
+                  key={`blocked-${outcomeDraft.questionId}-${activeAttempt}`}
+                  content={outcomeDraft.blockedContent}
                   placeholder="Example: I forgot that the unit digit cycle repeats every four powers."
-                  value={outcomeDraft.blockedDetail}
-                  onChange={(event) =>
+                  onChange={(content) =>
                     setOutcomeDraft((current) =>
-                      current ? { ...current, blockedDetail: event.target.value } : current,
+                      current ? { ...current, blockedContent: content } : current,
                     )
                   }
+                  onPrepareImage={(file) => prepareOutcomeImage("blocked", file)}
                 />
-              </label>
+              </div>
 
-              <label className="form-field learning-field">
+              <div className="form-field learning-field">
                 <span>
                   <Sparkles size={20} />
                   Learning gained from this question
                 </span>
-                <textarea
-                  className="modal-textarea"
+                <RichNoteEditor
+                  key={`learning-${outcomeDraft.questionId}-${activeAttempt}`}
+                  content={outcomeDraft.learningContent}
                   placeholder="Write the rule, shortcut or approach you want to remember next time."
-                  value={outcomeDraft.learning}
-                  onChange={(event) =>
+                  onChange={(content) =>
                     setOutcomeDraft((current) =>
-                      current ? { ...current, learning: event.target.value } : current,
+                      current ? { ...current, learningContent: content } : current,
                     )
                   }
+                  onPrepareImage={(file) => prepareOutcomeImage("learning", file)}
                 />
-              </label>
+              </div>
             </div>
 
             <div className="modal-actions">
               <button className="secondary-button" type="button" onClick={closeOutcomeModal}>
                 Cancel
               </button>
-              <button className="primary-button" type="button" onClick={saveOutcome}>
+              <button
+                className="primary-button"
+                disabled={
+                  pendingAction === "attempt" || pendingAction === "compress-images"
+                }
+                title={
+                  pendingAction === "compress-images"
+                    ? "Wait for image compression to finish"
+                    : pendingAction === "attempt"
+                      ? "Saving the attempt"
+                      : "Save attempt"
+                }
+                type="button"
+                onClick={saveOutcome}
+              >
                 <CheckCircle2 size={20} />
-                Save attempt
+                {pendingAction === "compress-images"
+                  ? "Preparing image..."
+                  : pendingAction === "attempt"
+                    ? "Saving..."
+                    : "Save attempt"}
               </button>
             </div>
           </div>
@@ -1930,7 +2357,8 @@ export default function Home() {
                 className="primary-button"
                 disabled={
                   !addQuestionForm.chapterId ||
-                  parseQuestionLines(addQuestionForm.rawText).length === 0
+                  parseQuestionLines(addQuestionForm.rawText).length === 0 ||
+                  pendingAction !== null
                 }
                 type="button"
                 onClick={addQuestionsToChapter}
@@ -2079,7 +2507,8 @@ export default function Home() {
                 disabled={
                   !chapterForm.chapterName.trim() ||
                   (Number(chapterForm.totalQuestions) <= 0 &&
-                    parseQuestionLines(chapterForm.questionText).length === 0)
+                    parseQuestionLines(chapterForm.questionText).length === 0) ||
+                  pendingAction !== null
                 }
                 type="button"
                 onClick={createChapterFromForm}

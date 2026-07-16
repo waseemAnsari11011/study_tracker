@@ -1,0 +1,242 @@
+[
+  {
+    "number": 1,
+    "prompt": "The (jury) delivered a unanimous verdict in the case."
+  },
+  {
+    "number": 2,
+    "prompt": "My brother works for (Google)."
+  },
+  {
+    "number": 3,
+    "prompt": "My family visited a beautiful (lake)."
+  },
+  {
+    "number": 4,
+    "prompt": "We should fight for our (freedom)."
+  },
+  {
+    "number": 5,
+    "prompt": "The (teacher) punished all the students."
+  },
+  {
+    "number": 6,
+    "prompt": "My favorite holiday is (Christmas)."
+  },
+  {
+    "number": 7,
+    "prompt": "She received a beautiful (bouquet) of roses."
+  },
+  {
+    "number": 8,
+    "prompt": "The new software works (efficiently)."
+  },
+  {
+    "number": 9,
+    "prompt": "He (has) finished the entire book."
+  },
+  {
+    "number": 10,
+    "prompt": "The sky was (clear) after the sunset."
+  },
+  {
+    "number": 11,
+    "prompt": "She received a (personal) invitation to the event."
+  },
+  {
+    "number": 12,
+    "prompt": "We should move (forward) with the plan."
+  },
+  {
+    "number": 13,
+    "prompt": "They enjoyed a cup of (coffee) after dinner."
+  },
+  {
+    "number": 14,
+    "prompt": "She is the most (diligent) student in the class."
+  },
+  {
+    "number": 15,
+    "prompt": "He often (recollects) stories from his childhood."
+  },
+  {
+    "number": 16,
+    "prompt": "The athlete gave an (excellent) performance in the final round."
+  },
+  {
+    "number": 17,
+    "prompt": "She (received) the highest award for her dedication."
+  },
+  {
+    "number": 18,
+    "prompt": "He bought a new (wooden) table from Delhi."
+  },
+  {
+    "number": 19,
+    "prompt": "He threw the key (inside) the drawer."
+  },
+  {
+    "number": 20,
+    "prompt": "We should address the issue of (corruption) immediately."
+  },
+  {
+    "number": 21,
+    "prompt": "She and her family arrived (early) at the station."
+  },
+  {
+    "number": 22,
+    "prompt": "She made the cake (without) sugar and eggs."
+  },
+  {
+    "number": 23,
+    "prompt": "The painting on the wall is genuinely (unique)."
+  },
+  {
+    "number": 24,
+    "prompt": "They finished their work in the (second) attempt."
+  },
+  {
+    "number": 25,
+    "prompt": "He has played Cricket for (ten) years."
+  },
+  {
+    "number": 26,
+    "prompt": "They bought a new house (near) the river bank."
+  },
+  {
+    "number": 27,
+    "prompt": "The police arrived (after) the thief had already escaped."
+  },
+  {
+    "number": 28,
+    "prompt": "(Alas!) We have lost the final match by one goal."
+  },
+  {
+    "number": 29,
+    "prompt": "His best quality is his (honesty)."
+  },
+  {
+    "number": 30,
+    "prompt": "I will call you (when) I reach Delhi."
+  },
+  {
+    "number": 31,
+    "prompt": "We bought a (green) sofa for the living room."
+  },
+  {
+    "number": 32,
+    "prompt": "The (small) bird flew away quickly."
+  },
+  {
+    "number": 33,
+    "prompt": "(That) mountain is the highest peak in the range."
+  },
+  {
+    "number": 34,
+    "prompt": "They ate (all) the sweets yesterday."
+  },
+  {
+    "number": 35,
+    "prompt": "I need (five) sheets of paper for the project."
+  },
+  {
+    "number": 36,
+    "prompt": "I love the taste of (Chinese) tea."
+  },
+  {
+    "number": 37,
+    "prompt": "(Our) school won the championship."
+  },
+  {
+    "number": 38,
+    "prompt": "I have (some) doubts about the plan."
+  },
+  {
+    "number": 39,
+    "prompt": "She tasted the (sweet) mangoes from the farm."
+  },
+  {
+    "number": 40,
+    "prompt": "She shared (her) lunch with me."
+  },
+  {
+    "number": 41,
+    "prompt": "They fought (bravely) against the enemy."
+  },
+  {
+    "number": 42,
+    "prompt": "I lost my keys (somewhere) in the park."
+  },
+  {
+    "number": 43,
+    "prompt": "She (usually) wakes up early on weekdays."
+  },
+  {
+    "number": 44,
+    "prompt": "They will meet us (tonight) for dinner."
+  },
+  {
+    "number": 45,
+    "prompt": "The team performed (badly) in the final match."
+  },
+  {
+    "number": 46,
+    "prompt": "He completed the assignment quick(a) / quickly(b) / quickness(c) and submitted it to the teacher."
+  },
+  {
+    "number": 47,
+    "prompt": "The crowd cheered loud(a) / loudly(b) / loudness(c) when the team won the match."
+  },
+  {
+    "number": 48,
+    "prompt": "This is a difficult(a) / difficultly(b) / difficulty(c) task for a beginner."
+  },
+  {
+    "number": 49,
+    "prompt": "He was very nervous(a) / nervously(b) / nervousness(c) before the job interview."
+  },
+  {
+    "number": 50,
+    "prompt": "She showed great strong(a) / strongly(b) / strength(c) during the crisis."
+  },
+  {
+    "number": 51,
+    "prompt": "She spoke with great polite(a) / politely(b) / politeness(c) to the elders."
+  },
+  {
+    "number": 52,
+    "prompt": "She accepted the offer calm(a) / calmly(b) / calmness(c) without any hesitation."
+  },
+  {
+    "number": 53,
+    "prompt": "She drives too fast(a) / fastly(b) / fastness(c) on the highway."
+  },
+  {
+    "number": 54,
+    "prompt": "The students showed enthusiasm(a) / enthusiastically(b) / enthusiastic(c) support for their team."
+  },
+  {
+    "number": 55,
+    "prompt": "Her kind(a) / kindly(b) / kindness(c) won our heart."
+  },
+  {
+    "number": 56,
+    "prompt": "She achieved great popular(a) / popularly(b) / popularity(c) after her debut album."
+  },
+  {
+    "number": 57,
+    "prompt": "She always behaves with great humble(a) / humbly(b) / humility(c) towards old people."
+  },
+  {
+    "number": 58,
+    "prompt": "The crowd was very excite(a) / excited(b) / excitement(c) after the victory."
+  },
+  {
+    "number": 59,
+    "prompt": "The scientists published their findings with great precise(a) / precisely(b) / precision(c)."
+  },
+  {
+    "number": 60,
+    "prompt": "We questioned his honest(a) / honestly(b) / honesty(c) after the incident."
+  }
+]
